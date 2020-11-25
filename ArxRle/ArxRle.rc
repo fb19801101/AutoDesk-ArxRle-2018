@@ -1,0 +1,3251 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "Resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+ARXRLE_MENU_MENUBAR MENU
+BEGIN
+    POPUP "图层管理"
+    BEGIN
+        MENUITEM "设置当前层",                       ARXRLE_LAYER_SETCUR
+        MENUITEM SEPARATOR
+        MENUITEM "全部显示",                        ARXRLE_LAYER_SHOWALL
+        MENUITEM "全部隐藏",                        ARXRLE_LAYER_HIDEALL
+        MENUITEM "部分隐藏",                        ARXRLE_LAYER_HIDEPART
+        MENUITEM SEPARATOR
+        MENUITEM "按层显示",                        ARXRLE_LAYER_SHOWBYLAYER
+        MENUITEM "按层隐藏",                        ARXRLE_LAYER_HIDEBYLAYER
+        MENUITEM SEPARATOR
+        MENUITEM "按色显示",                        ARXRLE_LAYER_SHOWBYCOLOR
+        MENUITEM "按色隐藏",                        ARXRLE_LAYER_HIDEBYCOLOR
+        MENUITEM SEPARATOR
+        MENUITEM "按层锁住",                        ARXRLE_LAYER_LOCK
+        MENUITEM "按层解锁",                        ARXRLE_LAYER_UNLOCK
+    END
+    POPUP "文字管理"
+    BEGIN
+        MENUITEM "设置当前样式",                      ARXRLE_TEXT_SETCUR
+        MENUITEM "统一文字样式",                      ARXRLE_TEXT_STYLES
+        MENUITEM SEPARATOR
+        MENUITEM "全部显示",                        ARXRLE_TEXT_SHOWALL
+        MENUITEM "全部隐藏",                        ARXRLE_TEXT_HIDEALL
+        MENUITEM "部分隐藏",                        ARXRLE_TEXT_HIDEPART
+        MENUITEM SEPARATOR
+        MENUITEM "按样式显示",                       ARXRLE_TEXT_SHOWBYSTYLE
+        MENUITEM "按样式隐藏",                       ARXRLE_TEXT_HIDEBYSTYLE
+        MENUITEM SEPARATOR
+        MENUITEM "按高度显示",                       ARXRLE_TEXT_SHOWBYHEIGHT
+        MENUITEM "按高度隐藏",                       ARXRLE_TEXT_HIDEBYHEIGHT
+        MENUITEM SEPARATOR
+        MENUITEM "按角度显示",                       ARXRLE_TEXT_SHOWBYANGLE
+        MENUITEM "按角度隐藏",                       ARXRLE_TEXT_HIDEBYANGLE
+        MENUITEM SEPARATOR
+        MENUITEM "按内容显示",                       ARXRLE_TEXT_SHOWBYSTR
+        MENUITEM "按内容隐藏",                       ARXRLE_TEXT_HIDEBYSTR
+        MENUITEM SEPARATOR
+        MENUITEM "刷新样式",                        ARXRLE_TEXT_FLUSH
+        MENUITEM "数字计算",                        ARXRLE_TEXT_CALC
+        MENUITEM SEPARATOR
+        MENUITEM "导入文本",                        ARXRLE_TEXT_IMPORT
+        MENUITEM "导出文本",                        ARXRLE_TEXT_EXPORT
+    END
+    POPUP "标注管理"
+    BEGIN
+        MENUITEM "设置当前标注",                      ARXRLE_DIM_SETCUR
+        MENUITEM SEPARATOR
+        MENUITEM "全部显示",                        ARXRLE_DIM_SHOWALL
+        MENUITEM "全部隐藏",                        ARXRLE_DIM_HIDEALL
+        MENUITEM "部分隐藏",                        ARXRLE_DIM_HIDEPART
+        MENUITEM SEPARATOR
+        MENUITEM "按样式显示",                       ARXRLE_DIM_SHOWBYSTYLE
+        MENUITEM "按样式隐藏",                       ARXRLE_DIM_HIDEBYSTYLE
+        MENUITEM SEPARATOR
+        MENUITEM "实体标注",                        ARXRLE_DIM_ENTITY
+        MENUITEM "引线标注",                        ARXRLE_DIM_LEAD
+        MENUITEM "剖面标注",                        ARXRLE_DIM_SECTION
+        MENUITEM "图纸标注",                        ARXRLE_DIM_PAPER
+        MENUITEM "修改标注",                        ARXRLE_DIM_SETSTR
+    END
+    POPUP "图元管理"
+    BEGIN
+        POPUP "图元删除"
+        BEGIN
+            MENUITEM "全部删除",                        ARXRLE_ENT_DELALL
+            MENUITEM "按层删除",                        ARXRLE_ENT_DELBYLAYER
+            MENUITEM "按色删除",                        ARXRLE_ENT_DELBYCOLOR
+        END
+        POPUP "图元复制"
+        BEGIN
+            MENUITEM "按距离复制",                       ARXRLE_ENT_CPYBYDIST
+            MENUITEM "按角度复制",                       ARXRLE_ENT_CPYBYANGLE
+            MENUITEM "按条件复制",                       ARXRLE_ENT_CPYBYIF
+        END
+        MENUITEM SEPARATOR
+        POPUP "颜色修改"
+        BEGIN
+            MENUITEM "按层修改",                        ARXRLE_ENT_CLRSETBYLAYER
+            MENUITEM "按色修改",                        ARXRLE_ENT_CLRSETBYCOLOR
+            MENUITEM "按元修改",                        ARXRLE_ENT_CLRSETBYENTITY
+        END
+        POPUP "线形修改"
+        BEGIN
+            MENUITEM "按层修改",                        ARXRLE_ENT_LTSETBYLAYER
+            MENUITEM "按色修改",                        ARXRLE_ENT_LTSETBYCOLOR
+            MENUITEM "按元修改",                        ARXRLE_ENT_LTSETBYENTITY
+        END
+        MENUITEM SEPARATOR
+        POPUP "扩展信息"
+        BEGIN
+            MENUITEM "显示",                          ARXRLE_ENT_INFOTIP_SHOW
+            MENUITEM "隐藏",                          ARXRLE_ENT_INFOTIP_HIDE
+        END
+        MENUITEM "属性修改",                        ARXRLE_ENT_ATTRIBUTE
+        MENUITEM SEPARATOR
+        MENUITEM "3D转2D",                       ARXRLE_ENT_3DTO2D
+    END
+    POPUP "通用绘图"
+    BEGIN
+        MENUITEM "条件绘图",                        ARXRLE_DRAW_CONDITION
+        MENUITEM SEPARATOR
+        MENUITEM "图形填充",                        ARXRLE_DRAW_HATCH
+        MENUITEM "连续编号",                        ARXRLE_DRAW_NUMBER
+        MENUITEM "折断线",                         ARXRLE_DRAW_BROKEN
+        MENUITEM "转多段线",                        ARXRLE_DRAW_TOPLINE
+        MENUITEM SEPARATOR
+        MENUITEM "用地标注",                        ARXRLE_DRAW_DIMLAND
+    END
+    POPUP "标准图块"
+    BEGIN
+        MENUITEM "图框",                          ARXRLE_BLOCK_TK
+        MENUITEM "标题栏",                         ARXRLE_BLOCK_BTL
+        MENUITEM "指北针",                         ARXRLE_BLOCK_ZBZ
+    END
+    POPUP "网路计划"
+    BEGIN
+        MENUITEM "基本设置",                        ARXRLE_NETPLAN_PARAM
+        MENUITEM SEPARATOR
+        MENUITEM "导入工序数据",                      ARXRLE_NETPLAN_IMPORT_WORK
+        MENUITEM "导出工序数据",                      ARXRLE_NETPLAN_EXPORT_WORK
+        MENUITEM SEPARATOR
+        MENUITEM "导入工序样式",                      ARXRLE_NETPLAN_IMPORT_STYLE
+        MENUITEM "导出工序样式",                      ARXRLE_NETPLAN_EXPORT_STYLE
+        MENUITEM SEPARATOR
+        MENUITEM "表格绘制",                        ARXRLE_NETPLAN_GRID
+        MENUITEM "批量绘制",                        ARXRLE_NETPLAN_DATA
+        MENUITEM "重新编号",                        ARXRLE_NETPLAN_RENR
+        MENUITEM SEPARATOR
+        MENUITEM "进度表格",                        ARXRLE_NETPLAN_TABLE
+        MENUITEM "批量进度",                        ARXRLE_NETPLAN_PROC
+        MENUITEM "反置进度",                        ARXRLE_NETPLAN_RESET
+        MENUITEM SEPARATOR
+        MENUITEM "工序绘制",                        ARXRLE_NETPLAN_WORK
+        MENUITEM "格式工序",                        ARXRLE_NETPLAN_STYLE
+        MENUITEM "附加工作",                        ARXRLE_NETPLAN_BIND
+    END
+    POPUP "测量工具"
+    BEGIN
+        MENUITEM "大地坐标转换",                      ARXRLE_MEASURE_CRDTRM
+        MENUITEM "曲线要素绘制",                      ARXRLE_MEASURE_CURVE
+        MENUITEM SEPARATOR
+        MENUITEM "测量坐标标注",                      ARXRLE_MEASURE_DIMXYZ
+        MENUITEM "测量高程标注",                      ARXRLE_MEASURE_DIMH
+        MENUITEM "导入测点数据",                      ARXRLE_MEASURE_PTINDATA
+        MENUITEM "导出测点数据",                      ARXRLE_MEASURE_PTOUTDATA
+        MENUITEM SEPARATOR
+        MENUITEM "测量多段线面积",                     ARXRLE_MEASURE_AREA
+        MENUITEM "测量多段线长度",                     ARXRLE_MEASURE_LENGTH
+        MENUITEM "测量全部多段线面积",                   ARXRLE_MEASURE_ALL_AREA
+        MENUITEM "测量全部多段线长度",                   ARXRLE_MEASURE_ALL_LENGTH
+    END
+    POPUP "结构分析"
+    BEGIN
+        MENUITEM "砼结构计算",                       ARXRLE_STRUCT_CONCRETE
+        MENUITEM "钢结构计算",                       ARXRLE_STRUCT_STEEL
+        MENUITEM SEPARATOR
+        MENUITEM "型钢参数查询",                      ARXRLE_STRUCT_SECTION
+        MENUITEM SEPARATOR
+        MENUITEM "设计规范大全",                      ARXRLE_NORM_01
+        MENUITEM "机械设计手册",                      ARXRLE_NORM_02
+    END
+    POPUP "结构规范"
+    BEGIN
+        MENUITEM "钢结构设计规范",                     ARXRLE_NORM_03
+        MENUITEM "混凝土设计规范",                     ARXRLE_NORM_04
+        MENUITEM "组合钢模板规范",                     ARXRLE_NORM_05
+        MENUITEM "铁路钢结构设计",                     ARXRLE_NORM_06
+        MENUITEM SEPARATOR
+        MENUITEM "公路桥涵设计手册",                    ARXRLE_NORM_07
+        MENUITEM "简明施工计算手册",                    ARXRLE_NORM_08
+        MENUITEM "路桥施工计算手册",                    ARXRLE_NORM_09
+        MENUITEM "路桥施工工程手册",                    ARXRLE_NORM_10
+    END
+    POPUP "风格样式"
+    BEGIN
+        MENUITEM "AcedStyle",                   ARXRLE_XTPTHEME_ACEDSTYLE
+        MENUITEM SEPARATOR
+        MENUITEM "Office2000",                  ARXRLE_XTPTHEME_OFFICE2000
+        MENUITEM "OfficeXP",                    ARXRLE_XTPTHEME_OFFICEXP
+        MENUITEM "Office2003",                  ARXRLE_XTPTHEME_OFFICE2003
+        MENUITEM SEPARATOR
+        MENUITEM "NativeWinXP",                 ARXRLE_XTPTHEME_WINXP
+        MENUITEM "Whidbey",                     ARXRLE_XTPTHEME_WHIDBEY
+        MENUITEM SEPARATOR
+        MENUITEM "VisualStudio2008",            ARXRLE_XTPTHEME_VS2008
+        MENUITEM "VisualStudio6",               ARXRLE_XTPTHEME_VS6
+        MENUITEM "VisualStudio2010",            ARXRLE_XTPTHEME_VS2010
+        MENUITEM SEPARATOR
+        MENUITEM "Custom",                      ARXRLE_XTPTHEME_CUSTOM
+    END
+    POPUP "应用程序"
+    BEGIN
+        POPUP "EXCEL表格 转 CAD表格"
+        BEGIN
+            MENUITEM "(&A)方法一 (表格样式)",              ARXRLE_PROGRAM_TABLE_IMPORT_1
+            MENUITEM "(&B)方法二 (线条文字)",              ARXRLE_PROGRAM_TABLE_IMPORT_2
+            MENUITEM "(&C)数据联动",                    ARXRLE_PROGRAM_TABLE_IMPORT_3
+        END
+        POPUP "CAD表格 转 EXCEL表格"
+        BEGIN
+            MENUITEM "(&A)方法一 (表格样式)",              ARXRLE_PROGRAM_TABLE_EXPORT_1
+            MENUITEM "(&B)方法二 (线条文字)",              ARXRLE_PROGRAM_TABLE_EXPORT_2
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "(&P)实体属性",                    ARXRLE_PROGRAM_ENTPROTITY
+        MENUITEM SEPARATOR
+        MENUITEM "(&L)调用Lisp脚本",                ARXRLE_PROGRAM_LOADLISP
+    END
+    POPUP "帮助"
+    BEGIN
+        MENUITEM "帮助",                          ARXRLE_HELP_HELP
+        MENUITEM SEPARATOR
+        MENUITEM "注册",                          ARXRLE_HELP_REG
+        MENUITEM "主页",                          ARXRLE_HELP_NET
+        MENUITEM SEPARATOR
+        MENUITEM "关于",                          ARXRLE_HELP_ABOUT
+    END
+END
+
+ARXRLE_MENU_CONTEXT MENU
+BEGIN
+    POPUP "ArxRle ContextApp Menu"
+    BEGIN
+        MENUITEM "NetPlan Work Command",        ARXRLE_NETPLAN_WORK
+        MENUITEM "NetPlan Work Flush Style",    ARXRLE_NETPLAN_STYLE
+        MENUITEM SEPARATOR
+        MENUITEM "Database Info...",            ARXRLE_CONTEXT_DB_INFO
+        MENUITEM "Editor Info...",              ARXRLE_CONTEXT_EDITOR_INFO
+        MENUITEM "Entity Info...",              ARXRLE_CONTEXT_ENT_INFO
+        MENUITEM "Nested Entity Info...",       ARXRLE_CONTEXT_NESTEDENT_INFO
+        MENUITEM "Reactors...",                 ARXRLE_CONTEXT_REACTOR_INFO
+        MENUITEM "Rx System Registry...",       ARXRLE_CONTEXT_REGISTRY_INFO
+        MENUITEM "Rx Services...",              ARXRLE_CONTEXT_SERVICES_INFO
+        MENUITEM SEPARATOR
+        MENUITEM "Object State Test...",        ARXRLE_CONTEXT_OBJ_STATE
+        MENUITEM "Trans-Db Clone Test...",      ARXRLE_CONTEXT_TDB_CLONE
+        MENUITEM "DWG Filer Test...",           ARXRLE_CONTEXT_DWG_FILER
+        MENUITEM "World Draw Test...",          ARXRLE_CONTEXT_WORLD_DRAW
+        MENUITEM "Curve Test...",               ARXRLE_CONTEXT_CURVES
+        MENUITEM "Selection Set Test...",       ARXRLE_CONTEXT_SELSET
+        MENUITEM "Xdata Test...",               ARXRLE_CONTEXT_XDATA
+        POPUP "Other Tests"
+        BEGIN
+            MENUITEM "Extents",                     ARXRLE_CONTEXT_EXTENTS
+            MENUITEM "Intersect With",              ARXRLE_CONTEXT_INTERSECT
+            MENUITEM "Grip Points",                 ARXRLE_CONTEXT_GRIPPTS
+            MENUITEM "Stretch Points",              ARXRLE_CONTEXT_STRETCHPTS
+            MENUITEM "OSNAP",                       ARXRLE_CONTEXT_OSNAP
+            MENUITEM "Extension Dictionary Add",    ARXRLE_CONTEXT_EXTDICT_ADD
+            MENUITEM "Extension Dictionary Remove", ARXRLE_CONTEXT_EXTDICT_REMOVE
+            MENUITEM "Color",                       ARXRLE_CONTEXT_COLOR
+            MENUITEM "Purge",                       ARXRLE_CONTEXT_PURGE
+            MENUITEM "Count References",            ARXRLE_CONTEXT_COUNTREFS
+            MENUITEM "Making Entities...",          ARXRLE_CONTEXT_ENTMAKE
+            MENUITEM "Making Symbol Tables...",     ARXRLE_CONTEXT_TBLMAKE
+            MENUITEM "Transform By...",             ARXRLE_CONTEXT_XFORM
+        END
+        MENUITEM SEPARATOR
+        POPUP "Autodesk Logo"
+        BEGIN
+            MENUITEM "Add",                         ARXRLE_CONTEXT_LOGO_ADD
+            MENUITEM "Modify",                      ARXRLE_CONTEXT_LOGO_MODIFY
+            MENUITEM SEPARATOR
+            MENUITEM "Add Style Definition",        ARXRLE_CONTEXT_LOGO_ADD_STYLE
+            MENUITEM "Modify Style Definition",     ARXRLE_CONTEXT_LOGO_MOD_STYLE
+            MENUITEM SEPARATOR
+            MENUITEM "Hardwire Test 1",             ARXRLE_CONTEXT_LOGO_HARDWIRE1
+            MENUITEM "Hardwire Test 2",             ARXRLE_CONTEXT_LOGO_HARDWIRE2
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "About ArxRle",                ARXRLE_CONTEXT_ABOUT
+    END
+    POPUP "Context Entity Menu"
+    BEGIN
+        MENUITEM "实体属性",                        ARXRLE_CONTEXT_ENT_ATTRIBUTE
+        MENUITEM "节点修改",                        ARXRLE_CONTEXT_NETPLAN_NODEMODIFY
+    END
+END
+
+ARXRLE_MENU_OBJSET MENU
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "Add To Set",                  ARXRLE_OBJSET_ADDTOSET
+        MENUITEM "Delete From Set",             ARXRLE_OBJSET_DELFROMSET
+        MENUITEM SEPARATOR
+        MENUITEM "Show Object Id Details...",   ARXRLE_OBJSET_OBJID_INFO
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+ARXRLE_MENU_MENUBAR     BITMAP                  "Res\\menubar.bmp"
+
+ARXRLE_MENU_PROGRAM     BITMAP                  "Res\\program.bmp"
+
+ARXRLE_MENU_NETPLAN     BITMAP                  "Res\\netplan.bmp"
+
+ARXRLE_BMP_SPLASH       BITMAP                  "Res\\splash.bmp"
+
+ARXRLE_BAR_APP          BITMAP                  "Res\\appbar.bmp"
+
+ARXRLE_BMP_POKER        BITMAP                  "Res\\poker.bmp"
+
+ARXRLE_BMP_HEADER       BITMAP                  "Res\\header.bmp"
+
+ARXRLE_BMP_SPABAR       BITMAP                  "Res\\spabar.bmp"
+
+ARXRLE_BMP_SWATCH       BITMAP                  "Res\\Swatch.bmp"
+
+ARXRLE_BAR_EXPLORER     BITMAP                  "Res\\ExplorerBar.bmp"
+
+ARXRLE_BAR_COLORS       BITMAP                  "Res\\ColorsBar.bmp"
+
+ARXRLE_BAR_TOOLS        BITMAP                  "Res\\ToolsBar.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+ARXRLE_WAVE_STONE       WAVE                    "Res\\stone.wav"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+ARXRLE_CURSOR_HAND      CURSOR                  "Res\\hand.cur"
+
+ARXRLE_CURSOR_STAR      CURSOR                  "Res\\Star.cur"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+ARXRLE_ICON_ARXRLE      ICON                    "Res\\ArxRle.ico"
+
+ARXRLE_ICON_ABOUT       ICON                    "Res\\About.ico"
+
+ARXRLE_ICON_FOLDER      ICON                    "Res\\folder.ico"
+
+ARXRLE_ICON_SELECT      ICON                    "Res\\Select.ico"
+
+ARXRLE_ICON_SET         ICON                    "Res\\set.ico"
+
+ARXRLE_ICON_LEFT        ICON                    "Res\\left.ico"
+
+ARXRLE_ICON_RIGHT       ICON                    "Res\\right.ico"
+
+ARXRLE_ICON_CORRECT     ICON                    "Res\\correct.ico"
+
+ARXRLE_ICON_OK          ICON                    "Res\\ok.ico"
+
+ARXRLE_ICON_CANCLE      ICON                    "Res\\cancle.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+ARXRLE_MENU_MENUBAR ACCELERATORS
+BEGIN
+    "A",            ARXRLE_PROGRAM_TABLE_IMPORT_1, VIRTKEY, ALT, NOINVERT
+    "B",            ARXRLE_PROGRAM_TABLE_IMPORT_2, VIRTKEY, ALT, NOINVERT
+    "C",            ARXRLE_PROGRAM_TABLE_IMPORT_3, VIRTKEY, ALT, NOINVERT
+    "A",            ARXRLE_PROGRAM_TABLE_EXPORT_1, VIRTKEY, CONTROL, NOINVERT
+    "B",            ARXRLE_PROGRAM_TABLE_EXPORT_2, VIRTKEY, CONTROL, NOINVERT
+    "P",            ARXRLE_PROGRAM_ENTPROTITY, VIRTKEY, ALT, NOINVERT
+    "L",            ARXRLE_PROGRAM_LOADLISP, VIRTKEY, ALT, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+ARXRLE_MENU_MENUBAR TOOLBAR 16, 16
+BEGIN
+    BUTTON      ID_FILE_OPEN
+    SEPARATOR
+    BUTTON      ARXRLE_MENU_LAYER
+    BUTTON      ARXRLE_MENU_TEXT
+    BUTTON      ARXRLE_MENU_DIM
+    SEPARATOR
+    BUTTON      ARXRLE_MENU_ENT
+    BUTTON      ARXRLE_MENU_DRAW
+    BUTTON      ARXRLE_MENU_BLOCK
+    SEPARATOR
+    BUTTON      ARXRLE_MENU_NETPLAN
+    BUTTON      ARXRLE_MENU_MEASURE
+    BUTTON      ARXRLE_MENU_STRUCT
+    BUTTON      ARXRLE_MENU_NORM
+    SEPARATOR
+    BUTTON      ARXRLE_MENU_XTPTHEME
+    BUTTON      ARXRLE_MENU_PROGRAM
+    SEPARATOR
+    BUTTON      ARXRLE_MENU_HELP
+END
+
+ARXRLE_BAR_APP TOOLBAR 16, 16
+BEGIN
+    BUTTON      ARXRLE_APP_DRAW
+    BUTTON      ARXRLE_APP_INFO
+    BUTTON      ARXRLE_APP_WINDDLG
+    BUTTON      ARXRLE_APP_ABOUT
+END
+
+ARXRLE_MENU_NETPLAN TOOLBAR 16, 16
+BEGIN
+    BUTTON      ARXRLE_NETPLAN_PARAM
+    SEPARATOR
+    BUTTON      ARXRLE_NETPLAN_IMPORT_WORK
+    BUTTON      ARXRLE_NETPLAN_EXPORT_WORK
+    BUTTON      ARXRLE_NETPLAN_IMPORT_STYLE
+    BUTTON      ARXRLE_NETPLAN_EXPORT_STYLE
+    SEPARATOR
+    BUTTON      ARXRLE_NETPLAN_GRID
+    BUTTON      ARXRLE_NETPLAN_DATA
+    BUTTON      ARXRLE_NETPLAN_RENR
+    SEPARATOR
+    BUTTON      ARXRLE_NETPLAN_TABLE
+    BUTTON      ARXRLE_NETPLAN_PROC
+    BUTTON      ARXRLE_NETPLAN_RESET
+    SEPARATOR
+    BUTTON      ARXRLE_NETPLAN_WORK
+    BUTTON      ARXRLE_NETPLAN_STYLE
+    BUTTON      ARXRLE_NETPLAN_BIND
+END
+
+ARXRLE_MENU_PROGRAM TOOLBAR 16, 16
+BEGIN
+    BUTTON      ARXRLE_PROGRAM_TABLE_IMPORT_1
+    BUTTON      ARXRLE_PROGRAM_TABLE_IMPORT_2
+    BUTTON      ARXRLE_PROGRAM_TABLE_IMPORT_3
+    SEPARATOR
+    BUTTON      ARXRLE_PROGRAM_TABLE_EXPORT_1
+    BUTTON      ARXRLE_PROGRAM_TABLE_EXPORT_2
+    SEPARATOR
+    BUTTON      ARXRLE_PROGRAM_ENTPROTITY
+    SEPARATOR
+    BUTTON      ARXRLE_PROGRAM_LOADLISP
+END
+
+ARXRLE_BAR_TOOLS TOOLBAR 20, 20
+BEGIN
+    BUTTON      ARXRLE_TOOLS_SELECTION
+    BUTTON      ARXRLE_TOOLS_PICKER
+    BUTTON      ARXRLE_TOOLS_REPLACE
+    BUTTON      ARXRLE_TOOLS_PENCIL
+    BUTTON      ARXRLE_TOOLS_BRUSH
+    BUTTON      ARXRLE_TOOLS_FILL
+    BUTTON      ARXRLE_TOOLS_LINE
+    BUTTON      ARXRLE_TOOLS_FRAME
+    BUTTON      ARXRLE_TOOLS_RECT
+    BUTTON      ARXRLE_TOOLS_RECT2
+    BUTTON      ARXRLE_TOOLS_ELLIPSE
+    BUTTON      ARXRLE_TOOLS_ELLIPSE2
+END
+
+ARXRLE_BAR_EXPLORER TOOLBAR 16, 16
+BEGIN
+    BUTTON      ARXRLE_EXPLORER_PARENT
+    SEPARATOR
+    BUTTON      ARXRLE_EXPLORER_NEW
+    BUTTON      ARXRLE_EXPLORER_LIBRARY
+    BUTTON      ARXRLE_EXPLORER_RENAME
+    SEPARATOR
+    BUTTON      ARXRLE_EXPLORER_DELETE
+    SEPARATOR
+    BUTTON      ARXRLE_EXPLORER_PROPERTIES
+    BUTTON      ARXRLE_EXPLORER_SEARCH
+END
+
+ARXRLE_BAR_COLORS TOOLBAR 20, 20
+BEGIN
+    BUTTON      ARXRLE_COLORS_EXPLORE
+    BUTTON      ARXRLE_COLORS_SAVE
+    BUTTON      ARXRLE_COLORS_LOAD
+    BUTTON      ARXRLE_COLROS_SWITCH
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "FileDescription", "ArxRle ObjectARX application"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "ArxRle"
+            VALUE "LegalCopyright", "Copyright ?2012"
+            VALUE "OriginalFilename", "ArxRle.arx"
+            VALUE "ProductName", "ArxRle Application"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+ARXRLE_DLG_SPLASH DIALOGEX 0, 0, 213, 250
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_POPUP
+FONT 9, "Arial", 0, 0, 0x0
+BEGIN
+    CONTROL         "",ARXRLE_SPLASH_PC_SPLASHFRAME,"Static",SS_BLACKFRAME | SS_CENTERIMAGE | SS_SUNKEN | WS_BORDER,12,7,189,203
+    CTEXT           "",ARXRLE_SPLASH_EB_LINE1,14,212,186,8
+    CTEXT           "",ARXRLE_SPLASH_EB_LINE2,14,220,186,8
+    CTEXT           "",ARXRLE_SPLASH_EB_LINE3,14,228,186,8
+    CTEXT           "",ARXRLE_SPLASH_EB_LINE4,14,236,186,8
+END
+
+ARXRLE_DLG_DXF DIALOGEX 0, 0, 332, 242
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "DXF Data"
+FONT 8, "Microsoft Sans Serif", 0, 0, 0x0
+BEGIN
+    CONTROL         "List1",ARXRLE_DXF_LC_LIST,"SysListView32",LVS_REPORT | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,9,10,315,205
+    DEFPUSHBUTTON   "OK",IDOK,141,221,50,14
+END
+
+ARXRLE_DLG_XDATA DIALOGEX 0, 0, 332, 256
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Xdata"
+FONT 8, "Microsoft Sans Serif", 0, 0, 0x0
+BEGIN
+    LTEXT           "Application:",IDC_STATIC,10,5,40,8
+    COMBOBOX        ARXRLE_XDATA_CB_APPS,50,5,95,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "List1",ARXRLE_XDATA_LC_DXF,"SysListView32",LVS_REPORT | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,10,25,315,205
+    DEFPUSHBUTTON   "OK",IDOK,140,235,50,14
+END
+
+ARXRLE_DLG_RXSTATE DIALOGEX 0, 0, 287, 259
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Object State Predicates"
+FONT 8, "Microsoft Sans Serif", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "State",IDC_STATIC,10,7,270,108
+    LTEXT           "CLASS:",IDC_STATIC,15,20,24,8
+    LTEXT           "NEW OBJECT:",IDC_STATIC,15,30,47,8
+    LTEXT           "READ ENABLED:",IDC_STATIC,15,40,55,8
+    LTEXT           "WRITE ENABLED:",IDC_STATIC,15,50,58,8
+    LTEXT           "NOTIFY ENABLED:",IDC_STATIC,15,60,60,8
+    LTEXT           "MODIFIED:",IDC_STATIC,15,70,35,8
+    LTEXT           "MODIFIED XDATA:",IDC_STATIC,15,80,59,8
+    LTEXT           "MODIFIED GRAPHICS:",IDC_STATIC,15,90,71,8
+    LTEXT           "IS A PROXY:",IDC_STATIC,15,100,65,8
+    LTEXT           "N/A",ARXRLE_RXSTATE_EB_CLASS,90,20,180,8
+    LTEXT           "N/A",ARXRLE_RXSTATE_EB_NEWOBJ,90,30,45,8
+    LTEXT           "N/A",ARXRLE_RXSTATE_EB_READ_ENABLED,90,40,45,8
+    LTEXT           "N/A",ARXRLE_RXSTATE_EB_WRITE_ENABLED,90,50,45,8
+    LTEXT           "N/A",ARXRLE_RXSTATE_EB_NOTIFY_ENABLED,90,60,45,8
+    LTEXT           "N/A",ARXRLE_RXSTATE_EB_MODIFIED,90,70,45,8
+    LTEXT           "N/A",ARXRLE_RXSTATE_EB_MOD_XDATA,90,80,45,8
+    LTEXT           "N/A",ARXRLE_RXSTATE_EB_MOD_GRAPHICS,90,90,45,8
+    LTEXT           "N/A",ARXRLE_RXSTATE_EB_PROXY,90,100,45,8
+    LTEXT           "TRANSACTION RESIDENT:",IDC_STATIC,145,30,87,8
+    LTEXT           "ERASED:",IDC_STATIC,145,40,31,8
+    LTEXT           "ERASE STATUS TOGGLED:",IDC_STATIC,145,50,89,8
+    LTEXT           "NOTIFYING:",IDC_STATIC,145,60,39,8
+    LTEXT           "UNDOING:",IDC_STATIC,145,70,34,8
+    LTEXT           "CANCELLING:",IDC_STATIC,145,80,44,8
+    LTEXT           "REALLY CLOSING:",IDC_STATIC,145,90,59,8
+    LTEXT           "N/A",ARXRLE_RXSTATE_EB_TRANS_RESIDENT,240,30,35,8
+    LTEXT           "N/A",ARXRLE_RXSTATE_EB_ERASED,240,40,35,8
+    LTEXT           "N/A",ARXRLE_RXSTATE_EB_ERASE_TOGGLED,240,50,35,8
+    LTEXT           "N/A",ARXRLE_RXSTATE_EB_NOTIFYING,240,60,35,8
+    LTEXT           "N/A",ARXRLE_RXSTATE_EB_UNDOING,240,70,35,8
+    LTEXT           "N/A",ARXRLE_RXSTATE_EB_CANCELLING,240,80,35,8
+    LTEXT           "N/A",ARXRLE_RXSTATE_EB_REALLY_CLOSING,240,90,35,8
+    GROUPBOX        "Modifiers",IDC_STATIC,10,120,270,96
+    PUSHBUTTON      "Open For Read",ARXRLE_RXSTATE_BN_READ,16,132,75,14
+    PUSHBUTTON      "Open For Write",ARXRLE_RXSTATE_BN_WRITE,16,148,75,14
+    PUSHBUTTON      "Open For Notify",ARXRLE_RXSTATE_BN_NOTIFY,16,164,75,14
+    PUSHBUTTON      "Test Modify",ARXRLE_RXSTATE_BN_MODIFY,16,180,75,14
+    PUSHBUTTON      "Upgrade To Write",ARXRLE_RXSTATE_BN_UPGRADE_TO_W,108,132,75,14
+    PUSHBUTTON      "Downgrade From Write",ARXRLE_RXSTATE_BN_DOWNGRADE_W,108,148,75,14
+    PUSHBUTTON      "Upgrade From Notify",ARXRLE_RXSTATE_BN_UPGRADE_FROM_N,108,164,75,14
+    PUSHBUTTON      "Downgrade To Notify",ARXRLE_RXSTATE_BN_DOWNGRADE_TO_N,108,180,75,14
+    PUSHBUTTON      "Erase",ARXRLE_RXSTATE_BN_ERASE,196,132,75,14
+    PUSHBUTTON      "Un-Erase",ARXRLE_RXSTATE_BN_UNERASE,196,148,75,14
+    PUSHBUTTON      "Cancel",ARXRLE_RXSTATE_BN_CANCEL,196,164,75,14
+    PUSHBUTTON      "Close",ARXRLE_RXSTATE_BN_CLOSE,196,180,75,14
+    PUSHBUTTON      "Close And Page",ARXRLE_RXSTATE_BN_CLOSE_PAGE,196,196,76,14
+    LTEXT           "",ARXRLE_RXSTATE_EB_ERRMSG,8,224,195,8
+    DEFPUSHBUTTON   "OK",IDOK,112,236,50,14
+END
+
+ARXRLE_DLG_CLASS_DICT DIALOGEX 0, 0, 484, 270
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ARX Classes"
+FONT 8, "Microsoft Sans Serif", 0, 0, 0x0
+BEGIN
+    CONTROL         "List1",ARXRLE_CLASS_DICT_LC_CLASSES,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,5,5,470,235
+    DEFPUSHBUTTON   "OK",IDOK,217,250,50,14
+END
+
+ARXRLE_DLG_SYSREGISTRY DIALOGEX 0, 0, 289, 175
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ARX System Registry"
+FONT 8, "Microsoft Sans Serif", 0, 0, 0x0
+BEGIN
+    CONTROL         "Tree1",ARXRLE_SYSREGISTRY_TR_SYS_REG,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | WS_BORDER | WS_HSCROLL | WS_TABSTOP,5,10,130,125
+    LTEXT           "CLASS:",IDC_STATIC,145,15,24,8
+    LTEXT           "",ARXRLE_SYSREGISTRY_EB_CLASS,180,15,105,8
+    DEFPUSHBUTTON   "OK",IDOK,120,150,50,14
+END
+
+ARXRLE_DLG_XFORM DIALOGEX 0, 0, 192, 181
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Test Transformations"
+FONT 8, "Microsoft Sans Serif", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "Rotation",IDC_STATIC,4,4,80,84
+    CONTROL         "UCS X-Axis",ARXRLE_XFORM_RB_UCS_X,"Button",BS_AUTORADIOBUTTON | WS_GROUP,8,16,50,10
+    CONTROL         "UCS Y-Axis",ARXRLE_XFORM_RB_UCS_Y,"Button",BS_AUTORADIOBUTTON,8,28,51,10
+    CONTROL         "UCS Z-Axis",ARXRLE_XFORM_RB_UCS_Z,"Button",BS_AUTORADIOBUTTON,8,40,50,10
+    CONTROL         "ECS Z-Axis",ARXRLE_XFORM_RB_ECS_Z,"Button",BS_AUTORADIOBUTTON,8,52,50,10
+    PUSHBUTTON      "Rotate <",ARXRLE_XFORM_BN_ROTATE,19,68,50,14,WS_GROUP
+    GROUPBOX        "Translation",IDC_STATIC,4,96,80,60
+    CONTROL         "From/To Point",ARXRLE_XFORM_RB_FROM_TO,"Button",BS_AUTORADIOBUTTON | WS_GROUP,8,108,60,10
+    CONTROL         "UCS Displacement",ARXRLE_XFORM_RB_UCS_DISP,"Button",BS_AUTORADIOBUTTON,8,120,73,10
+    PUSHBUTTON      "Move <",ARXRLE_XFORM_BN_MOVE,19,136,50,14
+    GROUPBOX        "Misc.",IDC_STATIC,92,4,96,72
+    PUSHBUTTON      "Scale <",ARXRLE_XFORM_BN_SCALE,100,16,80,14
+    PUSHBUTTON      "Mirror <",ARXRLE_XFORM_BN_MIRROR,100,36,80,14
+    PUSHBUTTON      "XformTo WCS Origin <",ARXRLE_XFORM_BN_WCS_ORIGIN,100,56,80,14
+    CONTROL         "Transform a Copy",ARXRLE_XFORM_CB_XFORM_COPY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,96,96,70,10
+    DEFPUSHBUTTON   "Exit",IDOK,71,164,50,14
+END
+
+ARXRLE_DLG_ENTMAKE DIALOGEX 0, 0, 268, 215
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Test Entity Make"
+FONT 8, "Microsoft Sans Serif", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "Curves",IDC_STATIC,5,5,60,180
+    PUSHBUTTON      "Polyline (LW)",ARXRLE_ENTMAKE_BN_POLYLINE,10,15,50,14
+    PUSHBUTTON      "2dPolyline",ARXRLE_ENTMAKE_BN_2DPOLYLINE,10,30,50,14
+    PUSHBUTTON      "3dPolyline",ARXRLE_ENTMAKE_BN_3DPOLYLINE,10,45,50,14
+    PUSHBUTTON      "Arc",ARXRLE_ENTMAKE_BN_ARC,10,60,50,14
+    PUSHBUTTON      "Circle",ARXRLE_ENTMAKE_BN_CIRCLE,10,75,50,14
+    PUSHBUTTON      "Ellipse",ARXRLE_ENTMAKE_BN_ELLIPSE,10,90,50,14
+    PUSHBUTTON      "Leader",ARXRLE_ENTMAKE_BN_LEADER,10,105,50,14
+    PUSHBUTTON      "Line",ARXRLE_ENTMAKE_BN_LINE,10,120,50,14
+    PUSHBUTTON      "Ray",ARXRLE_ENTMAKE_BN_RAY,10,135,50,14
+    PUSHBUTTON      "Spline",ARXRLE_ENTMAKE_BN_SPLINE,10,150,50,14
+    PUSHBUTTON      "Xline",ARXRLE_ENTMAKE_BN_XLINE,10,165,50,14
+    GROUPBOX        "Meshes",IDC_STATIC,75,5,60,45
+    PUSHBUTTON      "PolyFaceMesh",ARXRLE_ENTMAKE_BN_POLYFACE,80,15,50,14
+    PUSHBUTTON      "PolygonMesh",ARXRLE_ENTMAKE_BN_POLYGON,80,30,50,14
+    GROUPBOX        "Dimensions",IDC_STATIC,75,60,60,120
+    PUSHBUTTON      "2LineAngular",ARXRLE_ENTMAKE_BN_2LINEANGULAR,80,70,50,14
+    PUSHBUTTON      "3PointAngular",ARXRLE_ENTMAKE_BN_3POINTANGULAR,80,85,50,14
+    PUSHBUTTON      "Aligned",ARXRLE_ENTMAKE_BN_ALIGNED,80,100,50,14
+    PUSHBUTTON      "Diametric",ARXRLE_ENTMAKE_BN_DIAMETRIC,80,115,50,14
+    PUSHBUTTON      "Ordinate",ARXRLE_ENTMAKE_BN_ORDINATE,80,130,50,14
+    PUSHBUTTON      "Radial",ARXRLE_ENTMAKE_BN_RADIAL,80,145,50,14
+    PUSHBUTTON      "Rotated",ARXRLE_ENTMAKE_BN_ROTATED,80,160,50,14
+    GROUPBOX        "Misc.",IDC_STATIC,141,6,59,169
+    PUSHBUTTON      "BlockRef",ARXRLE_ENTMAKE_BN_BLKREF,145,20,50,14
+    PUSHBUTTON      "MInsertBlock",ARXRLE_ENTMAKE_BN_MINSERT,145,35,50,14
+    PUSHBUTTON      "Hatch",ARXRLE_ENTMAKE_BN_HATCH,145,50,50,14
+    PUSHBUTTON      "Face",ARXRLE_ENTMAKE_BN_FACE,145,65,50,14
+    PUSHBUTTON      "Fcf",ARXRLE_ENTMAKE_BN_FCF,145,80,50,14
+    PUSHBUTTON      "Mline",ARXRLE_ENTMAKE_BN_MLINE,145,95,50,14
+    PUSHBUTTON      "Point",ARXRLE_ENTMAKE_BN_POINT,145,110,50,14
+    PUSHBUTTON      "Solid",ARXRLE_ENTMAKE_BN_SOLID,145,125,50,14
+    PUSHBUTTON      "Trace",ARXRLE_ENTMAKE_BN_TRACE,145,140,50,14
+    PUSHBUTTON      "Viewport",ARXRLE_ENTMAKE_BN_VIEWPORT,145,155,50,14
+    GROUPBOX        "ACIS",IDC_STATIC,205,6,59,49
+    PUSHBUTTON      "3dSolid",ARXRLE_ENTMAKE_BN_3DSOLID,210,20,50,14
+    PUSHBUTTON      "Region",ARXRLE_ENTMAKE_BN_REGION,210,35,50,14
+    GROUPBOX        "Text",IDC_STATIC,205,63,59,62
+    PUSHBUTTON      "Text",ARXRLE_ENTMAKE_BN_TEXT,210,75,50,14
+    PUSHBUTTON      "MText",ARXRLE_ENTMAKE_BN_MTEXT,210,90,50,14
+    PUSHBUTTON      "AttributeDef",ARXRLE_ENTMAKE_BN_ATTDEF,210,105,50,14
+    DEFPUSHBUTTON   "Exit",IDOK,109,195,50,14
+END
+
+ARXRLE_DLG_TBLMAKE DIALOGEX 0, 0, 154, 119
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Test Table Make"
+FONT 8, "Microsoft Sans Serif", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "Named Block",ARXRLE_TBLMAKE_BN_BLOCK,6,6,63,14
+    PUSHBUTTON      "Anonymous Block",ARXRLE_TBLMAKE_BN_ANONBLOCK,6,24,63,14
+    PUSHBUTTON      "Dimension Style",ARXRLE_TBLMAKE_BN_DIMSTYLE,6,42,63,14
+    PUSHBUTTON      "Layer",ARXRLE_TBLMAKE_BN_LAYER,6,60,63,14
+    PUSHBUTTON      "Linetype",ARXRLE_TBLMAKE_BN_LINETYPE,6,78,63,14
+    PUSHBUTTON      "Text Style",ARXRLE_TBLMAKE_BN_TEXTSTYLE,78,6,63,14
+    PUSHBUTTON      "Application Id",ARXRLE_TBLMAKE_BN_APPID,78,24,63,14
+    PUSHBUTTON      "UCS",ARXRLE_TBLMAKE_BN_UCS,78,42,63,14
+    PUSHBUTTON      "View",ARXRLE_TBLMAKE_BN_VIEW,78,60,63,14
+    PUSHBUTTON      "Viewport",ARXRLE_TBLMAKE_BN_VIEWPORT,78,78,63,14
+    DEFPUSHBUTTON   "Exit",IDOK,48,102,50,14
+END
+
+ARXRLE_TDC_DBMISC DIALOGEX 0, 0, 404, 210
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 0, 0, 0x0
+BEGIN
+    LTEXT           "Preview Image",IDC_STATIC,5,5,50,8
+    CONTROL         "",ARXRLE_DBMISC_FR_PREVIEW,"Static",SS_BLACKFRAME,5,15,145,105
+    CONTROL         "List1",ARXRLE_DBMISC_LC_DBMISC_VALUES,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,155,10,245,180
+END
+
+ARXRLE_DLG_ABOUT DIALOGEX 0, 0, 280, 182
+STYLE DS_SETFONT | WS_POPUP
+FONT 8, "Microsoft Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,114,163,50,14
+    CONTROL         ARXRLE_BMP_SPLASH,IDC_STATIC,"Static",SS_BITMAP | SS_SUNKEN | WS_BORDER,0,0,280,158
+END
+
+ARXRLE_DLG_WORLD_DRAW DIALOGEX 0, 0, 269, 155
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "World Draw/Viewport Draw Tests"
+FONT 8, "Microsoft Sans Serif", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "World Draw Settings",IDC_STATIC,10,5,115,120
+    LTEXT           "Regen Type:",IDC_STATIC,15,20,41,8
+    CONTROL         "Standard",ARXRLE_WORLD_DRAW_RB_STANDARD,"Button",BS_AUTORADIOBUTTON | WS_GROUP,60,20,55,10
+    CONTROL         "Hide/Shade",ARXRLE_WORLD_DRAW_RB_HIDE_SHADE,"Button",BS_AUTORADIOBUTTON,60,30,54,10
+    CONTROL         "Render",ARXRLE_WORLD_DRAW_RB_RENDER,"Button",BS_AUTORADIOBUTTON,60,40,39,10
+    CONTROL         "Save For R12",ARXRLE_WORLD_DRAW_RB_R12,"Button",BS_AUTORADIOBUTTON,60,50,57,10
+    CONTROL         "Save For Proxy",ARXRLE_WORLD_DRAW_RB_PROXY,"Button",BS_AUTORADIOBUTTON,60,60,62,10
+    CONTROL         "Is Dragging",ARXRLE_WORLD_DRAW_CK_DRAGGING,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,75,51,10
+    LTEXT           "Deviation:",IDC_STATIC,15,90,31,8
+    EDITTEXT        ARXRLE_WORLD_DRAW_EB_DEVIATION,50,90,40,14,ES_AUTOHSCROLL
+    LTEXT           "Isolines:",IDC_STATIC,15,105,26,8
+    EDITTEXT        ARXRLE_WORLD_DRAW_EB_ISOLINES,50,105,40,14,ES_AUTOHSCROLL
+    GROUPBOX        "Message Level",IDC_STATIC,135,5,125,55
+    CONTROL         "Show AcGiWorldDraw Calls",ARXRLE_WORLD_DRAW_CK_SHOW_WORLDRAW,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,140,15,115,10
+    CONTROL         "Show AcGiWorldGeometry Calls",ARXRLE_WORLD_DRAW_CK_SHOW_GEOM,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,140,25,115,10
+    CONTROL         "Show AcGiSubEntityTraits Calls",ARXRLE_WORLD_DRAW_CK_SHOW_SUBENT,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,140,35,115,10
+    CONTROL         "Show All Parameter Values",ARXRLE_WORLD_DRAW_CK_SHOW_PRAMS,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,140,45,115,10
+    DEFPUSHBUTTON   "OK",IDOK,82,135,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,137,135,50,14
+END
+
+ARXRLE_DLG_COLOR DIALOGEX 0, 0, 272, 209
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_CAPTION
+CAPTION "Color"
+FONT 8, "Microsoft Sans Serif", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "Standard Colors",IDC_STATIC,8,4,112,28
+    CONTROL         "",ARXRLE_COLOR_PC_STANDARD_COLORS,"Static",SS_BLACKFRAME | SS_SUNKEN,12,16,104,12
+    GROUPBOX        "Gray Shades",IDC_STATIC,124,4,80,28
+    CONTROL         "",ARXRLE_COLOR_PC_GRAY_COLORS,"Static",SS_BLACKFRAME | SS_SUNKEN,128,16,72,12
+    PUSHBUTTON      "ByLayer",ARXRLE_COLOR_BN_BYLAYER,212,4,50,14
+    PUSHBUTTON      "ByBlock",ARXRLE_COLOR_BN_BYBLOCK,212,24,50,14
+    GROUPBOX        "Full Color Palette",IDC_STATIC,8,40,252,124
+    CONTROL         "",ARXRLE_COLOR_PC_FULL_PALETTE_TOP,"Static",SS_BLACKFRAME | SS_REALSIZEIMAGE | SS_SUNKEN,12,52,244,50
+    CONTROL         "",ARXRLE_COLOR_PC_FULL_PALETTE_BOTTOM,"Static",SS_BLACKFRAME | SS_REALSIZEIMAGE | SS_SUNKEN,12,108,244,50
+    CONTROL         "",ARXRLE_COLOR_PC_COLOR_SWATCH,"Static",SS_BLACKFRAME | SS_SUNKEN,8,168,16,16
+    LTEXT           "Color:",IDC_STATIC,28,172,20,8
+    LTEXT           "Static",ARXRLE_COLOR_EB_COLOR,52,172,40,8
+    PUSHBUTTON      "OK",IDOK,108,188,50,14
+END
+
+ARXRLE_DLG_TESTCURVES DIALOGEX 0, 0, 268, 215
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Test Curves"
+FONT 8, "Microsoft Sans Serif", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "isClosed/isPeriodic/isPlanar",ARXRLE_TESTCURVES_BN_CLOSED,10,5,120,14
+    PUSHBUTTON      "getPlane",ARXRLE_TESTCURVES_BN_GETPLANE,10,20,120,14
+    PUSHBUTTON      "getStartParam/getEndParam",ARXRLE_TESTCURVES_BN_STARTPARAM,10,35,120,14
+    PUSHBUTTON      "getStartPoint/getEndPoint",ARXRLE_TESTCURVES_BN_STARTPT,10,50,120,14
+    PUSHBUTTON      "getPointAtParam",ARXRLE_TESTCURVES_BN_PTATPARAM,10,65,120,14
+    PUSHBUTTON      "getParamAtPoint",ARXRLE_TESTCURVES_BN_PARAMATPT,10,80,120,14
+    PUSHBUTTON      "getDistAtParam",ARXRLE_TESTCURVES_BN_DISTATPARAM,10,95,120,14
+    PUSHBUTTON      "getParamAtDist",ARXRLE_TESTCURVES_BN_PARAMATDIST,10,110,120,14
+    PUSHBUTTON      "getDistAtPoint",ARXRLE_TESTCURVES_BN_DISTATPT,10,125,120,14
+    PUSHBUTTON      "getPointAtDist",ARXRLE_TESTCURVES_BN_PTATDIST,10,140,120,14
+    PUSHBUTTON      "getFirstDeriv/getSecondDeriv (param)",ARXRLE_TESTCURVES_BN_DERIV,10,155,120,14
+    PUSHBUTTON      "getFirstDeriv/getSecondDeriv (point)",ARXRLE_TESTCURVES_BN_DERIV2,10,170,120,14
+    PUSHBUTTON      "getClosestPointTo",ARXRLE_TESTCURVES_BN_CLOSESTPTTO,140,5,120,14
+    PUSHBUTTON      "getClosestPointTo (projected)",ARXRLE_TESTCURVES_BN_CLOSESTPTTO2,140,20,120,14
+    PUSHBUTTON      "getOrthoProjectedCurve",ARXRLE_TESTCURVES_BN_ORTHOPROJECTED,140,35,120,14
+    PUSHBUTTON      "getProjectedCurve",ARXRLE_TESTCURVES_BN_PROJECTED,140,50,120,14
+    PUSHBUTTON      "getOffsetCurves",ARXRLE_TESTCURVES_BN_OFFSETCURVES,140,65,120,14
+    PUSHBUTTON      "getSpline",ARXRLE_TESTCURVES_BN_SPLINE,140,80,120,14
+    PUSHBUTTON      "getSplitCurves (from Params)",ARXRLE_TESTCURVES_BN_SPLITCURVES,140,95,120,14
+    PUSHBUTTON      "getSplitCurves (from Points)",ARXRLE_TESTCURVES_BN_SPLITCURVES2,140,110,120,14
+    PUSHBUTTON      "extend (toParam)",ARXRLE_TESTCURVES_BN_EXTEND,140,125,120,14
+    PUSHBUTTON      "extend (toPoint)",ARXRLE_TESTCURVES_BN_EXTEND2,140,140,120,14
+    PUSHBUTTON      "getArea",ARXRLE_TESTCURVES_BN_AREA,140,155,120,14
+    DEFPUSHBUTTON   "Exit",IDOK,109,195,50,14
+END
+
+ARXRLE_TDC_OPTIONS DIALOGEX 0, 0, 277, 147
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "Entity/Object Diagnostic Messages",IDC_STATIC,5,5,135,50
+    CONTROL         "Show DWG filer messages",ARXRLE_OPTIONS_CK_DWG_FILER_MESSAGES,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,20,115,10
+    CONTROL         "Show deepClone() details",ARXRLE_OPTIONS_CK_DEEP_CLONE_DETAILS,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,30,115,10
+    CONTROL         "Show wblockClone() details",ARXRLE_OPTIONS_CK_WBLOCK_CLONE_DETAILS,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,40,110,10
+    CONTROL         "Insert Dictionary Entries By Hand",ARXRLE_OPTIONS_CK_USE_DICT_MERGESTYLE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,75,115,8
+END
+
+ARXRLE_TDM_EDITOR DIALOGEX 0, 0, 419, 270
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Editor"
+FONT 8, "Microsoft Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,305,250,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,360,250,50,14
+    CONTROL         "Tab1",ARXRLE_EDITOR_TAB,"SysTabControl32",0x0,5,5,410,235
+END
+
+ARXRLE_TDC_COMMANDS DIALOGEX 0, 0, 404, 195
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 0, 0, 0x0
+BEGIN
+    CONTROL         "Tree1",ARXRLE_COMMANDS_TR_CMDS,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_DISABLEDRAGDROP | TVS_SHOWSELALWAYS | WS_BORDER | WS_HSCROLL | WS_TABSTOP,5,10,145,180
+    CONTROL         "List1",ARXRLE_COMMANDS_LC_DATA,"SysListView32",LVS_REPORT | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,155,10,245,180
+END
+
+ARXRLE_TDC_CLASSES DIALOGEX 0, 0, 409, 235
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 0, 0, 0x0
+BEGIN
+    CONTROL         "Tree1",ARXRLE_CLASSES_TR_CLASSES,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_DISABLEDRAGDROP | TVS_SHOWSELALWAYS | WS_BORDER | WS_HSCROLL | WS_TABSTOP,5,10,165,190
+    LTEXT           "Class Name:",IDC_STATIC,185,5,40,8
+    LTEXT           "Static",ARXRLE_CLASSES_EB_CLASSNAME,235,5,170,8
+    LTEXT           "DXF Name:",ARXRLE_CLASSES_EB_DXF_LABEL,185,15,36,8
+    LTEXT           "Static",ARXRLE_CLASSES_EB_DXFNAME,235,15,170,8
+    LTEXT           "Application:",ARXRLE_CLASSES_EB_APP_LABEL,185,25,40,8
+    LTEXT           "Static",ARXRLE_CLASSES_EB_APPNAME,235,25,170,8
+    LTEXT           "Birth Version:",ARXRLE_CLASSES_EB_BVERSION_LABEL,185,35,40,8
+    LTEXT           "Static",ARXRLE_CLASSES_EB_BVERSION,235,35,170,8
+    LTEXT           "Maint. Version:",ARXRLE_CLASSES_EB_MVERSION_LABEL,185,45,45,8
+    LTEXT           "Static",ARXRLE_CLASSES_EB_MVERSION,235,45,170,8
+    LTEXT           "Proxy Flags",IDC_STATIC,185,62,37,8
+    LISTBOX         ARXRLE_CLASSES_LB_PROXY_FLAGS,185,72,215,55,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Protocol Extensions",IDC_STATIC,185,132,65,8
+    LISTBOX         ARXRLE_CLASSES_LB_PROTOCOL_EXT,185,142,215,55,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Press NumPad * to expand whole branch of tree.",IDC_STATIC,10,205,150,8
+    PUSHBUTTON      "Show Comparative List of Classes...",ARXRLE_CLASSES_BN_COMP_CLASSES,230,205,135,14
+END
+
+ARXRLE_TDC_DOCS DIALOGEX 0, 0, 414, 222
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 0, 0, 0x0
+BEGIN
+    LISTBOX         ARXRLE_DOCS_LB_DOCS,5,10,145,180,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "List1",ARXRLE_DOCS_LC_DATA,"SysListView32",LVS_REPORT | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,160,10,245,180
+    PUSHBUTTON      "Database...",ARXRLE_DOCS_BN_DATABASE,10,200,50,14
+END
+
+ARXRLE_TDM_DATABASE DIALOGEX 0, 0, 419, 285
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Database"
+FONT 8, "Microsoft Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,305,265,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,360,265,50,14
+    CONTROL         "Tab1",ARXRLE_DATABASE_TAB,"SysTabControl32",0x0,5,5,410,255
+END
+
+ARXRLE_TDC_SYMTBLS DIALOGEX 0, 0, 409, 242
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 0, 0, 0x0
+BEGIN
+    CONTROL         "Tree1",ARXRLE_SYMTBLS_TR_SYMTABS,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_DISABLEDRAGDROP | TVS_SHOWSELALWAYS | WS_BORDER | WS_HSCROLL | WS_TABSTOP,5,10,145,180
+    CONTROL         "List1",ARXRLE_SYMTBLS_LC_SYMTBL_VALUES,"SysListView32",LVS_REPORT | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,155,10,245,180
+    PUSHBUTTON      "DXF...",ARXRLE_SYMTBLS_BN_DXF,10,195,55,14
+    PUSHBUTTON      "Xdata...",ARXRLE_SYMTBLS_BN_XDATA,10,215,55,14
+    PUSHBUTTON      "Extension Dict...",ARXRLE_SYMTBLS_BN_EXTDICT,70,195,55,14
+    PUSHBUTTON      "Reactors...",ARXRLE_SYMTBLS_BN_REACTORS,70,215,55,14
+    PUSHBUTTON      "Document...",ARXRLE_SYMTBLS_BN_DOCUMENT,130,195,55,14
+    PUSHBUTTON      "References...",ARXRLE_SYMTBLS_BN_REFERENCED_OBJS,130,215,55,14
+    PUSHBUTTON      "Entities In Block...",ARXRLE_SYMTBLS_BN_BLKENTS,210,195,75,14
+    CONTROL         "Show Erased Entities",ARXRLE_SYMTBLS_CK_SHOW_ERASED,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,210,215,79,10
+    PUSHBUTTON      "References To Block...",ARXRLE_SYMTBLS_BN_BLKREFS,305,195,75,14
+    CONTROL         "Show Nested References",ARXRLE_SYMTBLS_CK_SHOW_NESTED,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,305,215,93,10
+    CONTROL         "Show Erased References",ARXRLE_SYMTBLS_CK_SHOW_ERASED_REFS,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,305,225,95,10
+END
+
+ARXRLE_TDC_DICTS DIALOGEX 0, 0, 404, 240
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 0, 0, 0x0
+BEGIN
+    CONTROL         "Tree1",ARXRLE_DICTS_TR_DICT,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_EDITLABELS | TVS_DISABLEDRAGDROP | TVS_SHOWSELALWAYS | WS_BORDER | WS_HSCROLL | WS_TABSTOP,5,10,145,180
+    CONTROL         "List1",ARXRLE_DICTS_LC_DICT_VALUES,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,155,10,245,180
+    PUSHBUTTON      "DXF...",ARXRLE_DICTS_BN_DXF,10,195,55,14
+    PUSHBUTTON      "Xdata...",ARXRLE_DICTS_BN_XDATA,10,215,55,14
+    PUSHBUTTON      "Extension Dict...",ARXRLE_DICTS_BN_EXTDICT,70,195,55,14
+    PUSHBUTTON      "Reactors...",ARXRLE_DICTS_BN_REACTORS,70,215,55,14
+    PUSHBUTTON      "Document...",ARXRLE_DICTS_BN_DOCUMENT,130,195,55,14
+    PUSHBUTTON      "References...",ARXRLE_DICTS_BN_REFERENCED_OBJS,130,215,55,14
+    CONTROL         "Dictionary Is Hard Owner",ARXRLE_DICTS_CK_HARDOWNER,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,235,195,95,10
+    LTEXT           "Merge Style:",ARXRLE_DICTS_EB_MERGESTYLE_LABEL,235,210,40,8
+    COMBOBOX        ARXRLE_DICTS_CB_MERGESTYLE,280,210,95,85,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+END
+
+ARXRLE_TDC_ENTS DIALOGEX 0, 0, 409, 235
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 0, 0, 0x0
+BEGIN
+    CONTROL         "Tree1",ARXRLE_ENTS_TR_ENTS,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_DISABLEDRAGDROP | TVS_SHOWSELALWAYS | WS_BORDER | WS_HSCROLL | WS_TABSTOP,5,10,145,180
+    CONTROL         "List1",ARXRLE_ENTS_LC_DATA,"SysListView32",LVS_REPORT | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,155,10,245,180
+    PUSHBUTTON      "DXF...",ARXRLE_ENTS_BN_DXF,10,195,55,14
+    PUSHBUTTON      "Xdata...",ARXRLE_ENTS_BN_XDATA,10,215,55,14
+    PUSHBUTTON      "Extension Dict...",ARXRLE_ENTS_BN_EXTDICT,70,195,55,14
+    PUSHBUTTON      "Reactors...",ARXRLE_ENTS_BN_REACTORS,70,215,55,14
+    PUSHBUTTON      "Document...",ARXRLE_ENTS_BN_DOCUMENT,130,195,55,14
+    PUSHBUTTON      "References...",ARXRLE_ENTS_BN_REFERENCED_OBJS,130,215,55,14
+    PUSHBUTTON      "Database...",ARXRLE_ENTS_BN_DATABASE,190,195,55,14
+    LTEXT           "This entity is currently erased.",ARXRLE_ENTS_EB_ERASE_STATUS,275,195,100,8,NOT WS_VISIBLE
+END
+
+ARXRLE_TDM_ENTS DIALOGEX 0, 0, 419, 285
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Entities"
+FONT 8, "Microsoft Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,305,265,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,360,265,50,14
+    CONTROL         "Tab1",ARXRLE_ENTS_TAB,"SysTabControl32",0x0,5,5,410,250
+END
+
+ARXRLE_TDC_SYS_REACTORS DIALOGEX 0, 0, 362, 207
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "Event Reactor",IDC_STATIC,5,5,110,45
+    CONTROL         "On",ARXRLE_SYS_REACTORS_CK_EVENT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,20,25,10
+    CONTROL         "Show Details",ARXRLE_SYS_REACTORS_CK_EVENT_DETAILS,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,30,55,10
+    GROUPBOX        "Editor Reactor",IDC_STATIC,5,55,110,45
+    CONTROL         "On",ARXRLE_SYS_REACTORS_CK_EDITOR,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,70,25,10
+    CONTROL         "Show Details",ARXRLE_SYS_REACTORS_CK_EDITOR_DETAILS,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,80,55,10
+    GROUPBOX        "Database Reactor",IDC_STATIC,5,105,110,45
+    CONTROL         "On",ARXRLE_SYS_REACTORS_CK_DATABASE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,120,25,10
+    CONTROL         "Show Details",ARXRLE_SYS_REACTORS_CK_DB_DETAILS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,130,55,10
+    GROUPBOX        "Document Reactor",IDC_STATIC,5,155,110,45
+    CONTROL         "On",ARXRLE_SYS_REACTORS_CK_DOCUMENT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,170,25,10
+    CONTROL         "Show Details",ARXRLE_SYS_REACTORS_CK_DOC_DETAILS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,180,55,10
+    GROUPBOX        "Long Transaction",IDC_STATIC,125,5,110,45
+    CONTROL         "On",ARXRLE_SYS_REACTORS_CK_LONG_TRANS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,135,20,25,10
+    CONTROL         "Show Details",ARXRLE_SYS_REACTORS_CK_LONG_TRANS_DEBAILS,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,135,30,55,10
+    GROUPBOX        "Dynamic Linker",IDC_STATIC,125,55,110,45
+    CONTROL         "On",ARXRLE_SYS_REACTORS_CK_DYN_LINKER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,135,70,25,10
+    GROUPBOX        "DB Transaction",IDC_STATIC,125,105,110,45
+    CONTROL         "On",ARXRLE_SYS_REACTORS_CK_TRANS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,135,120,25,10
+    GROUPBOX        "Graphics System",IDC_STATIC,125,155,110,45
+    CONTROL         "On",ARXRLE_SYS_REACTORS_CK_GS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,135,170,25,10
+    GROUPBOX        "Layout Manager",IDC_STATIC,245,5,110,45
+    CONTROL         "On",ARXRLE_SYS_REACTORS_CK_LAYOUT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,255,20,25,10
+    GROUPBOX        "Editor Input",IDC_STATIC,245,55,110,45
+    CONTROL         "On",ARXRLE_SYS_REACTORS_CK_INPUT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,255,65,25,10
+    CONTROL         "Show Details",ARXRLE_SYS_REACTORS_CK_INPUT_DETAILS,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,255,75,55,10
+    CONTROL         "Suppress While Dragging",ARXRLE_SYS_REACTORS_CK_DRAG_SUPPRESS_INPUT,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,255,85,95,10
+END
+
+ARXRLE_TDC_REACTORS DIALOGEX 0, 0, 362, 207
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "Object - AcDbObjectReactor",IDC_STATIC,10,5,240,95
+    LISTBOX         ARXRLE_REACTORS_LB_OBJS,15,15,150,80,LBS_USETABSTOPS | LBS_NOINTEGRALHEIGHT | LBS_EXTENDEDSEL | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Object Handle:",IDC_STATIC,170,15,46,8
+    EDITTEXT        ARXRLE_REACTORS_EB_HANDLE,170,25,40,14,ES_AUTOHSCROLL | ES_WANTRETURN
+    PUSHBUTTON      "Attach",ARXRLE_REACTORS_BN_ATTACH_OBJ,215,25,30,14
+    CONTROL         "ARXRLE_BMP_REMOVE|Detach From Selected Items in List",ARXRLE_REACTORS_BN_DETACH_SEL_OBJS,
+                    "Button",BS_OWNERDRAW | WS_TABSTOP,170,75,15,14
+    LTEXT           "Detach Selected",IDC_STATIC,190,75,51,8
+    GROUPBOX        "Entity - AcDbEntityReactor",IDC_STATIC,10,105,240,95
+    LISTBOX         ARXRLE_REACTORS_LB_ENTS,15,115,150,80,LBS_USETABSTOPS | LBS_NOINTEGRALHEIGHT | LBS_EXTENDEDSEL | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Attach To Entity",ARXRLE_REACTORS_BN_ATTACH_ENT,"Button",BS_OWNERDRAW | WS_TABSTOP,170,120,15,14
+    LTEXT           "Attach",IDC_STATIC,190,120,40,8
+    CONTROL         "Detach From Entity",ARXRLE_REACTORS_BN_DETACH_ENT,
+                    "Button",BS_OWNERDRAW | WS_TABSTOP,170,140,15,14
+    LTEXT           "Detach",IDC_STATIC,190,140,35,8
+    CONTROL         "ARXRLE_BMP_REMOVE|Detach From Selected Items in List",ARXRLE_REACTORS_BN_DETACH_SEL_ENTS,
+                    "Button",BS_OWNERDRAW | WS_TABSTOP,170,175,15,14
+    LTEXT           "Detach Selected",IDC_STATIC,190,175,51,8
+    GROUPBOX        "Show State Dialog For",IDC_STATIC,260,15,90,150
+    CONTROL         "modified",ARXRLE_REACTORS_CK_STATE_MODIFIED,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,270,30,55,10
+    CONTROL         "objectClosed",ARXRLE_REACTORS_CK_STATE_CLOSED,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,270,40,70,10
+    CONTROL         "cancelled",ARXRLE_REACTORS_CK_STATE_CANCELLED,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,270,50,55,10
+    CONTROL         "copied",ARXRLE_REACTORS_CK_STATE_COPIED,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,270,60,45,10
+    CONTROL         "erased",ARXRLE_REACTORS_CK_STATE_ERASED,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,270,70,45,10
+    CONTROL         "goodbye",ARXRLE_REACTORS_CK_STATE_GOODBYE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,270,80,44,10
+    CONTROL         "openedForModify",ARXRLE_REACTORS_CK_STATE_OPENMOD,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,270,90,70,10
+    CONTROL         "subObjModified",ARXRLE_REACTORS_CK_STATE_SUBOBJMOD,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,270,100,64,10
+    CONTROL         "modifyUndone",ARXRLE_REACTORS_CK_STATE_MODUNDONE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,270,110,60,10
+    CONTROL         "modifiedXdata",ARXRLE_REACTORS_CK_STATE_MODXDATA,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,270,120,65,10
+    CONTROL         "modifiedGraphics",ARXRLE_REACTORS_CK_STATE_MODGRAPHICS,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,270,130,69,10
+    CONTROL         "unappended",ARXRLE_REACTORS_CK_STATE_UNAPPENDED,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,270,140,70,10
+    CONTROL         "reappended",ARXRLE_REACTORS_CK_STATE_REAPPENDED,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,270,150,65,10
+END
+
+ARXRLE_TDM_REACTORS DIALOGEX 0, 0, 374, 250
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Reactors"
+FONT 8, "Microsoft Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,265,230,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,320,230,50,14
+    CONTROL         "Tab1",ARXRLE_REACTORS_TAB,"SysTabControl32",0x0,9,6,365,220
+END
+
+ARXRLE_TDC_LONG_TRANS DIALOGEX 0, 0, 409, 235
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 0, 0, 0x0
+BEGIN
+    CONTROL         "Tree1",ARXRLE_LONG_TRANS_TR_OBJS,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_DISABLEDRAGDROP | TVS_SHOWSELALWAYS | WS_BORDER | WS_HSCROLL | WS_TABSTOP,5,10,145,180
+    CONTROL         "List1",ARXRLE_LONG_TRANS_LC_VALUES,"SysListView32",LVS_REPORT | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,155,10,245,180
+    PUSHBUTTON      "DXF...",ARXRLE_LONG_TRANS_BN_DXF,10,195,55,14
+    PUSHBUTTON      "Xdata...",ARXRLE_LONG_TRANS_BN_XDATA,10,215,55,14
+    PUSHBUTTON      "Extension Dict...",ARXRLE_LONG_TRANS_BN_EXTDICT,70,195,55,14
+    PUSHBUTTON      "Reactors...",ARXRLE_LONG_TRANS_BN_REACTORS,70,215,55,14
+    PUSHBUTTON      "Document...",ARXRLE_LONG_TRANS_BN_DOCUMENT,130,195,55,14
+    PUSHBUTTON      "References...",ARXRLE_LONG_TRANS_BN_REFERENCED_OBJS,130,215,55,14
+    PUSHBUTTON      "Show IdMap...",ARXRLE_LONG_TRANS_BN_IDMAP,340,195,60,14
+END
+
+ARXRLE_TDC_OBJS DIALOGEX 0, 0, 409, 235
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 0, 0, 0x0
+BEGIN
+    LISTBOX         ARXRLE_OBJS_LB_OBJS,5,10,145,180,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "List1",ARXRLE_OBJS_LC_DATA,"SysListView32",LVS_REPORT | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,155,10,245,180
+    PUSHBUTTON      "DXF...",ARXRLE_OBJS_BN_DXF,10,195,55,14
+    PUSHBUTTON      "Xdata...",ARXRLE_OBJS_BN_XDATA,10,215,55,14
+    PUSHBUTTON      "Extension Dict...",ARXRLE_OBJS_BN_EXTDICT,70,195,55,14
+    PUSHBUTTON      "Reactors...",ARXRLE_OBJS_BN_REACTORS,70,215,55,14
+    PUSHBUTTON      "Document...",ARXRLE_OBJS_BN_DOCUMENT,130,195,55,14
+    PUSHBUTTON      "References...",ARXRLE_OBJS_BN_REFERENCED_OBJS,130,215,55,14
+    PUSHBUTTON      "Database...",ARXRLE_OBJS_BN_DATABASE,190,195,55,14
+    LTEXT           "This entity is currently erased.",ARXRLE_OBJS_EB_ERASE_STATUS,275,195,100,8,NOT WS_VISIBLE
+END
+
+ARXRLE_TDC_IDMAP DIALOGEX 0, 0, 462, 217
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 0, 0, 0x0
+BEGIN
+    CONTROL         "List1",ARXRLE_IDMAP_LC_VALUES,"SysListView32",LVS_REPORT | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,5,10,165,200
+    CONTROL         "List1",ARXRLE_IDMAP_LC_MAPVALUES,"SysListView32",LVS_REPORT | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,175,10,280,200
+END
+
+ARXRLE_TDM_IDMAP DIALOGEX 0, 0, 474, 266
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ID Map"
+FONT 8, "Microsoft Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,365,245,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,420,245,50,14
+    CONTROL         "Tab1",ARXRLE_IDMAP_TAB,"SysTabControl32",0x0,5,5,465,235
+END
+
+ARXRLE_DLG_FILER_TEST DIALOGEX 0, 0, 169, 60
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "DWG Filer Test"
+FONT 8, "Microsoft Sans Serif", 0, 0, 0x0
+BEGIN
+    LTEXT           "Filer Type:",IDC_STATIC,10,10,33,8
+    COMBOBOX        ARXRLE_FILER_TEST_CB_FILER_TYPE,45,10,105,110,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,32,40,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,87,40,50,14
+END
+
+ARXRLE_DLG_GENERIC_DEF_ID DIALOGEX 0, 0, 250, 141
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Style"
+FONT 8, "Microsoft Sans Serif", 0, 0, 0x0
+BEGIN
+    LTEXT           "",ARXRLE_GENERIC_DEF_ID_EB_PROMPT,8,4,232,8
+    CONTROL         "List1",ARXRLE_GENERIC_DEF_ID_LC_DEF_IDS,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,8,16,232,96
+    DEFPUSHBUTTON   "OK",IDOK,72,120,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,128,120,50,14
+END
+
+ARXRLE_DLG_SSGET DIALOGEX 0, 0, 294, 195
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Selection Set Test"
+FONT 8, "Microsoft Sans Serif", 0, 0, 0x0
+BEGIN
+    LTEXT           "Main Selection Method:",IDC_STATIC,10,10,75,8
+    COMBOBOX        ARXRLE_SSGET_CB_MAIN_SELECT_METHOD,90,10,110,110,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Flags",IDC_STATIC,10,30,125,75
+    CONTROL         "Filter Locked Layers",ARXRLE_SSGET_CK_FILTER_LOCKED,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,45,110,10
+    CONTROL         "Reject Non-Current Space",ARXRLE_SSGET_CK_REJECT_NON_CURRENT,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,55,110,10
+    CONTROL         "Reject Paper Space Viewport",ARXRLE_SSGET_CK_REJECT_PSPACE_VPORT,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,65,110,10
+    CONTROL         "Allow Duplicates",ARXRLE_SSGET_CK_ALLOW_DUPS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,75,95,10
+    CONTROL         "Allow Single Only",ARXRLE_SSGET_CK_SINGLE_ONLY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,85,105,10
+    GROUPBOX        "Callbacks",IDC_STATIC,10,110,125,40
+    CONTROL         "Keyword Callback",ARXRLE_SSGET_CK_KEYWORD_CALLBACK,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,125,70,10
+    CONTROL         "Other Callback",ARXRLE_SSGET_CK_OTHER_CALLBACK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,135,60,10
+    CONTROL         "Select Objects",ARXRLE_SSGET_BN_SELECT_OBJS,"Button",BS_OWNERDRAW | WS_TABSTOP,10,155,15,14
+    LTEXT           "Run Selection Test",IDC_STATIC,30,160,58,8
+    GROUPBOX        "Prompts",IDC_STATIC,140,30,145,50
+    CONTROL         "Select:",ARXRLE_SSGET_CK_USE_SELECT_PROMPT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,145,45,37,10
+    EDITTEXT        ARXRLE_SSGET_EB_SELECT_PROMPT,185,40,95,14,ES_AUTOHSCROLL
+    CONTROL         "Remove:",ARXRLE_SSGET_CK_USE_REMOVE_PROMPT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,145,60,40,8
+    EDITTEXT        ARXRLE_SSGET_EB_REMOVE_PROMPT,185,55,95,14,ES_AUTOHSCROLL
+    GROUPBOX        "Filter",IDC_STATIC,140,85,145,65
+    CONTROL         "Apply Filter",ARXRLE_SSGET_CK_USE_FILTER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,150,100,70,10
+    LTEXT           "Class Type:",IDC_STATIC,150,115,40,8
+    COMBOBOX        ARXRLE_SSGET_CB_CLASSTYPE,190,115,90,115,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Do isKindOf() Test",ARXRLE_SSGET_CK_DO_ISKINDOF_TEST,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,150,130,70,10
+    DEFPUSHBUTTON   "OK",IDOK,120,175,50,14
+END
+
+ARXRLE_TDC_CLONESET DIALOGEX 0, 0, 327, 187
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 0, 0, 0x0
+BEGIN
+    LTEXT           "Databases",IDC_STATIC,10,5,35,8
+    LISTBOX         ARXRLE_CLONESET_LB_DATABASES,10,15,110,130,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Objects",IDC_STATIC,130,5,24,8
+    LISTBOX         ARXRLE_CLONESET_LB_OBJECTS,130,15,135,130,LBS_NOINTEGRALHEIGHT | LBS_EXTENDEDSEL | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Show...",ARXRLE_CLONESET_BN_OBJ_SHOW,270,45,50,14
+    PUSHBUTTON      "Browse...",ARXRLE_CLONESET_BN_OBJ_BROWSE,270,65,50,14
+    PUSHBUTTON      "Remove",ARXRLE_CLONESET_BN_OBJ_REMOVE,270,85,50,14
+    PUSHBUTTON      "Remove All",ARXRLE_CLONESET_BN_OBJ_REMOVEALL,270,105,50,14
+    CONTROL         "Select",ARXRLE_CLONESET_BN_SELECT,"Button",BS_OWNERDRAW | WS_TABSTOP,10,155,15,14
+    LTEXT           "Select Entities",IDC_STATIC,30,160,43,8
+    LTEXT           "NOTE: You can right-click on the grey area of most browsing dialogs to add objects to the clone set",IDC_STATIC,125,153,160,25
+END
+
+ARXRLE_TDC_WBLOCK DIALOGEX 0, 0, 327, 197
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 0, 0, 0x0
+BEGIN
+    LTEXT           "Source Database",IDC_STATIC,10,5,54,8
+    LISTBOX         ARXRLE_WBLOCK_LB_SOURCE_DB,10,15,150,55,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Wblock Selected Objects",IDC_STATIC,10,75,150,55
+    PUSHBUTTON      "Wblock Clone Set",ARXRLE_WBLOCK_BN_WBLOCK_CLONE_SET,20,90,80,14
+    CONTROL         "Select Base Point",ARXRLE_WBLOCK_BN_PICKPT,"Button",BS_OWNERDRAW | WS_TABSTOP,20,110,15,14
+    LTEXT           "Base Point;",IDC_STATIC,40,115,35,8
+    LTEXT           "Static",ARXRLE_WBLOCK_EB_BASE_PT,80,115,70,8
+    GROUPBOX        "Wblock Entire Database",IDC_STATIC,10,135,150,55
+    PUSHBUTTON      "Wblock All",ARXRLE_WBLOCK_BN_WBLOCK_ALL,20,150,80,14
+    CONTROL         "Force Wblock Database Copy",ARXRLE_WBLOCK_CK_FORCE_WBLOCK_COPY,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,170,125,10
+    LTEXT           "Destination Database",IDC_STATIC,170,5,66,8
+    LISTBOX         ARXRLE_WBLOCK_LB_DEST_DB,170,15,150,55,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Wblock Block Definition",IDC_STATIC,170,75,150,55
+    PUSHBUTTON      "Wblock Block Definition",ARXRLE_WBLOCK_BN_WBLOCK_BLKDEF,180,90,80,14
+    LTEXT           "Block:",IDC_STATIC,180,110,20,8
+    COMBOBOX        ARXRLE_WBLOCK_CB_BLKDEFS,205,110,110,125,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Save final result as DWG file",ARXRLE_WBLOCK_CK_SAVE_AS_DWG,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,170,140,145,10
+    LTEXT           "NOTE:  Selecting an existing destination database will do a combination of WBLOCK/INSERT.",IDC_STATIC,170,158,150,25
+END
+
+ARXRLE_TDM_TRANSDB_CLONES DIALOGEX 0, 0, 339, 240
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Trans-Database Clones"
+FONT 8, "Microsoft Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,230,220,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,285,220,50,14
+    CONTROL         "Tab1",ARXRLE_TRANSDB_CLONES_TAB,"SysTabControl32",0x0,5,5,330,210
+END
+
+ARXRLE_TDC_INSERT DIALOGEX 0, 0, 327, 197
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 0, 0, 0x0
+BEGIN
+    LTEXT           "Source Database",IDC_STATIC,10,5,54,8
+    LISTBOX         ARXRLE_INSERT_LB_SOURCE_DB,10,15,150,55,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Insert Database",IDC_STATIC,10,75,150,40
+    PUSHBUTTON      "Insert",ARXRLE_INSERT_BN_INSERT_ALL,20,90,60,14
+    GROUPBOX        "Insert As Block Definition",IDC_STATIC,10,120,150,55
+    PUSHBUTTON      "Insert As Block",ARXRLE_INSERT_BN_INSERT_AS_BLOCK,20,135,60,14
+    LTEXT           "Destination Name:",IDC_STATIC,20,160,56,8
+    EDITTEXT        ARXRLE_INSERT_EB_DESTNAME1,80,155,75,14,ES_AUTOHSCROLL
+    LTEXT           "Destination Database",IDC_STATIC,170,5,66,8
+    LISTBOX         ARXRLE_INSERT_LB_DEST_DB,170,15,150,55,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Transfer Block Definition",IDC_STATIC,170,75,150,65
+    PUSHBUTTON      "Transfer",ARXRLE_INSERT_BN_TRANSFER_BLKDEF,180,90,60,14
+    LTEXT           "Source Name:",IDC_STATIC,180,110,44,8
+    COMBOBOX        ARXRLE_INSERT_CB_BLKDEFS,240,105,75,130,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Destination Name:",IDC_STATIC,180,125,56,8
+    EDITTEXT        ARXRLE_INSERT_EB_DESTNAME2,240,120,75,14,ES_AUTOHSCROLL
+    CONTROL         "Save final result as DWG file",ARXRLE_INSERT_CK_SAVE_AS_DWG,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,170,145,145,10
+    CONTROL         "Preserve source database",ARXRLE_INSERT_CB_PRESERVE_SRC_DB,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,170,155,125,10
+    PUSHBUTTON      "Add External Drawing...",ARXRLE_INSERT_BN_EXTDWG,205,175,80,14
+END
+
+ARXRLE_DLG_OBJECT_ID_INFO DIALOGEX 0, 0, 264, 225
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Object Id Info"
+FONT 8, "Microsoft Sans Serif", 0, 0, 0x0
+BEGIN
+    LTEXT           "Object: ",IDC_STATIC,10,10,24,8
+    LTEXT           "Static",ARXRLE_OBJECT_ID_INFO_EB_OBJTYPE,40,10,215,8
+    CONTROL         "List1",ARXRLE_OBJECT_ID_INFO_LC_VALUES,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,10,25,245,165
+    DEFPUSHBUTTON   "OK",IDOK,79,200,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,134,200,50,14
+END
+
+ARXRLE_TDC_HOSTAPPSERV DIALOGEX 0, 0, 404, 195
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 0, 0, 0x0
+BEGIN
+    CONTROL         "List1",ARXRLE_HOSTAPPSERV_LC_DATA,"SysListView32",LVS_REPORT | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,5,10,390,180
+END
+
+ARXRLE_DLG_MEASURE DIALOGEX 0, 0, 257, 135
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "导入导出测量数据"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,199,97,50,14
+    PUSHBUTTON      "取消",IDCANCEL,199,116,50,14
+    LTEXT           "选择测量数据文件:",IDC_STATIC,27,44,68,8
+    LTEXT           "选择测量数据格式:",IDC_STATIC,27,16,68,8
+    LTEXT           "选择生成成果方式:",IDC_STATIC,27,72,68,8
+    EDITTEXT        ARXRLE_MEASURE_EB_DATAFILE,104,41,110,14,ES_AUTOHSCROLL
+    COMBOBOX        ARXRLE_MEASURE_CB_DATATYPE,104,14,110,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        ARXRLE_MEASURE_CB_RESULTTYPE,104,70,110,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "",ARXRLE_MEASURE_BN_DATAFILE,215,41,15,14,BS_ICON
+    CONTROL         "坐标",ARXRLE_MEASURE_CK_XY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,38,98,32,10
+    CONTROL         "高程",ARXRLE_MEASURE_CK_Z,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,38,117,32,10
+    CONTROL         "横断面",ARXRLE_MEASURE_CK_HDM,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,115,98,40,10
+    CONTROL         "纵断面",ARXRLE_MEASURE_CK_ZDM,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,115,117,40,10
+END
+
+ARXRLE_DLG_WINDOTYPE DIALOGEX 0, 0, 262, 126
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Window Parameters - Modeless"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "Window Type",IDC_STATIC,7,4,58,91,WS_GROUP
+    CONTROL         "&Rect",ARXRLE_WINDOTYPE_RB_TYPERECT,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,13,17,31,10
+    CONTROL         "&Arch",ARXRLE_WINDOTYPE_RB_TYPEARCH,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,13,45,31,10
+    CONTROL         "Ape&x",ARXRLE_WINDOTYPE_RB_TYPEAPEX,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,13,74,32,10
+    GROUPBOX        "Specifications",IDC_STATIC,71,4,89,91,WS_GROUP
+    LTEXT           "&Height",IDC_STATIC,77,18,32,8
+    EDITTEXT        ARXRLE_WINDOTYPE_EB_HEIGHT,109,18,40,14,ES_AUTOHSCROLL
+    LTEXT           "&Width",IDC_STATIC,77,39,32,8
+    EDITTEXT        ARXRLE_WINDOTYPE_EB_WIDTH,109,36,40,14,ES_AUTOHSCROLL
+    LTEXT           "&Columns",IDC_STATIC,77,57,32,8
+    EDITTEXT        ARXRLE_WINDOTYPE_EB_COLS,109,56,40,14,ES_AUTOHSCROLL
+    CONTROL         "Spin1",ARXRLE_WINDOTYPE_SN_COLS,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,150,56,10,14
+    LTEXT           "&Rows",IDC_STATIC,77,77,32,8
+    EDITTEXT        ARXRLE_WINDOTYPE_EB_ROWS,109,75,40,14,ES_AUTOHSCROLL
+    CONTROL         "Spin1",ARXRLE_WINDOTYPE_SN_ROWS,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,150,74,10,14
+    GROUPBOX        "Start Point",IDC_STATIC,166,4,89,91
+    PUSHBUTTON      "< Pick",ARXRLE_WINDOTYPE_BN_PICKPT,175,18,71,14
+    LTEXT           "&X Value",IDC_STATIC,174,39,32,8
+    EDITTEXT        ARXRLE_WINDOTYPE_EB_XVAL,206,36,40,14,ES_AUTOHSCROLL
+    LTEXT           "&Y Value",IDC_STATIC,174,57,32,8
+    EDITTEXT        ARXRLE_WINDOTYPE_EB_YVAL,206,56,40,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Draw Window",IDOK,133,103,58,14
+    PUSHBUTTON      "Cancel",IDCANCEL,195,103,58,14
+    CONTROL         "Show Toolbar",ARXRLE_WINDOTYPE_CK_VISTB,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,105,60,10
+    PUSHBUTTON      "Hide Dialog",ARXRLE_WINDOTYPE_BN_HIDEDLG,71,103,58,14,WS_DISABLED
+END
+
+ARXRLE_DLG_SERV_DICT DIALOGEX 0, 0, 299, 155
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Service Dictionary"
+FONT 8, "Microsoft Sans Serif", 0, 0, 0x0
+BEGIN
+    CONTROL         "List1",ARXRLE_SERV_DICT_LC_SERVICES,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,5,5,290,120
+    PUSHBUTTON      "Add Dependency",ARXRLE_SERV_DICT_BN_ADD,8,132,72,14
+    PUSHBUTTON      "Remove Dependency",ARXRLE_SERV_DICT_BN_REMOVE,84,132,72,14
+    DEFPUSHBUTTON   "OK",IDOK,240,130,50,14
+END
+
+ARXRLE_DLG_CRDTRM DIALOGEX 0, 0, 282, 238
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "CrdTrn"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CONTROL         "BLH -> XYZ",ARXRLE_CRDTRM_RO_MODE1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,115,23,45,10
+    CONTROL         "XYZ -> BLH",ARXRLE_CRDTRM_RO_MODE2,"Button",BS_AUTORADIOBUTTON,177,21,45,14
+    CONTROL         "BLH -> xyH",ARXRLE_CRDTRM_RO_MODE3,"Button",BS_AUTORADIOBUTTON,115,44,45,14
+    CONTROL         "xyH -> BLH",ARXRLE_CRDTRM_RO_MODE4,"Button",BS_AUTORADIOBUTTON,177,44,45,14
+    CONTROL         "XYZ -> XYZ",ARXRLE_CRDTRM_RO_MODE5,"Button",BS_AUTORADIOBUTTON,17,92,45,10
+    EDITTEXT        ARXRLE_CRDTRM_EB_INPUT_B,93,97,49,13,ES_RIGHT | ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_CRDTRM_EB_INPUT_L,93,116,49,13,ES_RIGHT | ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_CRDTRM_EB_INPUT_H,93,134,49,13,ES_RIGHT | ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_CRDTRM_EB_OUTPUT_X,216,97,49,13,ES_RIGHT | ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        ARXRLE_CRDTRM_EB_OUTPUT_Y,216,115,49,13,ES_RIGHT | ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        ARXRLE_CRDTRM_EB_OUTPUT_Z,216,134,49,13,ES_RIGHT | ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "读入(&R)",ARXRLE_CRDTRM_BN_READ,149,114,49,15
+    CTEXT           "B:",ARXRLE_CRDTRM_SC_IN1,78,98,12,11,SS_CENTERIMAGE
+    CTEXT           "L:",ARXRLE_CRDTRM_SC_IN2,78,117,12,11,SS_CENTERIMAGE
+    CTEXT           "H:",ARXRLE_CRDTRM_SC_IN3,78,136,12,11,SS_CENTERIMAGE
+    GROUPBOX        "输入输出",IDC_STATIC,75,72,197,79,0,WS_EX_STATICEDGE
+    CTEXT           "X:",ARXRLE_CRDTRM_SC_OUT1,201,98,12,11,SS_CENTERIMAGE
+    CTEXT           "Y:",ARXRLE_CRDTRM_SC_OUT2,201,117,12,11,SS_CENTERIMAGE
+    CTEXT           "Z:",ARXRLE_CRDTRM_SC_OUT3,201,136,12,11,SS_CENTERIMAGE
+    GROUPBOX        "同参数间转换",IDC_STATIC,6,5,266,63,0,WS_EX_STATICEDGE
+    CONTROL         "WGS-84",ARXRLE_CRDTRM_RO_REF1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,26,17,45,10
+    CONTROL         "BJ54",ARXRLE_CRDTRM_RO_REF2,"Button",BS_AUTORADIOBUTTON,26,34,45,10
+    CONTROL         "XI'AN80",ARXRLE_CRDTRM_RO_REF3,"Button",BS_AUTORADIOBUTTON,26,52,45,10
+    PUSHBUTTON      "清零(&D)",ARXRLE_CRDTRM_BN_CLEAR,149,133,49,15
+    CTEXT           "中央子午线经度:",ARXRLE_CRDTRM_SC_IN4,87,82,55,11,SS_CENTERIMAGE
+    EDITTEXT        ARXRLE_CRDTRM_EB_INPUT_L0,148,81,49,13,ES_RIGHT | ES_AUTOHSCROLL
+    PUSHBUTTON      "设置(&S)",ARXRLE_CRDTRM_BN_SET,14,118,49,25
+    PUSHBUTTON      "转换(&T)",ARXRLE_CRDTRM_BN_CONVERT,149,96,49,15
+    GROUPBOX        "不同参数间转换",IDC_STATIC,6,72,58,79,0,WS_EX_STATICEDGE
+    GROUPBOX        "",IDC_STATIC,109,11,146,53
+    GROUPBOX        "",IDC_STATIC,13,11,66,53
+    GROUPBOX        "空间转换参数",IDC_STATIC,6,166,266,68,0,WS_EX_STATICEDGE
+    EDITTEXT        ARXRLE_CRDTRM_EB_DX,31,181,51,14,ES_AUTOHSCROLL,WS_EX_RIGHT
+    EDITTEXT        ARXRLE_CRDTRM_EB_DY,31,198,51,14,ES_AUTOHSCROLL,WS_EX_RIGHT
+    EDITTEXT        ARXRLE_CRDTRM_EB_DZ,31,215,51,14,ES_AUTOHSCROLL,WS_EX_RIGHT
+    EDITTEXT        ARXRLE_CRDTRM_EB_RX,105,181,51,14,ES_AUTOHSCROLL,WS_EX_RIGHT
+    EDITTEXT        ARXRLE_CRDTRM_EB_RY,105,198,51,14,ES_AUTOHSCROLL,WS_EX_RIGHT
+    EDITTEXT        ARXRLE_CRDTRM_EB_RZ,105,215,51,14,ES_AUTOHSCROLL,WS_EX_RIGHT
+    EDITTEXT        ARXRLE_CRDTRM_EB_M,180,181,45,14,ES_AUTOHSCROLL,WS_EX_RIGHT
+    LTEXT           "dx:",IDC_STATIC,14,183,14,11
+    LTEXT           "dy:",IDC_STATIC,14,200,13,11
+    LTEXT           "dz:",IDC_STATIC,14,217,10,11
+    LTEXT           "εx:",IDC_STATIC,88,183,17,11
+    LTEXT           "m:",IDC_STATIC,165,182,10,11
+    LTEXT           "εy:",IDC_STATIC,88,200,17,11
+    LTEXT           "εz:",IDC_STATIC,88,217,17,11
+    PUSHBUTTON      "读取公共点并计算",ARXRLE_CRDTRM_BN_FILE,210,204,56,23
+    CONTROL         "",ARXRLE_CRDTRM_PC_SEPARATOR,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,6,158,266,1
+    PUSHBUTTON      "应用",ARXRLE_CRDTRM_BN_APPLY,168,205,33,23
+END
+
+ARXRLE_DLG_REG DIALOGEX 0, 0, 245, 63
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "软件注册"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "注册",IDOK,201,27,38,14
+    PUSHBUTTON      "关闭",IDCANCEL,201,44,38,14
+    DEFPUSHBUTTON   "生成机器码",ARXRLE_REG_BN_CODE,136,6,50,13,BS_FLAT
+    CONTROL         "用户名：",IDC_STATIC,"Static",SS_SIMPLE | WS_GROUP,11,8,33,8
+    EDITTEXT        ARXRLE_REG_EB_USER,47,7,84,12,ES_UPPERCASE | ES_AUTOHSCROLL
+    CONTROL         "机器码：",IDC_STATIC,"Static",SS_SIMPLE | WS_GROUP,11,31,33,8
+    EDITTEXT        ARXRLE_REG_EB_CODE,47,29,145,12,ES_UPPERCASE | ES_AUTOHSCROLL
+    CONTROL         "注册码：",IDC_STATIC,"Static",SS_SIMPLE | WS_GROUP,11,48,33,8
+    EDITTEXT        ARXRLE_REG_EB_SN1,47,46,31,12,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_REG_EB_SN2,85,46,31,12,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_REG_EB_SN3,123,46,31,12,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_REG_EB_SN4,161,46,31,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "生成注册码",ARXRLE_REG_BN_SERIAL,189,6,50,13,BS_FLAT
+END
+
+ARXRLE_DLG_DRAW_CONDITION DIALOGEX 0, 0, 321, 309
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "条件绘图"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    COMBOBOX        ARXRLE_DRAW_CONDITION_CB_TYPE,63,6,161,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        ARXRLE_DRAW_CONDITION_EB_X1,20,35,69,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_DRAW_CONDITION_EB_Y1,103,35,69,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_DRAW_CONDITION_EB_Z1,186,35,69,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_DRAW_CONDITION_EB_X2,20,54,69,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_DRAW_CONDITION_EB_Y2,103,54,69,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_DRAW_CONDITION_EB_Z2,186,54,69,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_DRAW_CONDITION_EB_A,62,90,69,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_DRAW_CONDITION_EB_B,195,90,69,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_DRAW_CONDITION_EB_C,62,109,69,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_DRAW_CONDITION_EB_D,195,109,69,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_DRAW_CONDITION_EB_E,62,128,69,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_DRAW_CONDITION_EB_F,195,128,69,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_DRAW_CONDITION_EB_G,62,147,69,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_DRAW_CONDITION_EB_H,195,147,69,14,ES_AUTOHSCROLL
+    CONTROL         "绘制文本",ARXRLE_DRAW_CONDITION_CK_TEXT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,252,8,48,10
+    CONTROL         "Pt1",ARXRLE_DRAW_CONDITION_BN_PT1,"Button",BS_OWNERDRAW | WS_TABSTOP,258,34,16,16
+    CONTROL         "Pt2",ARXRLE_DRAW_CONDITION_BN_PT2,"Button",BS_OWNERDRAW | WS_TABSTOP,258,53,16,16
+    CONTROL         "",ARXRLE_DRAW_CONDITION_CK_A,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,133,93,8,8
+    CONTROL         "",ARXRLE_DRAW_CONDITION_CK_B,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,266,93,8,8
+    CONTROL         "",ARXRLE_DRAW_CONDITION_CK_C,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,133,112,8,8
+    CONTROL         "",ARXRLE_DRAW_CONDITION_CK_D,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,266,112,8,8
+    CONTROL         "",ARXRLE_DRAW_CONDITION_CK_E,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,133,131,8,8
+    CONTROL         "计算",ARXRLE_DRAW_CONDITION_BN_CALC,"Button",BS_OWNERDRAW | WS_TABSTOP,286,37,28,32
+    LTEXT           "功能",IDC_STATIC,41,8,17,8
+    GROUPBOX        "点",IDC_STATIC,6,24,273,51,0,WS_EX_STATICEDGE
+    LTEXT           "X",IDC_STATIC,10,38,8,8,0,WS_EX_RIGHT
+    LTEXT           "Y",IDC_STATIC,92,38,8,8,0,WS_EX_RIGHT
+    LTEXT           "Z",IDC_STATIC,176,38,8,8,0,WS_EX_RIGHT
+    LTEXT           "X",IDC_STATIC,10,57,8,8,0,WS_EX_RIGHT
+    LTEXT           "Y",IDC_STATIC,92,57,8,8,0,WS_EX_RIGHT
+    LTEXT           "Z",IDC_STATIC,176,57,8,8,0,WS_EX_RIGHT
+    GROUPBOX        "参数",IDC_STATIC,6,79,273,88,0,WS_EX_STATICEDGE
+    LTEXT           "A",ARXRLE_DRAW_CONDITION_SC_A,14,93,45,8,0,WS_EX_RIGHT
+    LTEXT           "B",ARXRLE_DRAW_CONDITION_SC_B,146,93,45,8,0,WS_EX_RIGHT
+    LTEXT           "C",ARXRLE_DRAW_CONDITION_SC_C,14,112,45,8,0,WS_EX_RIGHT
+    LTEXT           "D",ARXRLE_DRAW_CONDITION_SC_D,146,112,45,8,0,WS_EX_RIGHT
+    LTEXT           "E",ARXRLE_DRAW_CONDITION_SC_E,14,131,45,8,0,WS_EX_RIGHT
+    LTEXT           "F",ARXRLE_DRAW_CONDITION_SC_F,146,131,45,8,0,WS_EX_RIGHT
+    CONTROL         "选择",ARXRLE_DRAW_CONDITION_BN_SEL,"Button",BS_OWNERDRAW | WS_TABSTOP,286,89,28,32
+    CONTROL         "执行",ARXRLE_DRAW_CONDITION_BN_EXEC,"Button",BS_OWNERDRAW | WS_TABSTOP,286,129,28,32
+    CONTROL         "",ARXRLE_DRAW_CONDITION_PC_SEPARATOR,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,4,171,311,1
+    CONTROL         "收起",ARXRLE_DRAW_CONDITION_BN_ROLL,"Button",BS_OWNERDRAW | WS_TABSTOP,286,182,28,32
+    CONTROL         "导出",ARXRLE_DRAW_CONDITION_BN_EXPORT,"Button",BS_OWNERDRAW | WS_TABSTOP,286,225,28,32
+    CONTROL         "清空",ARXRLE_DRAW_CONDITION_BN_CLEAR,"Button",BS_OWNERDRAW | WS_TABSTOP,286,268,28,32
+    LTEXT           "G",ARXRLE_DRAW_CONDITION_SC_G,14,150,45,8,0,WS_EX_RIGHT
+    LTEXT           "H",ARXRLE_DRAW_CONDITION_SC_H,146,150,45,8,0,WS_EX_RIGHT
+    CONTROL         "",ARXRLE_DRAW_CONDITION_LC_RESULT,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,6,183,273,121
+    CONTROL         "",ARXRLE_DRAW_CONDITION_CK_G,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,133,150,8,8
+    CONTROL         "",ARXRLE_DRAW_CONDITION_CK_F,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,266,131,8,8
+    CONTROL         "",ARXRLE_DRAW_CONDITION_CK_H,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,266,150,8,8
+END
+
+ARXRLE_DLG_ENTPROPERTY DIALOGEX 0, 0, 123, 199
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    COMBOBOX        ARXRLE_ENTPROPERTY_CB_NAME,0,2,72,30,CBS_DROPDOWNLIST | CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "pt",ARXRLE_ENTPROPERTY_BN_UPLIST,"Button",BS_OWNERDRAW | WS_TABSTOP,74,1,14,14
+    CONTROL         "sel",ARXRLE_ENTPROPERTY_BN_SELECT,"Button",BS_OWNERDRAW | WS_TABSTOP,90,1,14,14
+    CONTROL         "clr",ARXRLE_ENTPROPERTY_BN_UPENTITY,"Button",BS_OWNERDRAW | WS_TABSTOP,106,1,14,14
+    LISTBOX         ARXRLE_ENTPROPERTY_LB_ATTRIB,0,17,120,181,LBS_OWNERDRAWFIXED | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+ARXRLE_DLG_DIMLAND DIALOGEX 0, 0, 321, 242
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "用地标注"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        ARXRLE_DIMLAND_EB_X1,20,16,69,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_DIMLAND_EB_Y1,103,16,69,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_DIMLAND_EB_Z1,186,16,69,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_DIMLAND_EB_X2,20,35,69,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_DIMLAND_EB_Y2,103,35,69,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_DIMLAND_EB_Z2,186,35,69,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_DIMLAND_EB_PRIX,62,71,69,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_DIMLAND_EB_GAP,195,71,69,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_DIMLAND_EB_FONT,62,90,69,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_DIMLAND_EB_SIZE,195,90,69,14,ES_AUTOHSCROLL
+    CONTROL         "Pt1",ARXRLE_DIMLAND_BN_PT1,"Button",BS_OWNERDRAW | WS_TABSTOP,258,15,16,16
+    CONTROL         "Pt2",ARXRLE_DIMLAND_BN_PT2,"Button",BS_OWNERDRAW | WS_TABSTOP,258,34,16,16
+    CONTROL         "实体",ARXRLE_DIMLAND_BN_ENT,"Button",BS_OWNERDRAW | WS_TABSTOP,286,18,28,32
+    GROUPBOX        "线路",IDC_STATIC,6,5,273,51,0,WS_EX_STATICEDGE
+    LTEXT           "X",IDC_STATIC,10,19,8,8,0,WS_EX_RIGHT
+    LTEXT           "Y",IDC_STATIC,92,19,8,8,0,WS_EX_RIGHT
+    LTEXT           "Z",IDC_STATIC,176,19,8,8,0,WS_EX_RIGHT
+    LTEXT           "X",IDC_STATIC,10,38,8,8,0,WS_EX_RIGHT
+    LTEXT           "Y",IDC_STATIC,92,38,8,8,0,WS_EX_RIGHT
+    LTEXT           "Z",IDC_STATIC,176,38,8,8,0,WS_EX_RIGHT
+    GROUPBOX        "参数",IDC_STATIC,6,60,273,51,0,WS_EX_STATICEDGE
+    LTEXT           "桩号前缀",IDC_STATIC,14,74,45,8,0,WS_EX_RIGHT
+    LTEXT           "桩号间距",IDC_STATIC,146,74,45,8,0,WS_EX_RIGHT
+    LTEXT           "字体高度",IDC_STATIC,14,93,45,8,0,WS_EX_RIGHT
+    LTEXT           "标注大小",IDC_STATIC,146,93,45,8,0,WS_EX_RIGHT
+    CONTROL         "标注",ARXRLE_DIMLAND_BN_DIMLAND,"Button",BS_OWNERDRAW | WS_TABSTOP,286,70,28,32
+    CONTROL         "导入",ARXRLE_DIMLAND_BN_IMPORT,"Button",BS_OWNERDRAW | WS_TABSTOP,286,117,28,32
+    CONTROL         "导出",ARXRLE_DIMLAND_BN_EXPORT,"Button",BS_OWNERDRAW | WS_TABSTOP,286,159,28,32
+    CONTROL         "清空",ARXRLE_DIMLAND_BN_CLEAR,"Button",BS_OWNERDRAW | WS_TABSTOP,286,202,28,32
+    CONTROL         "",ARXRLE_DIMLAND_LC_RESULT,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,6,117,273,121
+END
+
+ARXRLE_DLG_TREEDLG DIALOGEX 0, 0, 124, 116
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Info"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    CONTROL         "Tree1",ARXRLE_TREEDLG_TR,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | WS_BORDER | WS_HSCROLL | WS_TABSTOP,7,7,110,84
+    DEFPUSHBUTTON   "Close",IDOK,7,96,110,14
+END
+
+ARXRLE_DLG_REACTORS DIALOGEX 0, 0, 304, 166
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Reactors"
+FONT 8, "Microsoft Sans Serif", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "Transient Reactors",IDC_STATIC,10,5,100,135
+    LTEXT           "Class",IDC_STATIC,15,20,18,8
+    LISTBOX         ARXRLE_REACTORS_LB_TRANSIENT,15,30,90,105,LBS_NOINTEGRALHEIGHT | LBS_NOSEL | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Persistent Reactors",IDC_STATIC,115,5,180,135
+    LTEXT           "Handle",IDC_STATIC,120,20,38,8
+    LTEXT           "Class",IDC_STATIC,165,20,18,8
+    LISTBOX         ARXRLE_REACTORS_LB_PERSISTENT,120,30,170,105,LBS_USETABSTOPS | LBS_NOINTEGRALHEIGHT | LBS_NOSEL | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,125,145,50,14
+END
+
+ARXRLE_TDM_NETPLAN DIALOGEX 0, 0, 255, 188
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "参数设置"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,159,173,37,12
+    PUSHBUTTON      "取消",IDCANCEL,207,173,37,12
+    CONTROL         "",ARXRLE_NETPLAN_TAB,"SysTabControl32",0x0,0,0,255,170
+END
+
+ARXRLE_TDC_NETPLAN_PARAM DIALOGEX 0, 0, 250, 160
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "工程名称",IDC_STATIC,11,11,33,8
+    EDITTEXT        ARXRLE_NETPLAN_PARAM_EB_PROJECT,49,9,192,14,ES_AUTOHSCROLL
+    LTEXT           "起始里程",IDC_STATIC,11,31,33,8
+    LTEXT           "终止里程",IDC_STATIC,148,31,33,8
+    EDITTEXT        ARXRLE_NETPLAN_PARAM_EB_BEGINSTAT,49,28,53,15,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_NETPLAN_PARAM_EB_ENDSTAT,188,28,53,15,ES_AUTOHSCROLL
+    LTEXT           "里程长度",IDC_STATIC,11,47,33,8
+    LTEXT           "里程间隔",IDC_STATIC,148,47,33,8
+    EDITTEXT        ARXRLE_NETPLAN_PARAM_EB_STATLEN,49,44,53,14,ES_AUTOHSCROLL
+    COMBOBOX        ARXRLE_NETPLAN_PARAM_CB_STATGAP,188,45,53,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "开工日期",IDC_STATIC,11,67,33,8
+    LTEXT           "竣工日期",IDC_STATIC,148,67,33,8
+    CONTROL         "",ARXRLE_NETPLAN_PARAM_DT_BGGINDATE,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,49,63,53,15
+    CONTROL         "",ARXRLE_NETPLAN_PARAM_DT_ENDDATE,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,188,63,53,15
+    LTEXT           "计划工期",IDC_STATIC,11,83,33,8
+    LTEXT           "日历间隔",IDC_STATIC,148,83,33,8
+    EDITTEXT        ARXRLE_NETPLAN_PARAM_EB_PLANETIME,49,79,53,14,ES_AUTOHSCROLL
+    COMBOBOX        ARXRLE_NETPLAN_PARAM_CB_DAYGAP,188,80,53,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "图纸大小",IDC_STATIC,11,101,33,8
+    COMBOBOX        ARXRLE_NETPLAN_PARAM_CB_PAPERSIZE,49,99,192,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "日历线显示设置",IDC_STATIC,8,120,233,34,0,WS_EX_STATICEDGE
+    CONTROL         "日线",ARXRLE_NETPLAN_PARAM_CK_DAYLINE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,27,136,32,10
+    CONTROL         "月线",ARXRLE_NETPLAN_PARAM_CK_MONTHLINE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,75,136,32,10
+    CONTROL         "年线",ARXRLE_NETPLAN_PARAM_CK_YEARLINE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,123,136,32,10
+    CONTROL         "周线",ARXRLE_NETPLAN_PARAM_CK_WEEKLINE,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,171,136,32,10
+END
+
+ARXRLE_TDC_NETPLAN_WORKDATA DIALOGEX 0, 0, 250, 160
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "工序Xls文件",IDC_STATIC,13,8,42,8
+    LTEXT           "sheet页名",IDC_STATIC,20,25,35,8
+    EDITTEXT        ARXRLE_NETPLAN_WORKDATA_EB_FILEPATH,70,5,110,14,ES_AUTOHSCROLL
+    COMBOBOX        ARXRLE_NETPLAN_WORKDATA_CB_SHEETNAME,70,23,110,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "",ARXRLE_NETPLAN_WORKDATA_BN_FILEPATH,181,5,15,14,BS_ICON
+    LTEXT           "工序名称列号1",IDC_STATIC,23,67,53,8
+    LTEXT           "工序开始时间列号",IDC_STATIC,11,105,65,8
+    LTEXT           "工序结束时间列号",IDC_STATIC,126,105,65,8
+    LTEXT           "最前工序行号",IDC_STATIC,27,132,49,8
+    LTEXT           "最后工序行号",IDC_STATIC,142,132,49,8
+    EDITTEXT        ARXRLE_NETPLAN_WORKDATA_EB_WORKBEGIN,87,129,27,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_NETPLAN_WORKDATA_EB_WORKEND,201,129,27,14,ES_AUTOHSCROLL
+    LTEXT           "工序开始节点列号",IDC_STATIC,11,86,65,8
+    COMBOBOX        ARXRLE_NETPLAN_WORKDATA_CB_WORKNAME1,87,65,34,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        ARXRLE_NETPLAN_WORKDATA_CB_TIMEBEGIN,87,101,34,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        ARXRLE_NETPLAN_WORKDATA_CB_TIMEEND,201,101,34,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        ARXRLE_NETPLAN_WORKDATA_CB_NODEBEGIN,87,83,34,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "工序结束节点列号",IDC_STATIC,126,86,65,8
+    COMBOBOX        ARXRLE_NETPLAN_WORKDATA_CB_WORKNAME2,201,65,34,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "工序名称列号2",IDC_STATIC,138,67,53,8
+    COMBOBOX        ARXRLE_NETPLAN_WORKDATA_CB_NODEEND,201,83,34,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "工序数据设置",IDC_STATIC,8,48,233,105,0,WS_EX_STATICEDGE
+END
+
+ARXRLE_TDC_NETPLAN_WORKSTYLE DIALOGEX 0, 0, 250, 160
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "样式名称",IDC_STATIC,12,7,33,8
+    COMBOBOX        ARXRLE_NETPLAN_WORKSTYLE_CB_STYLENAME,52,5,116,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "图层",IDC_STATIC,16,45,17,8
+    LTEXT           "线型",IDC_STATIC,16,81,17,8
+    LTEXT           "字体",IDC_STATIC,16,63,17,8
+    COMBOBOX        ARXRLE_NETPLAN_WORKSTYLE_CB_LAYER,37,43,44,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        ARXRLE_NETPLAN_WORKSTYLE_CB_LINETYPE,37,79,44,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        ARXRLE_NETPLAN_WORKSTYLE_CB_TEXTSTYLE,37,61,44,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "样式参数设置",IDC_STATIC,8,27,233,126,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "新建",ARXRLE_NETPLAN_WORKSTYLE_BN_NEW,172,5,31,14,BS_ICON
+    PUSHBUTTON      "应  用  更  改",ARXRLE_NETPLAN_WORKSTYLE_BN_APPLY,172,121,54,23,BS_ICON
+    LTEXT           "颜色",IDC_STATIC,16,99,17,8
+    EDITTEXT        ARXRLE_NETPLAN_WORKSTYLE_EB_COLORINDEX,37,96,27,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "",ARXRLE_NETPLAN_WORKSTYLE_BN_COLORINDEX,66,96,15,14,BS_ICON
+    LTEXT           "线型比例",IDC_STATIC,89,45,33,8
+    EDITTEXT        ARXRLE_NETPLAN_WORKSTYLE_EB_LINESCALE,124,42,35,14,ES_AUTOHSCROLL
+    LTEXT           "起点半径",IDC_STATIC,89,63,33,8
+    EDITTEXT        ARXRLE_NETPLAN_WORKSTYLE_EB_RADIUSBEGIN,124,60,35,14,ES_AUTOHSCROLL
+    LTEXT           "终点半径",IDC_STATIC,89,81,33,8
+    EDITTEXT        ARXRLE_NETPLAN_WORKSTYLE_EB_RADIUSEND,124,78,35,14,ES_AUTOHSCROLL
+    LTEXT           "箭头大小",IDC_STATIC,89,99,33,8
+    EDITTEXT        ARXRLE_NETPLAN_WORKSTYLE_EB_LENARROW,124,96,35,14,ES_AUTOHSCROLL
+    LTEXT           "文字大小",IDC_STATIC,165,45,33,8
+    EDITTEXT        ARXRLE_NETPLAN_WORKSTYLE_EB_SIZELABEL,201,42,35,14,ES_AUTOHSCROLL
+    LTEXT           "节点大小",IDC_STATIC,165,63,33,8
+    EDITTEXT        ARXRLE_NETPLAN_WORKSTYLE_EB_SIZENODE,201,60,35,14,ES_AUTOHSCROLL
+    LTEXT           "日历间隔",IDC_STATIC,165,81,33,8
+    EDITTEXT        ARXRLE_NETPLAN_WORKSTYLE_EB_DAYGAP,201,78,35,14,ES_AUTOHSCROLL
+    LTEXT           "日线间隔",IDC_STATIC,165,99,33,8
+    EDITTEXT        ARXRLE_NETPLAN_WORKSTYLE_EB_LINEGAP,201,96,35,14,ES_AUTOHSCROLL
+    CONTROL         "显示起点节点",ARXRLE_NETPLAN_WORKSTYLE_CK_DRAWLABELBEGIN,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,27,122,64,10
+    CONTROL         "显示终点节点",ARXRLE_NETPLAN_WORKSTYLE_CK_DRAWLABELEND,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,97,122,64,10
+    CONTROL         "显示工序名称",ARXRLE_NETPLAN_WORKSTYLE_CK_DRAWLABELUP,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,27,134,64,10
+    CONTROL         "显示工序时长",ARXRLE_NETPLAN_WORKSTYLE_CK_DRAWLABELDOWN,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,97,134,64,10
+    PUSHBUTTON      "删除",ARXRLE_NETPLAN_WORKSTYLE_BN_DELETE,206,5,31,14,BS_ICON
+END
+
+ARXRLE_TDC_NETPLAN_WORKINPUT DIALOGEX 0, 0, 250, 160
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+ARXRLE_TDM_CURVE_ELEMENT DIALOGEX 0, 0, 395, 238
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "曲线要素"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,345,222,37,12
+    PUSHBUTTON      "取消",IDCANCEL,393,213,37,12
+    CONTROL         "",ARXRLE_CURVE_ELEMENT_TAB,"SysTabControl32",0x0,0,0,440,220
+END
+
+ARXRLE_TDC_CURVE_ELEMENT DIALOGEX 0, 0, 390, 210
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "",ARXRLE_CURVE_ELEMENT_BN_OPENFILE,171,6,14,12,BS_ICON
+    EDITTEXT        ARXRLE_CURVE_ELEMENT_EB_OPENFILE,48,5,119,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "",ARXRLE_CURVE_ELEMENT_BN_SAVEFILE,364,5,14,12,BS_ICON
+    EDITTEXT        ARXRLE_CURVE_ELEMENT_EB_SAVEFILE,240,5,119,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "计算要素",ARXRLE_CURVE_ELEMENT_BN_CALCELEMENT,283,191,42,12
+    PUSHBUTTON      "开始绘图",ARXRLE_CURVE_ELEMENT_BN_DRAWCURVE,328,191,42,12
+    PUSHBUTTON      "增加一行",ARXRLE_CURVE_ELEMENT_BN_ADDROW,8,191,42,12
+    PUSHBUTTON      "删除一行",ARXRLE_CURVE_ELEMENT_BN_DELROW,52,191,42,12
+    PUSHBUTTON      "显示数据",ARXRLE_CURVE_ELEMENT_BN_SHOWDATA,106,191,42,12
+    PUSHBUTTON      "保存修改",ARXRLE_CURVE_ELEMENT_BN_SAVECHANGE,150,191,42,12
+    GROUPBOX        "计算结果",ARXRLE_CURVE_ELEMENT_SC_GRIDCTRL,5,41,383,145,0,WS_EX_TRANSPARENT | WS_EX_STATICEDGE
+    LTEXT           "打开文件",IDC_STATIC,4,7,38,8
+    LTEXT           "输出要素",IDC_STATIC,198,7,38,8
+    EDITTEXT        ARXRLE_CURVE_ELEMENT_EB_BREAK_BEGIN,48,23,65,12,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_CURVE_ELEMENT_EB_BREAK_END,167,23,65,12,ES_AUTOHSCROLL
+    LTEXT           "断链起点",IDC_STATIC,4,25,38,8
+    LTEXT           "锻炼终点",IDC_STATIC,125,25,38,8
+    EDITTEXT        ARXRLE_CURVE_ELEMENT_EB_EASES_DIST,311,23,48,12,ES_AUTOHSCROLL
+    LTEXT           "缓和点间距",IDC_STATIC,262,25,45,8
+END
+
+ARXRLE_TDC_OVAL_ELEMENT DIALOGEX 0, 0, 390, 210
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        ARXRLE_OVAL_ELEMENT_EB_R1,52,54,54,12,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_OVAL_ELEMENT_EB_N1,52,72,54,12,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_OVAL_ELEMENT_EB_E1,52,90,54,12,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_OVAL_ELEMENT_EB_R2,114,54,54,12,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_OVAL_ELEMENT_EB_N2,114,72,54,12,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_OVAL_ELEMENT_EB_E2,114,90,54,12,ES_AUTOHSCROLL
+    RTEXT           "半径(R)",IDC_STATIC,11,56,34,8,0,WS_EX_RIGHT
+    LTEXT           "经距(N/X)",IDC_STATIC,11,74,34,8,0,WS_EX_RIGHT
+    LTEXT           "纬距(E/Y)",IDC_STATIC,11,92,34,8,0,WS_EX_RIGHT
+    CONTROL         "左转曲线",ARXRLE_OVAL_ELEMENT_RO_ZL,"Button",BS_AUTORADIOBUTTON | WS_GROUP,50,20,54,8
+    CONTROL         "右转曲线",ARXRLE_OVAL_ELEMENT_RO_ZR,"Button",BS_AUTORADIOBUTTON,112,20,54,8
+    GROUPBOX        "曲线参数          前圆                       后圆",IDC_STATIC,5,40,165,67,0,WS_EX_TRANSPARENT | WS_EX_STATICEDGE
+    EDITTEXT        ARXRLE_OVAL_ELEMENT_EB_ZA,52,128,54,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        ARXRLE_OVAL_ELEMENT_EB_HY_N,114,156,54,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        ARXRLE_OVAL_ELEMENT_EB_HY_E,114,172,54,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        ARXRLE_OVAL_ELEMENT_EB_HY_W,114,188,54,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        ARXRLE_OVAL_ELEMENT_EB_YH_N,52,156,54,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        ARXRLE_OVAL_ELEMENT_EB_YH_E,52,172,54,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        ARXRLE_OVAL_ELEMENT_EB_YH_W,52,188,54,12,ES_AUTOHSCROLL | ES_READONLY
+    RTEXT           "A值",IDC_STATIC,12,130,34,8
+    LTEXT           "YH点",IDC_STATIC,70,144,17,8
+    LTEXT           "HY点",IDC_STATIC,132,145,17,8
+    LTEXT           "经距(N/X)",IDC_STATIC,11,158,34,8,0,WS_EX_RIGHT
+    LTEXT           "纬距(E/Y)",IDC_STATIC,11,174,34,8,0,WS_EX_RIGHT
+    LTEXT           "方位角(W)",IDC_STATIC,9,190,36,8,0,WS_EX_RIGHT
+    GROUPBOX        "计算结果",IDC_STATIC,5,113,165,92,0,WS_EX_TRANSPARENT | WS_EX_STATICEDGE
+    GROUPBOX        "距YH点整米桩的坐标、切线方位角",IDC_STATIC,180,5,205,200,0,WS_EX_TRANSPARENT | WS_EX_STATICEDGE
+    EDITTEXT        ARXRLE_OVAL_ELEMENT_EB_RET,185,20,195,185,ES_MULTILINE | ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "计算",ARXRLE_OVAL_ELEMENT_BN_CALC,123,126,34,12
+    GROUPBOX        "曲线类型 ",IDC_STATIC,5,5,165,28,0,WS_EX_TRANSPARENT | WS_EX_STATICEDGE
+END
+
+ARXRLE_TDC_CURVE_XY DIALOGEX 0, 0, 390, 210
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "曲线坐标              E/X                             N/Y",IDC_STATIC,5,5,180,67,0,WS_EX_TRANSPARENT | WS_EX_STATICEDGE
+    LTEXT           "起点坐标",IDC_STATIC,11,21,34,8,0,WS_EX_RIGHT
+    LTEXT           "交点坐标",IDC_STATIC,11,39,34,8,0,WS_EX_RIGHT
+    LTEXT           "终点坐标",IDC_STATIC,11,57,34,8,0,WS_EX_RIGHT
+    EDITTEXT        ARXRLE_CURVE_XY_EB_X1,52,19,57,12,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_CURVE_XY_EB_Y1,52,37,57,12,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_CURVE_XY_EB_X2,52,55,57,12,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_CURVE_XY_EB_Y2,121,19,57,12,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_CURVE_XY_EB_X3,121,37,57,12,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_CURVE_XY_EB_Y3,121,55,57,12,ES_AUTOHSCROLL
+    GROUPBOX        "曲线参数",IDC_STATIC,5,79,180,126,0,WS_EX_TRANSPARENT | WS_EX_STATICEDGE
+    LTEXT           "半径(R)",IDC_STATIC,12,95,34,8,0,WS_EX_RIGHT
+    LTEXT           "缓参(A)",IDC_STATIC,12,143,34,8,0,WS_EX_RIGHT
+    LTEXT           "缓长(lo)",IDC_STATIC,12,111,34,8,0,WS_EX_RIGHT
+    LTEXT           "曲线长(L)",IDC_STATIC,12,127,34,8,0,WS_EX_RIGHT
+    LTEXT           "切线长(T)",IDC_STATIC,12,159,34,8,0,WS_EX_RIGHT
+    LTEXT           "内移值(E)",IDC_STATIC,10,175,36,8,0,WS_EX_RIGHT
+    LTEXT           "偏角(W)",IDC_STATIC,10,190,36,8,0,WS_EX_RIGHT
+    EDITTEXT        ARXRLE_CURVE_XY_EB_R,52,93,54,12,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_CURVE_XY_EB_LO,52,109,54,12,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_CURVE_XY_EB_L,52,125,54,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        ARXRLE_CURVE_XY_EB_A,52,141,54,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        ARXRLE_CURVE_XY_EB_T,52,157,54,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        ARXRLE_CURVE_XY_EB_E,52,173,54,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        ARXRLE_CURVE_XY_EB_W,52,188,54,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "QD",IDC_STATIC,107,95,13,8,0,WS_EX_RIGHT
+    LTEXT           "HY",IDC_STATIC,107,143,13,8,0,WS_EX_RIGHT
+    LTEXT           "QZ",IDC_STATIC,107,159,13,8,0,WS_EX_RIGHT
+    LTEXT           "YH",IDC_STATIC,107,175,13,8,0,WS_EX_RIGHT
+    LTEXT           "HZ",IDC_STATIC,107,190,13,8,0,WS_EX_RIGHT
+    LTEXT           "ZD",IDC_STATIC,107,111,13,8,0,WS_EX_RIGHT
+    LTEXT           "ZH",IDC_STATIC,107,127,13,8,0,WS_EX_RIGHT
+    EDITTEXT        ARXRLE_CURVE_XY_EB_QD,124,93,54,12,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_CURVE_XY_EB_ZD,124,109,54,12,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_CURVE_XY_EB_ZH,124,125,54,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        ARXRLE_CURVE_XY_EB_HY,124,141,54,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        ARXRLE_CURVE_XY_EB_QZ,124,157,54,12,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_CURVE_XY_EB_YH,124,173,54,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        ARXRLE_CURVE_XY_EB_HZ,124,188,54,12,ES_AUTOHSCROLL | ES_READONLY
+    GROUPBOX        "计算结果",ARXRLE_CURVE_XY_SC_GRIDCTRL,192,5,193,157,0,WS_EX_TRANSPARENT | WS_EX_STATICEDGE
+    EDITTEXT        ARXRLE_CURVE_XY_EB_MDIST,224,169,54,12,ES_AUTOHSCROLL
+    LTEXT           "桩间距",IDC_STATIC,192,171,27,8,0,WS_EX_RIGHT
+    EDITTEXT        ARXRLE_CURVE_XY_EB_MOFFSET,319,169,54,12,ES_AUTOHSCROLL
+    LTEXT           "桩偏距",IDC_STATIC,286,171,27,8,0,WS_EX_RIGHT
+    PUSHBUTTON      "数据文件",ARXRLE_CURVE_XY_BN_DATA,208,188,46,12
+    PUSHBUTTON      "导入要素",ARXRLE_CURVE_XY_BN_IMPORT,271,188,46,12
+    PUSHBUTTON      "计算要素",ARXRLE_CURVE_XY_BN_CALC,325,188,46,12
+END
+
+ARXRLE_TDC_SQX_ELEMENT DIALOGEX 0, 0, 390, 210
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "曲线参数",IDC_STATIC,5,5,146,133,0,WS_EX_TRANSPARENT | WS_EX_STATICEDGE
+    LTEXT           "交点桩号 (S-m)",IDC_STATIC,16,18,58,8,0,WS_EX_RIGHT
+    LTEXT           "交点高程 (H-m)",IDC_STATIC,16,33,58,8,0,WS_EX_RIGHT
+    LTEXT           "交点半径 (R-m)",IDC_STATIC,16,48,58,8,0,WS_EX_RIGHT
+    LTEXT           "前坡率 (i1-‰)",IDC_STATIC,16,63,58,8,0,WS_EX_RIGHT
+    LTEXT           "后坡率 (i2-‰)",IDC_STATIC,16,78,58,8,0,WS_EX_RIGHT
+    LTEXT           "曲线长 (L-m)",IDC_STATIC,16,93,58,8,0,WS_EX_RIGHT
+    LTEXT           "切线长 (T-m)",IDC_STATIC,16,108,58,8,0,WS_EX_RIGHT
+    LTEXT           "内移值 (E-m)",IDC_STATIC,16,123,58,8,0,WS_EX_RIGHT
+    EDITTEXT        ARXRLE_SQX_ELEMENT_EB_S,80,16,63,12,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SQX_ELEMENT_EB_H,80,31,63,12,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SQX_ELEMENT_EB_R,80,46,63,12,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SQX_ELEMENT_EB_I1,80,61,63,12,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SQX_ELEMENT_EB_I2,80,76,63,12,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SQX_ELEMENT_EB_L,80,91,63,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        ARXRLE_SQX_ELEMENT_EB_T,80,106,63,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        ARXRLE_SQX_ELEMENT_EB_E,80,121,63,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        ARXRLE_SQX_ELEMENT_EB_MDIST,80,188,63,12,ES_AUTOHSCROLL
+    LTEXT           "桩间距",IDC_STATIC,16,190,58,8,0,WS_EX_RIGHT
+    GROUPBOX        "计算结果",ARXRLE_SQX_ELEMENT_SC_GRIDCTRL,192,5,193,199,0,WS_EX_TRANSPARENT | WS_EX_STATICEDGE
+    CONTROL         "数据",ARXRLE_SQX_ELEMENT_BN_DATA,"Button",BS_OWNERDRAW | WS_TABSTOP,157,156,28,34
+    CONTROL         "要素",ARXRLE_SQX_ELEMENT_BN_IMPORT,"Button",BS_OWNERDRAW | WS_TABSTOP,157,31,28,34
+    CONTROL         "计算",ARXRLE_SQX_ELEMENT_BN_CALC,"Button",BS_OWNERDRAW | WS_TABSTOP,157,80,28,34
+    EDITTEXT        ARXRLE_SQX_ELEMENT_EB_MBEGIN,80,152,63,12,ES_AUTOHSCROLL
+    LTEXT           "起点桩号",IDC_STATIC,16,154,58,8,0,WS_EX_RIGHT
+    EDITTEXT        ARXRLE_SQX_ELEMENT_EB_MEND,80,170,63,12,ES_AUTOHSCROLL
+    LTEXT           "终点桩号",IDC_STATIC,16,172,58,8,0,WS_EX_RIGHT
+    GROUPBOX        "计算参数",IDC_STATIC,5,143,146,62,0,WS_EX_TRANSPARENT | WS_EX_STATICEDGE
+END
+
+ARXRLE_TDM_STRUCT_SPA DIALOGEX 0, 0, 545, 404
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "曲线要素"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,419,387,37,12
+    PUSHBUTTON      "取消",IDCANCEL,471,387,37,12
+    CONTROL         "",ARXRLE_SPA_TAB,"SysTabControl32",0x0,0,0,540,383
+END
+
+ARXRLE_TDC_STRUCT_SAP_COLUMNSTRENGTH DIALOGEX 0, 0, 540, 400
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x0
+BEGIN
+    CONTROL         "地震组合",ARXRLE_SAP_COLUMNSTRENGTH_CK_DI,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,145,33,48,10
+    CONTROL         "柱斜截面计算",ARXRLE_SAP_COLUMNSTRENGTH_CK_XIE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,52,33,64,10
+    CONTROL         "计算偏心距增大系数η",ARXRLE_SAP_COLUMNSTRENGTH_CK_YITA,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,222,33,96,10
+    EDITTEXT        ARXRLE_SAP_COLUMNSTRENGTH_ET_B,129,64,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SAP_COLUMNSTRENGTH_ET_H,290,66,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SAP_COLUMNSTRENGTH_ET_BFU,129,84,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SAP_COLUMNSTRENGTH_ET_HFU,290,85,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SAP_COLUMNSTRENGTH_ET_BFD,129,104,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SAP_COLUMNSTRENGTH_ET_HFD,290,105,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SAP_COLUMNSTRENGTH_ET_DFU,129,124,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SAP_COLUMNSTRENGTH_ET_BHCX,129,163,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SAP_COLUMNSTRENGTH_ET_ELX,129,144,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SAP_COLUMNSTRENGTH_ET_ALF,290,163,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SAP_COLUMNSTRENGTH_ET_N,129,247,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SAP_COLUMNSTRENGTH_ET_MX,129,266,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SAP_COLUMNSTRENGTH_ET_VY,129,285,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SAP_COLUMNSTRENGTH_ET_VX,290,285,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SAP_COLUMNSTRENGTH_ET_T,129,304,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SAP_COLUMNSTRENGTH_ET_LEMD,290,304,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SAP_COLUMNSTRENGTH_ET_S,290,212,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SAP_COLUMNSTRENGTH_ET_DIMC,129,212,40,14,ES_AUTOHSCROLL
+    COMBOBOX        ARXRLE_SAP_COLUMNSTRENGTH_CB_FCUK,129,341,40,63,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        ARXRLE_SAP_COLUMNSTRENGTH_CB_FY,290,342,40,76,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        ARXRLE_SAP_COLUMNSTRENGTH_CB_KLXL,129,375,40,70,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        ARXRLE_SAP_COLUMNSTRENGTH_CB_FYV,130,358,40,68,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        ARXRLE_SAP_COLUMNSTRENGTH_CB_KZDJ,290,358,40,59,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "计 算",ARXRLE_SAP_COLUMNSTRENGTH_BN_CALC,419,275,50,14
+    GROUPBOX        "计算控制",IDC_STATIC,7,7,336,41,0,WS_EX_STATICEDGE
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,361,13,170,176
+    GROUPBOX        "截面尺寸",IDC_STATIC,7,53,336,128,0,WS_EX_STATICEDGE
+    RTEXT           "截面宽度 b(mm)",IDC_STATIC,10,67,118,8
+    RTEXT           "截面高度 h(mm)",IDC_STATIC,175,70,112,8
+    RTEXT           "上翼缘宽度 bfu(mm)",IDC_STATIC,10,87,118,8
+    RTEXT           "上翼缘高度 hfu(mm)",IDC_STATIC,175,89,112,8
+    RTEXT           "下翼缘宽度 bfd(mm)",IDC_STATIC,10,107,118,8
+    RTEXT           "下翼缘高度 hfd(mm)",IDC_STATIC,175,108,112,8
+    RTEXT           "上翼缘偏心(右为正) dfu(mm)",IDC_STATIC,10,128,118,8
+    RTEXT           "钢筋合力至边缘距离as(mm)",IDC_STATIC,16,165,112,8
+    RTEXT           "X向平面计算长度 elx(mm)",IDC_STATIC,10,148,118,8
+    RTEXT           "形心主轴与X向夹角(弧度)",IDC_STATIC,175,167,112,8
+    GROUPBOX        "截面内力",IDC_STATIC,7,234,336,90,0,WS_EX_STATICEDGE
+    RTEXT           "轴力设计值(压+,拉-)N(kN)",IDC_STATIC,22,249,106,8
+    RTEXT           "绕X轴弯矩设计值 Mx(kN-m)",IDC_STATIC,26,268,102,8
+    RTEXT           "垂直剪力设计值 Vy(kN)",IDC_STATIC,22,287,106,8
+    RTEXT           "水平剪力设计值 Vx(kN)",IDC_STATIC,185,287,102,8
+    RTEXT           "扭矩设计值 T(kN.m)",IDC_STATIC,22,306,106,8
+    RTEXT           "剪跨比λ(均布λ=1)",IDC_STATIC,185,306,102,8
+    RTEXT           "箍筋间距 s(mm)",IDC_STATIC,181,214,106,8
+    RTEXT           "角筋直径(自动=0)",IDC_STATIC,22,214,106,8
+    GROUPBOX        "材料及其他参数",IDC_STATIC,7,329,336,66,0,WS_EX_STATICEDGE
+    RTEXT           "混凝土强度等级 fcuk",IDC_STATIC,20,343,106,8
+    RTEXT           "纵向钢筋强度设计值fy",IDC_STATIC,179,343,106,8
+    RTEXT           "柱类别",IDC_STATIC,20,377,106,8
+    RTEXT           "箍筋强度设计值 fyv",IDC_STATIC,19,360,106,8
+    RTEXT           "抗震等级",IDC_STATIC,185,360,102,8
+    CONTROL         "柱单偏压正截面计算",ARXRLE_SAP_COLUMNSTRENGTH_RO_SIGLE,"Button",BS_AUTORADIOBUTTON | WS_GROUP,57,16,88,10
+    CONTROL         "柱双偏压正截面计算",ARXRLE_SAP_COLUMNSTRENGTH_RO_DOUBLE,"Button",BS_AUTORADIOBUTTON,175,16,88,10
+    EDITTEXT        ARXRLE_SAP_COLUMNSTRENGTH_ET_DFD,290,126,40,14,ES_AUTOHSCROLL
+    RTEXT           "下翼缘偏心 dfd(mm)",IDC_STATIC,169,129,118,8
+    EDITTEXT        ARXRLE_SAP_COLUMNSTRENGTH_ET_ELY,290,145,40,14,ES_AUTOHSCROLL
+    RTEXT           "Y向平面计算长度 ely(mm)",IDC_STATIC,169,148,118,8
+    EDITTEXT        ARXRLE_SAP_COLUMNSTRENGTH_ET_MY,290,266,40,14,ES_AUTOHSCROLL
+    RTEXT           "绕Y轴弯矩设计值 My(kN-m)",IDC_STATIC,185,268,102,8
+    EDITTEXT        ARXRLE_SAP_COLUMNSTRENGTH_ET_DIMX,129,193,40,14,ES_AUTOHSCROLL
+    RTEXT           "上侧筋(根数.直径)",IDC_STATIC,22,197,106,8
+    EDITTEXT        ARXRLE_SAP_COLUMNSTRENGTH_ET_DIMY,290,193,40,14,ES_AUTOHSCROLL
+    RTEXT           "左侧筋(根数.直径)",IDC_STATIC,181,197,106,8
+    GROUPBOX        "钢筋",IDC_STATIC,7,186,336,43,0,WS_EX_STATICEDGE
+END
+
+ARXRLE_TDC_STRUCT_SAP_BEAMCRACKS DIALOGEX 0, 0, 540, 400
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x0
+BEGIN
+    CONTROL         "裂缝宽度计算",ARXRLE_SAP_BEAMCRACKS_CK_WIDTH,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,88,24,64,10
+    CONTROL         "刚度挠度计算",ARXRLE_SAP_BEAMCRACKS_CK_NAODU,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,209,24,64,10
+    EDITTEXT        ARXRLE_SAP_BEAMCRACKS_ET_B,131,64,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SAP_BEAMCRACKS_ET_H,290,66,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SAP_BEAMCRACKS_ET_BFU,131,84,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SAP_BEAMCRACKS_ET_HFU,290,85,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SAP_BEAMCRACKS_ET_BFD,131,104,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SAP_BEAMCRACKS_ET_HFD,290,104,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SAP_BEAMCRACKS_ET_BHCS,131,124,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SAP_BEAMCRACKS_ET_BHCX,290,123,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SAP_BEAMCRACKS_ET_LO,131,144,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SAP_BEAMCRACKS_ET_ASA,289,180,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SAP_BEAMCRACKS_ET_ASB,131,180,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SAP_BEAMCRACKS_ET_C,290,142,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SAP_BEAMCRACKS_ET_NK,289,237,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SAP_BEAMCRACKS_ET_MK,130,235,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SAP_BEAMCRACKS_ET_MQ,131,257,40,14,ES_AUTOHSCROLL
+    COMBOBOX        ARXRLE_SAP_BEAMCRACKS_CB_FCUK,131,297,40,63,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        ARXRLE_SAP_BEAMCRACKS_CB_FY,290,296,40,76,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "计 算",ARXRLE_SAP_BEAMCRACKS_BN_CALC,419,275,50,14
+    GROUPBOX        "计算控制",IDC_STATIC,7,7,337,38,0,WS_EX_STATICEDGE
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,361,13,170,176
+    GROUPBOX        "截面尺寸",IDC_STATIC,7,49,337,112,0,WS_EX_STATICEDGE
+    RTEXT           "截面宽度 b(mm)",IDC_STATIC,10,67,118,8
+    RTEXT           "截面高度 h(mm)",IDC_STATIC,175,70,112,8
+    RTEXT           "受压区翼缘宽度 bfu(mm)",IDC_STATIC,10,87,118,8
+    RTEXT           "受压区翼缘高度 hfu(mm)",IDC_STATIC,175,89,112,8
+    RTEXT           "受拉区翼缘宽度 bfd(mm)",IDC_STATIC,10,107,118,8
+    RTEXT           "受拉区翼缘高度 hfd(mm)",IDC_STATIC,175,108,112,8
+    RTEXT           "受压筋中心至边缘距离 as'(mm)",IDC_STATIC,10,128,118,8
+    RTEXT           "受拉筋中心至边缘距离 as(mm)",IDC_STATIC,175,127,112,8
+    RTEXT           "梁计算跨度/柱高度 lo(mm)",IDC_STATIC,10,147,118,8
+    RTEXT           "受拉钢筋面积 Asa(mm2)",IDC_STATIC,174,184,112,8
+    RTEXT           "受压钢筋面积 Asb(mm2)",IDC_STATIC,10,182,118,8
+    RTEXT           "外层纵筋边缘至底边距离 c(mm)",IDC_STATIC,175,146,112,8
+    GROUPBOX        "截面内力",IDC_STATIC,7,223,338,54,0,WS_EX_STATICEDGE
+    RTEXT           "标准组合轴力(+压,-拉) Nk(kN)",IDC_STATIC,165,239,121,8
+    RTEXT           "标准组合弯矩   Mk(kN-m)",IDC_STATIC,25,239,102,8
+    RTEXT           "准永久组合弯矩 Mq(kN-m)",IDC_STATIC,22,259,106,8
+    RTEXT           "梁端支承系数(1,0.8,0.65)",IDC_STATIC,185,260,102,8
+    GROUPBOX        "材料及其他参数",IDC_STATIC,7,283,338,33,0,WS_EX_STATICEDGE
+    RTEXT           "混凝土强度等级 fcuk",IDC_STATIC,22,298,106,8
+    RTEXT           "纵向钢筋强度设计值fy",IDC_STATIC,179,298,106,8
+    EDITTEXT        ARXRLE_SAP_BEAMCRACKS_ET_DEQ,131,199,40,14,ES_AUTOHSCROLL
+    RTEXT           "受拉钢筋等效直径 deq(mm)",IDC_STATIC,10,201,118,8
+    COMBOBOX        ARXRLE_SAP_BEAMCRACKS_CB_GJXZ,290,258,40,76,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "钢筋",IDC_STATIC,7,165,338,54,0,WS_EX_STATICEDGE
+END
+
+ARXRLE_TDC_STRUCT_SPA_BEAMSECTION DIALOGEX 0, 0, 540, 400
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x0
+BEGIN
+    CONTROL         "正截面受弯计算",ARXRLE_SPA_BEAMSECTION_CK_ZHENG,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,21,21,72,10
+    CONTROL         "斜截面承载力计算",ARXRLE_SPA_BEAMSECTION_CK_XIE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,98,21,79,10
+    CONTROL         "考虑地震作用组合",ARXRLE_SPA_BEAMSECTION_CK_DI,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,41,40,77,10
+    EDITTEXT        ARXRLE_SPA_BEAMSECTION_ET_B,57,95,40,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SPA_BEAMSECTION_ET_H,145,95,40,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SPA_BEAMSECTION_ET_BFU,57,114,40,14,ES_CENTER | ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        ARXRLE_SPA_BEAMSECTION_ET_HFU,145,114,40,14,ES_CENTER | ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        ARXRLE_SPA_BEAMSECTION_ET_BFD,57,133,40,14,ES_CENTER | ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        ARXRLE_SPA_BEAMSECTION_ET_HFD,145,133,40,14,ES_CENTER | ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        ARXRLE_SPA_BEAMSECTION_ET_BHCS,145,152,40,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SPA_BEAMSECTION_ET_BHCX,57,152,40,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SPA_BEAMSECTION_ET_LO,100,174,83,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SPA_BEAMSECTION_ET_ASA,298,94,40,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SPA_BEAMSECTION_ET_ASB,298,132,40,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SPA_BEAMSECTION_ET_ALF,298,151,40,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SPA_BEAMSECTION_ET_M,129,245,40,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SPA_BEAMSECTION_ET_N,290,245,40,14,ES_CENTER | ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        ARXRLE_SPA_BEAMSECTION_ET_V,129,263,40,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SPA_BEAMSECTION_ET_T,290,263,40,14,ES_CENTER | ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        ARXRLE_SPA_BEAMSECTION_ET_LEMD,129,281,40,14,ES_CENTER | ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        ARXRLE_SPA_BEAMSECTION_ET_S,298,113,40,14,ES_CENTER | ES_AUTOHSCROLL
+    COMBOBOX        ARXRLE_SPA_BEAMSECTION_CB_FCUK,129,319,40,63,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        ARXRLE_SPA_BEAMSECTION_CB_FY,290,320,40,76,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        ARXRLE_SPA_BEAMSECTION_CB_FYC,129,336,40,70,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        ARXRLE_SPA_BEAMSECTION_CB_FYV,290,336,40,68,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        ARXRLE_SPA_BEAMSECTION_CB_KZDJ,290,352,40,59,CBS_DROPDOWNLIST | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "计 算",ARXRLE_SPA_BEAMSECTION_BN_CALC,419,275,50,14
+    GROUPBOX        "计算控制",IDC_STATIC,7,7,337,51,0,WS_EX_STATICEDGE
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,361,13,170,176
+    GROUPBOX        "截面",IDC_STATIC,7,65,181,129,0,WS_EX_STATICEDGE
+    RTEXT           "宽度 b:",IDC_STATIC,14,98,40,8
+    RTEXT           "高度 h:",IDC_STATIC,101,98,40,8
+    RTEXT           "上翼缘bf':",IDC_STATIC,14,116,40,8
+    RTEXT           "上翼缘hf':",IDC_STATIC,101,116,40,8
+    RTEXT           "下翼缘 bf:",IDC_STATIC,14,135,40,8
+    RTEXT           "下翼缘 hf:",IDC_STATIC,101,135,40,8
+    RTEXT           "受压as':",IDC_STATIC,101,154,40,8
+    RTEXT           "受拉 as:",IDC_STATIC,14,154,40,8
+    RTEXT           "梁的计算跨度 lo (mm)",IDC_STATIC,17,176,82,8
+    RTEXT           "受压钢筋面积 As'(mm2)",IDC_STATIC,199,97,96,8
+    RTEXT           "梁弯起钢筋面积 Asb(mm2)",IDC_STATIC,199,134,96,8
+    RTEXT           "梁弯起钢筋角度 (度)",IDC_STATIC,199,153,96,8
+    GROUPBOX        "截面内力",IDC_STATIC,7,231,337,70,0,WS_EX_STATICEDGE
+    RTEXT           "梁弯矩设计值M(kN.m下边拉+)",IDC_STATIC,22,247,106,8
+    RTEXT           "轴拉力设计值 N(kN)",IDC_STATIC,185,248,102,8
+    RTEXT           "剪力设计值 V(kN)",IDC_STATIC,22,266,106,8
+    RTEXT           "扭矩设计值 T(kN.m)",IDC_STATIC,182,265,106,8
+    RTEXT           "剪跨比λ(均布λ=1)",IDC_STATIC,24,284,102,8
+    RTEXT           "箍筋间距 s(mm)",IDC_STATIC,199,115,96,8
+    GROUPBOX        "材料及其他参数",IDC_STATIC,7,307,337,67,0,WS_EX_STATICEDGE
+    RTEXT           "混凝土强度等级 fcuk",IDC_STATIC,20,321,106,8
+    RTEXT           "受拉钢筋强度设计值 fy",IDC_STATIC,179,321,106,8
+    RTEXT           "受压钢筋强度设计值 fy'",IDC_STATIC,20,338,106,8
+    RTEXT           "箍筋强度设计值 fyv",IDC_STATIC,179,338,106,8
+    RTEXT           "抗震等级",IDC_STATIC,183,356,102,8
+    GROUPBOX        "钢筋",IDC_STATIC,194,65,150,129,0,WS_EX_STATICEDGE
+    CONTROL         "正截面受拉计算",ARXRLE_SPA_BEAMSECTION_CK_LA,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,182,21,72,10
+    CONTROL         "扭曲承载力计算",ARXRLE_SPA_BEAMSECTION_CK_NIU,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,259,21,72,10
+    COMBOBOX        ARXRLE_SPA_BEAMSECTION_CB_LLX,243,39,56,76,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "梁类型:",IDC_STATIC,210,41,28,8
+    RTEXT           "结构重要性系数 Ro",IDC_STATIC,20,356,106,8
+    COMBOBOX        ARXRLE_SPA_BEAMSECTION_CB_RO,129,353,40,68,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        ARXRLE_SPA_BEAMSECTION_ET_PMIN,298,173,40,14,ES_CENTER | ES_AUTOHSCROLL
+    RTEXT           "受拉纵筋最小配筋率",IDC_STATIC,199,175,96,8
+    COMBOBOX        ARXRLE_SPA_BEAMSECTION_CB_JMLX,58,76,125,76,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "集中荷载作用下",ARXRLE_SPA_BEAMSECTION_CK_JZHLOAD,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,126,40,79,10
+    EDITTEXT        ARXRLE_SPA_BEAMSECTION_ET_E0,290,281,40,14,ES_CENTER | ES_AUTOHSCROLL | WS_DISABLED
+    RTEXT           "轴力作用点偏心距离e0(mm下为+)",IDC_STATIC,172,283,117,8
+    GROUPBOX        "",IDC_STATIC,7,201,337,23,0,WS_EX_STATICEDGE
+    CONTROL         "对称配筋",ARXRLE_SPA_BEAMSECTION_CK_DUICHEN,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,90,208,48,10
+    CONTROL         "纵向筋沿腹部均匀布置",ARXRLE_SPA_BEAMSECTION_CK_JUNYUN,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,190,208,96,10
+END
+
+ARXRLE_TDC_STRUCT_SAP_CIRCLESTRENGTH DIALOGEX 0, 0, 540, 400
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x0
+BEGIN
+    CONTROL         "正截面计算",ARXRLE_SAP_CIRCLESTRENGTH_CK_ZHENG,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,70,17,56,10
+    CONTROL         "斜截面计算",ARXRLE_SAP_CIRCLESTRENGTH_CK_XIE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,148,17,56,10
+    CONTROL         "地震组合",ARXRLE_SAP_CIRCLESTRENGTH_CK_DI,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,70,35,48,10
+    CONTROL         "框支柱或角柱",ARXRLE_SAP_CIRCLESTRENGTH_CK_KJZ,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,148,35,64,10
+    CONTROL         "计算偏心距增大系数η",ARXRLE_SAP_CIRCLESTRENGTH_CK_YITA,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,223,35,96,10
+    EDITTEXT        ARXRLE_SAP_CIRCLESTRENGTH_ET_D,129,64,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SAP_CIRCLESTRENGTH_ET_BHCS,129,83,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SAP_CIRCLESTRENGTH_ET_LO,290,64,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SAP_CIRCLESTRENGTH_ET_M,129,168,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SAP_CIRCLESTRENGTH_ET_N,290,168,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SAP_CIRCLESTRENGTH_ET_VY,129,187,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SAP_CIRCLESTRENGTH_ET_VX,290,187,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SAP_CIRCLESTRENGTH_ET_LEMD,129,206,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SAP_CIRCLESTRENGTH_ET_S,129,127,40,14,ES_AUTOHSCROLL
+    COMBOBOX        ARXRLE_SAP_CIRCLESTRENGTH_CB_FCUK,129,250,40,63,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        ARXRLE_SAP_CIRCLESTRENGTH_CB_FY,290,251,40,76,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        ARXRLE_SAP_CIRCLESTRENGTH_CB_FYV,129,267,40,68,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        ARXRLE_SAP_CIRCLESTRENGTH_CB_KZDJ,290,267,40,59,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "计 算",ARXRLE_SAP_CIRCLESTRENGTH_BN_CALC,417,239,50,14
+    GROUPBOX        "计算控制",-1,7,7,337,44,0,WS_EX_STATICEDGE
+    CONTROL         "",-1,"Static",SS_BLACKFRAME,361,13,170,176
+    GROUPBOX        "截面尺寸",-1,7,55,337,53,0,WS_EX_STATICEDGE
+    RTEXT           "直径 D(mm)",-1,10,67,118,8
+    RTEXT           "钢筋中心至边缘距离as(mm)",-1,10,87,118,8
+    RTEXT           "计算跨度 lo (mm)",-1,169,67,118,8
+    GROUPBOX        "截面内力",-1,7,154,337,71,0,WS_EX_STATICEDGE
+    RTEXT           "弯矩设计值 M(kN-m)",-1,22,170,106,8
+    RTEXT           "轴力设计值(+压,-拉)N(kN)",-1,185,171,102,8
+    RTEXT           "垂直剪力设计值 Vy(kN)",-1,22,189,106,8
+    RTEXT           "水平剪力设计值 Vx(kN)",-1,185,189,102,8
+    RTEXT           "剪跨比λ(均布λ=1,柱Hn/2ho)",-1,18,208,110,8
+    RTEXT           "箍筋间距 s(mm)",-1,22,130,106,8
+    GROUPBOX        "材料及其他参数",-1,7,229,337,57,0,WS_EX_STATICEDGE
+    RTEXT           "混凝土强度等级 fcuk",-1,20,252,106,8
+    RTEXT           "纵向钢筋强度设计值fy",-1,179,252,106,8
+    RTEXT           "箍筋强度设计值 fyv",-1,20,269,106,8
+    RTEXT           "抗震等级",-1,183,269,102,8
+    GROUPBOX        "钢筋",-1,7,112,337,38,0,WS_EX_STATICEDGE
+END
+
+ARXRLE_TDC_STRUCT_SPA_WALLSTRENGTH DIALOGEX 0, 0, 540, 400
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x0
+BEGIN
+    CONTROL         "地震组合",ARXRLE_SPA_WALLSTRENGTH_CK_DI,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,71,33,48,10
+    CONTROL         "剪力墙斜截面计算",ARXRLE_SPA_WALLSTRENGTH_CK_XJM,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,192,17,80,10
+    CONTROL         "计算偏心距增大系数η",ARXRLE_SPA_WALLSTRENGTH_CK_YITA,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,221,34,96,10
+    EDITTEXT        ARXRLE_SPA_WALLSTRENGTH_ET_B,129,64,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SPA_WALLSTRENGTH_ET_H,290,66,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SPA_WALLSTRENGTH_ET_BHCX,129,103,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SPA_WALLSTRENGTH_ET_ELX,129,84,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SPA_WALLSTRENGTH_ET_ROY,290,141,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SPA_WALLSTRENGTH_ET_N,129,179,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SPA_WALLSTRENGTH_ET_M,290,179,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SPA_WALLSTRENGTH_ET_V,129,198,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SPA_WALLSTRENGTH_ET_ZYB,129,218,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SPA_WALLSTRENGTH_ET_LEMD,290,198,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ARXRLE_SPA_WALLSTRENGTH_ET_S,129,141,40,14,ES_AUTOHSCROLL
+    COMBOBOX        ARXRLE_SPA_WALLSTRENGTH_CB_FCUK,129,260,40,63,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        ARXRLE_SPA_WALLSTRENGTH_CB_FY,290,261,40,76,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        ARXRLE_SPA_WALLSTRENGTH_CB_FYV,129,277,40,68,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        ARXRLE_SPA_WALLSTRENGTH_CB_KZDJ,129,295,40,59,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "计 算",ARXRLE_SPA_WALLSTRENGTH_BN_CALC,419,276,50,14
+    GROUPBOX        "计算控制",-1,7,7,336,44,0,WS_EX_STATICEDGE
+    CONTROL         "",-1,"Static",SS_BLACKFRAME,361,13,170,176
+    GROUPBOX        "截面尺寸",-1,7,55,336,71,0,WS_EX_STATICEDGE
+    RTEXT           "截面宽度 b(mm)",-1,10,67,118,8
+    RTEXT           "截面高度 h(mm)",-1,175,70,112,8
+    RTEXT           "钢筋合力至边缘距离as(mm)",-1,16,105,112,8
+    RTEXT           "X向平面计算长度 elx(mm)",-1,10,88,118,8
+    RTEXT           "竖向分布筋配筋率ρv(%)",-1,175,144,112,8
+    GROUPBOX        "截面内力",-1,7,165,336,74,0,WS_EX_STATICEDGE
+    RTEXT           "轴力设计值(压+,拉-)N(kN)",-1,22,181,106,8
+    RTEXT           "弯矩设计值 M(kN-m)",-1,185,181,102,8
+    RTEXT           "剪力设计值 V(kN)",-1,22,201,106,8
+    RTEXT           "墙肢底截面轴压比(自动=0)",-1,22,220,106,8
+    RTEXT           "剪跨比λ(均布λ=1)",-1,185,201,102,8
+    RTEXT           "水平分布筋间距 s(mm)",-1,22,143,106,8
+    GROUPBOX        "材料及其他参数",-1,7,245,336,70,0,WS_EX_STATICEDGE
+    RTEXT           "混凝土强度等级 fcuk",-1,22,262,106,8
+    RTEXT           "纵向钢筋强度设计值fy",-1,181,262,106,8
+    RTEXT           "竖向分布筋强度设计值 fyv",-1,22,279,106,8
+    RTEXT           "抗震等级",-1,26,297,102,8
+    EDITTEXT        ARXRLE_SPA_WALLSTRENGTH_ET_ELY,290,85,40,14,ES_AUTOHSCROLL
+    RTEXT           "Y向平面计算长度 ely(mm)",-1,169,88,118,8
+    GROUPBOX        "钢筋",-1,7,130,336,31,0,WS_EX_STATICEDGE
+    CONTROL         "剪力墙正截面计算",ARXRLE_SPA_WALLSTRENGTH_CK_ZJM,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,71,17,80,10
+    CONTROL         "剪力墙底部加强部位",ARXRLE_SPA_WALLSTRENGTH_CK_DIBU,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,125,34,88,10
+    COMBOBOX        ARXRLE_SPA_WALLSTRENGTH_CB_FYW,290,278,40,68,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "水平分布筋强度设计值 fyw",-1,181,280,106,8
+END
+
+ARXRLE_TDC_STRUCT_SPA_OUTRESULT DIALOGEX 0, 0, 540, 400
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x0
+BEGIN
+    CONTROL         "",ARXRLE_SPA_OUTRESULT_BN_OPEN,"Button",BS_OWNERDRAW,7,1,28,25
+    CONTROL         "",ARXRLE_SPA_OUTRESULT_BN_SAVE,"Button",BS_OWNERDRAW,35,1,28,25
+    CONTROL         "",ARXRLE_SPA_OUTRESULT_BN_BOLD,"Button",BS_OWNERDRAW,68,1,28,25
+    CONTROL         "",ARXRLE_SPA_OUTRESULT_BN_ITALIC,"Button",BS_OWNERDRAW,96,1,28,25
+    CONTROL         "",ARXRLE_SPA_OUTRESULT_BN_UNDERLINE,"Button",BS_OWNERDRAW,124,1,28,25
+    CONTROL         "",ARXRLE_SPA_OUTRESULT_BN_STRIKEOUT,"Button",BS_OWNERDRAW,152,1,28,25
+    CONTROL         "",ARXRLE_SPA_OUTRESULT_BN_LEFT,"Button",BS_OWNERDRAW,245,1,28,25
+    CONTROL         "",ARXRLE_SPA_OUTRESULT_BN_CENTER,"Button",BS_OWNERDRAW,273,1,28,25
+    CONTROL         "",ARXRLE_SPA_OUTRESULT_BN_RIGHT,"Button",BS_OWNERDRAW,301,1,28,25
+    CONTROL         "",ARXRLE_SPA_OUTRESULT_BN_BULLET,"Button",BS_OWNERDRAW,329,1,28,25
+    CONTROL         "",ARXRLE_SPA_OUTRESULT_BN_FONT,"Button",BS_OWNERDRAW,185,1,28,25
+    CONTROL         "",ARXRLE_SPA_OUTRESULT_BN_COLOR,"Button",BS_OWNERDRAW,213,1,28,25
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,65,1,1,25
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,182,1,1,25
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,243,1,1,26
+END
+
+ARXRLE_DLG_STEEL_SECTION DIALOGEX 0, 0, 405, 226
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "型钢参数查询"
+FONT 8, "Microsoft Sans Serif", 0, 0, 0x0
+BEGIN
+    CONTROL         "",ARXRLE_STEEL_SECTION_SC_PREVIEW,"Static",SS_BLACKFRAME,6,7,146,195
+    CONTROL         "List1",ARXRLE_STEEL_SECTION_LC_VALUES,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,233,7,167,195
+    CONTROL         "",ARXRLE_STEEL_SECTION_LC_TYPES,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,157,7,63,195
+    LTEXT           "型钢类型",IDC_STATIC,7,212,36,8
+    COMBOBOX        ARXRLE_STEEL_SECTION_CB_TYPE,52,210,99,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "绘制界面",ARXRLE_STEEL_SECTION_BN_DRAW,"Button",BS_OWNERDRAW | WS_TABSTOP,157,209,63,15
+    DEFPUSHBUTTON   "确定",IDOK,279,209,50,14
+    PUSHBUTTON      "取消",IDCANCEL,337,209,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    ARXRLE_DLG_SPLASH, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_DLG_DXF, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_DLG_XDATA, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_DLG_RXSTATE, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_DLG_CLASS_DICT, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_DLG_SYSREGISTRY, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_DLG_XFORM, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_DLG_ENTMAKE, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_DLG_TBLMAKE, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_TDC_DBMISC, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_DLG_ABOUT, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_DLG_WORLD_DRAW, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_DLG_COLOR, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_DLG_TESTCURVES, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_TDC_OPTIONS, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_TDM_EDITOR, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_TDC_COMMANDS, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_TDC_CLASSES, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_TDC_DOCS, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_TDM_DATABASE, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_TDC_SYMTBLS, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_TDC_DICTS, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_TDC_ENTS, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_TDM_ENTS, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_TDC_SYS_REACTORS, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_TDM_REACTORS, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_TDC_LONG_TRANS, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_TDC_OBJS, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_TDC_IDMAP, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_TDM_IDMAP, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_DLG_FILER_TEST, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_DLG_GENERIC_DEF_ID, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_DLG_SSGET, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_TDC_CLONESET, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_TDC_WBLOCK, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_TDM_TRANSDB_CLONES, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_TDC_INSERT, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_DLG_OBJECT_ID_INFO, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_TDC_HOSTAPPSERV, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_DLG_MEASURE, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_DLG_WINDOTYPE, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_DLG_SERV_DICT, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_DLG_CRDTRM, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_DLG_REG, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_DLG_DRAW_CONDITION, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_DLG_ENTPROPERTY, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_DLG_DIMLAND, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_DLG_TREEDLG, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_DLG_REACTORS, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_TDM_NETPLAN, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_TDC_NETPLAN_PARAM, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_TDC_NETPLAN_WORKDATA, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_TDC_NETPLAN_WORKSTYLE, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_TDC_NETPLAN_WORKINPUT, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_TDM_CURVE_ELEMENT, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_TDC_CURVE_ELEMENT, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_TDC_OVAL_ELEMENT, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_TDC_CURVE_XY, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_TDC_SQX_ELEMENT, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_TDM_STRUCT_SPA, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_TDC_STRUCT_SAP_COLUMNSTRENGTH, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_TDC_STRUCT_SAP_BEAMCRACKS, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_TDC_STRUCT_SPA_BEAMSECTION, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_TDC_STRUCT_SAP_CIRCLESTRENGTH, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_TDC_STRUCT_SPA_WALLSTRENGTH, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_TDC_STRUCT_SPA_OUTRESULT, DIALOG
+    BEGIN
+    END
+
+    ARXRLE_DLG_STEEL_SECTION, DIALOG
+    BEGIN
+        RIGHTMARGIN, 404
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+ARXRLE_TDC_DICTS DLGINIT
+BEGIN
+    ARXRLE_DICTS_CB_MERGESTYLE, 0x403, 7, 0
+0x6749, 0x6f6e, 0x6572, "\000" 
+    ARXRLE_DICTS_CB_MERGESTYLE, 0x403, 8, 0
+0x6552, 0x6c70, 0x6361, 0x0065, 
+    ARXRLE_DICTS_CB_MERGESTYLE, 0x403, 12, 0
+0x614d, 0x676e, 0x656c, 0x4e20, 0x6d61, 0x0065, 
+    0
+END
+
+ARXRLE_DLG_FILER_TEST DLGINIT
+BEGIN
+    ARXRLE_FILER_TEST_CB_FILER_TYPE, 0x403, 5, 0
+0x6946, 0x656c, "\000" 
+    ARXRLE_FILER_TEST_CB_FILER_TYPE, 0x403, 5, 0
+0x6f43, 0x7970, "\000" 
+    ARXRLE_FILER_TEST_CB_FILER_TYPE, 0x403, 5, 0
+0x6e55, 0x6f64, "\000" 
+    ARXRLE_FILER_TEST_CB_FILER_TYPE, 0x403, 3, 0
+0x6449, "\000" 
+    ARXRLE_FILER_TEST_CB_FILER_TYPE, 0x403, 6, 0
+0x6c58, 0x7461, 0x0065, 
+    ARXRLE_FILER_TEST_CB_FILER_TYPE, 0x403, 5, 0
+0x6150, 0x6567, "\000" 
+    ARXRLE_FILER_TEST_CB_FILER_TYPE, 0x403, 11, 0
+0x6544, 0x7065, 0x4320, 0x6f6c, 0x656e, "\000" 
+    ARXRLE_FILER_TEST_CB_FILER_TYPE, 0x403, 13, 0
+0x6257, 0x6f6c, 0x6b63, 0x4320, 0x6f6c, 0x656e, "\000" 
+    0
+END
+
+ARXRLE_DLG_SSGET DLGINIT
+BEGIN
+    ARXRLE_SSGET_CB_MAIN_SELECT_METHOD, 0x403, 5, 0
+0x7355, 0x7265, "\000" 
+    ARXRLE_SSGET_CB_MAIN_SELECT_METHOD, 0x403, 8, 0
+0x6d49, 0x6c70, 0x6569, 0x0064, 
+    ARXRLE_SSGET_CB_MAIN_SELECT_METHOD, 0x403, 9, 0
+0x7243, 0x736f, 0x6973, 0x676e, "\000" 
+    ARXRLE_SSGET_CB_MAIN_SELECT_METHOD, 0x403, 17, 0
+0x7243, 0x736f, 0x6973, 0x676e, 0x5020, 0x6c6f, 0x6779, 0x6e6f, "\000" 
+    ARXRLE_SSGET_CB_MAIN_SELECT_METHOD, 0x403, 6, 0
+0x6546, 0x636e, 0x0065, 
+    ARXRLE_SSGET_CB_MAIN_SELECT_METHOD, 0x403, 5, 0
+0x614c, 0x7473, "\000" 
+    ARXRLE_SSGET_CB_MAIN_SELECT_METHOD, 0x403, 6, 0
+0x6f50, 0x6e69, 0x0074, 
+    ARXRLE_SSGET_CB_MAIN_SELECT_METHOD, 0x403, 9, 0
+0x7250, 0x7665, 0x6f69, 0x7375, "\000" 
+    ARXRLE_SSGET_CB_MAIN_SELECT_METHOD, 0x403, 7, 0
+0x6957, 0x646e, 0x776f, "\000" 
+    ARXRLE_SSGET_CB_MAIN_SELECT_METHOD, 0x403, 15, 0
+0x6957, 0x646e, 0x776f, 0x5020, 0x6c6f, 0x6779, 0x6e6f, "\000" 
+    ARXRLE_SSGET_CB_MAIN_SELECT_METHOD, 0x403, 12, 0
+0x6946, 0x746c, 0x7265, 0x4f20, 0x6c6e, 0x0079, 
+    ARXRLE_SSGET_CB_MAIN_SELECT_METHOD, 0x403, 4, 0
+0x6c41, 0x006c, 
+    ARXRLE_SSGET_CB_MAIN_SELECT_METHOD, 0x403, 4, 0
+0x6f42, 0x0078, 
+    0
+END
+
+ARXRLE_TDC_STRUCT_SPA_BEAMSECTION DLGINIT
+BEGIN
+    ARXRLE_SPA_BEAMSECTION_CB_FCUK, 0x403, 4, 0
+0x3143, 0x0035, 
+    ARXRLE_SPA_BEAMSECTION_CB_FCUK, 0x403, 4, 0
+0x3243, 0x0030, 
+    ARXRLE_SPA_BEAMSECTION_CB_FCUK, 0x403, 4, 0
+0x3243, 0x0035, 
+    ARXRLE_SPA_BEAMSECTION_CB_FCUK, 0x403, 4, 0
+0x3343, 0x0030, 
+    ARXRLE_SPA_BEAMSECTION_CB_FCUK, 0x403, 4, 0
+0x3343, 0x0035, 
+    ARXRLE_SPA_BEAMSECTION_CB_FCUK, 0x403, 4, 0
+0x3443, 0x0030, 
+    ARXRLE_SPA_BEAMSECTION_CB_FCUK, 0x403, 4, 0
+0x3443, 0x0035, 
+    ARXRLE_SPA_BEAMSECTION_CB_FCUK, 0x403, 4, 0
+0x3543, 0x0030, 
+    ARXRLE_SPA_BEAMSECTION_CB_FCUK, 0x403, 4, 0
+0x3543, 0x0035, 
+    ARXRLE_SPA_BEAMSECTION_CB_FCUK, 0x403, 4, 0
+0x3643, 0x0030, 
+    ARXRLE_SPA_BEAMSECTION_CB_FCUK, 0x403, 4, 0
+0x3643, 0x0035, 
+    ARXRLE_SPA_BEAMSECTION_CB_FCUK, 0x403, 4, 0
+0x3743, 0x0030, 
+    ARXRLE_SPA_BEAMSECTION_CB_FCUK, 0x403, 4, 0
+0x3743, 0x0035, 
+    ARXRLE_SPA_BEAMSECTION_CB_FCUK, 0x403, 4, 0
+0x3843, 0x0030, 
+    ARXRLE_SPA_BEAMSECTION_CB_FY, 0x403, 7, 0
+0x5048, 0x3242, 0x3533, "\000" 
+    ARXRLE_SPA_BEAMSECTION_CB_FY, 0x403, 7, 0
+0x5248, 0x3342, 0x3533, "\000" 
+    ARXRLE_SPA_BEAMSECTION_CB_FY, 0x403, 7, 0
+0x5248, 0x3442, 0x3030, "\000" 
+    ARXRLE_SPA_BEAMSECTION_CB_FY, 0x403, 7, 0
+0x5252, 0x3442, 0x3030, "\000" 
+    ARXRLE_SPA_BEAMSECTION_CB_FYC, 0x403, 7, 0
+0x5048, 0x3242, 0x3533, "\000" 
+    ARXRLE_SPA_BEAMSECTION_CB_FYC, 0x403, 7, 0
+0x5248, 0x3342, 0x3533, "\000" 
+    ARXRLE_SPA_BEAMSECTION_CB_FYC, 0x403, 7, 0
+0x5248, 0x3442, 0x3030, "\000" 
+    ARXRLE_SPA_BEAMSECTION_CB_FYC, 0x403, 7, 0
+0x5252, 0x3442, 0x3030, "\000" 
+    ARXRLE_SPA_BEAMSECTION_CB_FYV, 0x403, 7, 0
+0x5048, 0x3242, 0x3533, "\000" 
+    ARXRLE_SPA_BEAMSECTION_CB_FYV, 0x403, 7, 0
+0x5248, 0x3342, 0x3533, "\000" 
+    ARXRLE_SPA_BEAMSECTION_CB_FYV, 0x403, 7, 0
+0x5248, 0x3442, 0x3030, "\000" 
+    ARXRLE_SPA_BEAMSECTION_CB_FYV, 0x403, 7, 0
+0x5252, 0x3442, 0x3030, "\000" 
+    ARXRLE_SPA_BEAMSECTION_CB_KZDJ, 0x403, 5, 0
+0x2031, 0xb6bc, "\000" 
+    ARXRLE_SPA_BEAMSECTION_CB_KZDJ, 0x403, 5, 0
+0x2032, 0xb6bc, "\000" 
+    ARXRLE_SPA_BEAMSECTION_CB_KZDJ, 0x403, 5, 0
+0x2033, 0xb6bc, "\000" 
+    ARXRLE_SPA_BEAMSECTION_CB_KZDJ, 0x403, 5, 0
+0x2034, 0xb6bc, "\000" 
+    ARXRLE_SPA_BEAMSECTION_CB_KZDJ, 0x403, 7, 0
+0xc5be, 0xc8b6, 0xf8c7, "\000" 
+    ARXRLE_SPA_BEAMSECTION_CB_LLX, 0x403, 7, 0
+0xc0b6, 0xa2c1, 0xbac1, "\000" 
+    ARXRLE_SPA_BEAMSECTION_CB_LLX, 0x403, 7, 0
+0xdfc0, 0xced0, 0xbac1, "\000" 
+    ARXRLE_SPA_BEAMSECTION_CB_LLX, 0x403, 11, 0
+0xbbd2, 0xb6bc, 0xf2bf, 0xdcbc, 0xbac1, "\000" 
+    ARXRLE_SPA_BEAMSECTION_CB_LLX, 0x403, 11, 0
+0xfeb6, 0xb6bc, 0xf2bf, 0xdcbc, 0xbac1, "\000" 
+    ARXRLE_SPA_BEAMSECTION_CB_LLX, 0x403, 11, 0
+0xfdc8, 0xb6bc, 0xf2bf, 0xdcbc, 0xbac1, "\000" 
+    ARXRLE_SPA_BEAMSECTION_CB_LLX, 0x403, 11, 0
+0xc4cb, 0xb6bc, 0xf2bf, 0xdcbc, 0xbac1, "\000" 
+    ARXRLE_SPA_BEAMSECTION_CB_RO, 0x403, 4, 0
+0x2e30, 0x0039, 
+    ARXRLE_SPA_BEAMSECTION_CB_RO, 0x403, 4, 0
+0x2e31, 0x0030, 
+    ARXRLE_SPA_BEAMSECTION_CB_RO, 0x403, 4, 0
+0x2e31, 0x0031, 
+    ARXRLE_SPA_BEAMSECTION_CB_JMLX, 0x403, 11, 0
+0xd8be, 0xced0, 0x2020, 0x6d28, 0x296d, "\000" 
+    ARXRLE_SPA_BEAMSECTION_CB_JMLX, 0x403, 12, 0
+0xb9b5, 0xd054, 0x20ce, 0x2820, 0x6d6d, 0x0029, 
+    ARXRLE_SPA_BEAMSECTION_CB_JMLX, 0x403, 10, 0
+0xd054, 0x20ce, 0x2820, 0x6d6d, 0x0029, 
+    ARXRLE_SPA_BEAMSECTION_CB_JMLX, 0x403, 12, 0
+0xb9b5, 0xd04c, 0x20ce, 0x2820, 0x6d6d, 0x0029, 
+    ARXRLE_SPA_BEAMSECTION_CB_JMLX, 0x403, 11, 0
+0xa4b9, 0xced0, 0x2020, 0x6d28, 0x296d, "\000" 
+    0
+END
+
+ARXRLE_TDC_STRUCT_SAP_COLUMNSTRENGTH DLGINIT
+BEGIN
+    ARXRLE_SAP_COLUMNSTRENGTH_CB_FCUK, 0x403, 4, 0
+0x3143, 0x0035, 
+    ARXRLE_SAP_COLUMNSTRENGTH_CB_FCUK, 0x403, 4, 0
+0x3243, 0x0030, 
+    ARXRLE_SAP_COLUMNSTRENGTH_CB_FCUK, 0x403, 4, 0
+0x3243, 0x0035, 
+    ARXRLE_SAP_COLUMNSTRENGTH_CB_FCUK, 0x403, 4, 0
+0x3343, 0x0030, 
+    ARXRLE_SAP_COLUMNSTRENGTH_CB_FCUK, 0x403, 4, 0
+0x3343, 0x0035, 
+    ARXRLE_SAP_COLUMNSTRENGTH_CB_FCUK, 0x403, 4, 0
+0x3443, 0x0030, 
+    ARXRLE_SAP_COLUMNSTRENGTH_CB_FCUK, 0x403, 4, 0
+0x3443, 0x0035, 
+    ARXRLE_SAP_COLUMNSTRENGTH_CB_FCUK, 0x403, 4, 0
+0x3543, 0x0030, 
+    ARXRLE_SAP_COLUMNSTRENGTH_CB_FCUK, 0x403, 4, 0
+0x3543, 0x0035, 
+    ARXRLE_SAP_COLUMNSTRENGTH_CB_FCUK, 0x403, 4, 0
+0x3643, 0x0030, 
+    ARXRLE_SAP_COLUMNSTRENGTH_CB_FCUK, 0x403, 4, 0
+0x3643, 0x0035, 
+    ARXRLE_SAP_COLUMNSTRENGTH_CB_FCUK, 0x403, 4, 0
+0x3743, 0x0030, 
+    ARXRLE_SAP_COLUMNSTRENGTH_CB_FCUK, 0x403, 4, 0
+0x3743, 0x0035, 
+    ARXRLE_SAP_COLUMNSTRENGTH_CB_FCUK, 0x403, 4, 0
+0x3843, 0x0030, 
+    ARXRLE_SAP_COLUMNSTRENGTH_CB_FY, 0x403, 4, 0
+0x3132, 0x0030, 
+    ARXRLE_SAP_COLUMNSTRENGTH_CB_FY, 0x403, 4, 0
+0x3033, 0x0030, 
+    ARXRLE_SAP_COLUMNSTRENGTH_CB_FY, 0x403, 4, 0
+0x3433, 0x0030, 
+    ARXRLE_SAP_COLUMNSTRENGTH_CB_FY, 0x403, 4, 0
+0x3633, 0x0030, 
+    ARXRLE_SAP_COLUMNSTRENGTH_CB_FY, 0x403, 4, 0
+0x3933, 0x0030, 
+    ARXRLE_SAP_COLUMNSTRENGTH_CB_FY, 0x403, 4, 0
+0x3034, 0x0030, 
+    ARXRLE_SAP_COLUMNSTRENGTH_CB_KLXL, 0x403, 7, 0
+0xd5c6, 0xa8cd, 0xf9d6, "\000" 
+    ARXRLE_SAP_COLUMNSTRENGTH_CB_KLXL, 0x403, 5, 0
+0xc7bd, 0xf9d6, "\000" 
+    ARXRLE_SAP_COLUMNSTRENGTH_CB_KLXL, 0x403, 7, 0
+0xf2bf, 0xa7d6, 0xf9d6, "\000" 
+    ARXRLE_SAP_COLUMNSTRENGTH_CB_FYV, 0x403, 4, 0
+0x3132, 0x0030, 
+    ARXRLE_SAP_COLUMNSTRENGTH_CB_FYV, 0x403, 4, 0
+0x3033, 0x0030, 
+    ARXRLE_SAP_COLUMNSTRENGTH_CB_FYV, 0x403, 4, 0
+0x3433, 0x0030, 
+    ARXRLE_SAP_COLUMNSTRENGTH_CB_FYV, 0x403, 4, 0
+0x3633, 0x0030, 
+    ARXRLE_SAP_COLUMNSTRENGTH_CB_FYV, 0x403, 4, 0
+0x3933, 0x0030, 
+    ARXRLE_SAP_COLUMNSTRENGTH_CB_FYV, 0x403, 4, 0
+0x3034, 0x0030, 
+    ARXRLE_SAP_COLUMNSTRENGTH_CB_KZDJ, 0x403, 7, 0
+0xc5be, 0xc8b6, 0xf8c7, "\000" 
+    ARXRLE_SAP_COLUMNSTRENGTH_CB_KZDJ, 0x403, 5, 0
+0x2031, 0xb6bc, "\000" 
+    ARXRLE_SAP_COLUMNSTRENGTH_CB_KZDJ, 0x403, 5, 0
+0x2032, 0xb6bc, "\000" 
+    ARXRLE_SAP_COLUMNSTRENGTH_CB_KZDJ, 0x403, 5, 0
+0x2033, 0xb6bc, "\000" 
+    ARXRLE_SAP_COLUMNSTRENGTH_CB_KZDJ, 0x403, 5, 0
+0x2034, 0xb6bc, "\000" 
+    ARXRLE_SAP_COLUMNSTRENGTH_CB_KZDJ, 0x403, 7, 0
+0xc7b7, 0xb9bf, 0xf0d5, "\000" 
+    0
+END
+
+ARXRLE_TDC_STRUCT_SAP_BEAMCRACKS DLGINIT
+BEGIN
+    ARXRLE_SAP_BEAMCRACKS_CB_FCUK, 0x403, 4, 0
+0x3143, 0x0035, 
+    ARXRLE_SAP_BEAMCRACKS_CB_FCUK, 0x403, 4, 0
+0x3243, 0x0030, 
+    ARXRLE_SAP_BEAMCRACKS_CB_FCUK, 0x403, 4, 0
+0x3243, 0x0035, 
+    ARXRLE_SAP_BEAMCRACKS_CB_FCUK, 0x403, 4, 0
+0x3343, 0x0030, 
+    ARXRLE_SAP_BEAMCRACKS_CB_FCUK, 0x403, 4, 0
+0x3343, 0x0035, 
+    ARXRLE_SAP_BEAMCRACKS_CB_FCUK, 0x403, 4, 0
+0x3443, 0x0030, 
+    ARXRLE_SAP_BEAMCRACKS_CB_FCUK, 0x403, 4, 0
+0x3443, 0x0035, 
+    ARXRLE_SAP_BEAMCRACKS_CB_FCUK, 0x403, 4, 0
+0x3543, 0x0030, 
+    ARXRLE_SAP_BEAMCRACKS_CB_FCUK, 0x403, 4, 0
+0x3543, 0x0035, 
+    ARXRLE_SAP_BEAMCRACKS_CB_FCUK, 0x403, 4, 0
+0x3643, 0x0030, 
+    ARXRLE_SAP_BEAMCRACKS_CB_FCUK, 0x403, 4, 0
+0x3643, 0x0035, 
+    ARXRLE_SAP_BEAMCRACKS_CB_FCUK, 0x403, 4, 0
+0x3743, 0x0030, 
+    ARXRLE_SAP_BEAMCRACKS_CB_FCUK, 0x403, 4, 0
+0x3743, 0x0035, 
+    ARXRLE_SAP_BEAMCRACKS_CB_FCUK, 0x403, 4, 0
+0x3843, 0x0030, 
+    ARXRLE_SAP_BEAMCRACKS_CB_FY, 0x403, 4, 0
+0x3132, 0x0030, 
+    ARXRLE_SAP_BEAMCRACKS_CB_FY, 0x403, 4, 0
+0x3033, 0x0030, 
+    ARXRLE_SAP_BEAMCRACKS_CB_FY, 0x403, 4, 0
+0x3433, 0x0030, 
+    ARXRLE_SAP_BEAMCRACKS_CB_FY, 0x403, 4, 0
+0x3633, 0x0030, 
+    ARXRLE_SAP_BEAMCRACKS_CB_FY, 0x403, 4, 0
+0x3933, 0x0030, 
+    ARXRLE_SAP_BEAMCRACKS_CB_FY, 0x403, 4, 0
+0x3034, 0x0030, 
+    ARXRLE_SAP_BEAMCRACKS_CB_GJXZ, 0x403, 2, 0
+0x0031, 
+    ARXRLE_SAP_BEAMCRACKS_CB_GJXZ, 0x403, 4, 0
+0x2e30, 0x0038, 
+    ARXRLE_SAP_BEAMCRACKS_CB_GJXZ, 0x403, 5, 0
+0x2e30, 0x3536, "\000" 
+    0
+END
+
+ARXRLE_TDC_STRUCT_SAP_CIRCLESTRENGTH DLGINIT
+BEGIN
+    ARXRLE_SAP_CIRCLESTRENGTH_CB_FCUK, 0x403, 4, 0
+0x3143, 0x0035, 
+    ARXRLE_SAP_CIRCLESTRENGTH_CB_FCUK, 0x403, 4, 0
+0x3243, 0x0030, 
+    ARXRLE_SAP_CIRCLESTRENGTH_CB_FCUK, 0x403, 4, 0
+0x3243, 0x0035, 
+    ARXRLE_SAP_CIRCLESTRENGTH_CB_FCUK, 0x403, 4, 0
+0x3343, 0x0030, 
+    ARXRLE_SAP_CIRCLESTRENGTH_CB_FCUK, 0x403, 4, 0
+0x3343, 0x0035, 
+    ARXRLE_SAP_CIRCLESTRENGTH_CB_FCUK, 0x403, 4, 0
+0x3443, 0x0030, 
+    ARXRLE_SAP_CIRCLESTRENGTH_CB_FCUK, 0x403, 4, 0
+0x3443, 0x0035, 
+    ARXRLE_SAP_CIRCLESTRENGTH_CB_FCUK, 0x403, 4, 0
+0x3543, 0x0030, 
+    ARXRLE_SAP_CIRCLESTRENGTH_CB_FCUK, 0x403, 4, 0
+0x3543, 0x0035, 
+    ARXRLE_SAP_CIRCLESTRENGTH_CB_FCUK, 0x403, 4, 0
+0x3643, 0x0030, 
+    ARXRLE_SAP_CIRCLESTRENGTH_CB_FCUK, 0x403, 4, 0
+0x3643, 0x0035, 
+    ARXRLE_SAP_CIRCLESTRENGTH_CB_FCUK, 0x403, 4, 0
+0x3743, 0x0030, 
+    ARXRLE_SAP_CIRCLESTRENGTH_CB_FCUK, 0x403, 4, 0
+0x3743, 0x0035, 
+    ARXRLE_SAP_CIRCLESTRENGTH_CB_FCUK, 0x403, 4, 0
+0x3843, 0x0030, 
+    ARXRLE_SAP_CIRCLESTRENGTH_CB_FY, 0x403, 4, 0
+0x3132, 0x0030, 
+    ARXRLE_SAP_CIRCLESTRENGTH_CB_FY, 0x403, 4, 0
+0x3033, 0x0030, 
+    ARXRLE_SAP_CIRCLESTRENGTH_CB_FY, 0x403, 4, 0
+0x3433, 0x0030, 
+    ARXRLE_SAP_CIRCLESTRENGTH_CB_FY, 0x403, 4, 0
+0x3633, 0x0030, 
+    ARXRLE_SAP_CIRCLESTRENGTH_CB_FY, 0x403, 4, 0
+0x3933, 0x0030, 
+    ARXRLE_SAP_CIRCLESTRENGTH_CB_FY, 0x403, 4, 0
+0x3034, 0x0030, 
+    ARXRLE_SAP_CIRCLESTRENGTH_CB_FYV, 0x403, 4, 0
+0x3132, 0x0030, 
+    ARXRLE_SAP_CIRCLESTRENGTH_CB_FYV, 0x403, 4, 0
+0x3033, 0x0030, 
+    ARXRLE_SAP_CIRCLESTRENGTH_CB_FYV, 0x403, 4, 0
+0x3433, 0x0030, 
+    ARXRLE_SAP_CIRCLESTRENGTH_CB_FYV, 0x403, 4, 0
+0x3633, 0x0030, 
+    ARXRLE_SAP_CIRCLESTRENGTH_CB_FYV, 0x403, 4, 0
+0x3933, 0x0030, 
+    ARXRLE_SAP_CIRCLESTRENGTH_CB_FYV, 0x403, 4, 0
+0x3034, 0x0030, 
+    ARXRLE_SAP_CIRCLESTRENGTH_CB_KZDJ, 0x403, 7, 0
+0xc5be, 0xc8b6, 0xf8c7, "\000" 
+    ARXRLE_SAP_CIRCLESTRENGTH_CB_KZDJ, 0x403, 5, 0
+0x2031, 0xb6bc, "\000" 
+    ARXRLE_SAP_CIRCLESTRENGTH_CB_KZDJ, 0x403, 5, 0
+0x2032, 0xb6bc, "\000" 
+    ARXRLE_SAP_CIRCLESTRENGTH_CB_KZDJ, 0x403, 5, 0
+0x2033, 0xb6bc, "\000" 
+    ARXRLE_SAP_CIRCLESTRENGTH_CB_KZDJ, 0x403, 5, 0
+0x2034, 0xb6bc, "\000" 
+    ARXRLE_SAP_CIRCLESTRENGTH_CB_KZDJ, 0x403, 7, 0
+0xc7b7, 0xb9bf, 0xf0d5, "\000" 
+    0
+END
+
+ARXRLE_TDC_STRUCT_SPA_WALLSTRENGTH DLGINIT
+BEGIN
+    ARXRLE_SPA_WALLSTRENGTH_CB_FCUK, 0x403, 4, 0
+0x3143, 0x0035, 
+    ARXRLE_SPA_WALLSTRENGTH_CB_FCUK, 0x403, 4, 0
+0x3243, 0x0030, 
+    ARXRLE_SPA_WALLSTRENGTH_CB_FCUK, 0x403, 4, 0
+0x3243, 0x0035, 
+    ARXRLE_SPA_WALLSTRENGTH_CB_FCUK, 0x403, 4, 0
+0x3343, 0x0030, 
+    ARXRLE_SPA_WALLSTRENGTH_CB_FCUK, 0x403, 4, 0
+0x3343, 0x0035, 
+    ARXRLE_SPA_WALLSTRENGTH_CB_FCUK, 0x403, 4, 0
+0x3443, 0x0030, 
+    ARXRLE_SPA_WALLSTRENGTH_CB_FCUK, 0x403, 4, 0
+0x3443, 0x0035, 
+    ARXRLE_SPA_WALLSTRENGTH_CB_FCUK, 0x403, 4, 0
+0x3543, 0x0030, 
+    ARXRLE_SPA_WALLSTRENGTH_CB_FCUK, 0x403, 4, 0
+0x3543, 0x0035, 
+    ARXRLE_SPA_WALLSTRENGTH_CB_FCUK, 0x403, 4, 0
+0x3643, 0x0030, 
+    ARXRLE_SPA_WALLSTRENGTH_CB_FCUK, 0x403, 4, 0
+0x3643, 0x0035, 
+    ARXRLE_SPA_WALLSTRENGTH_CB_FCUK, 0x403, 4, 0
+0x3743, 0x0030, 
+    ARXRLE_SPA_WALLSTRENGTH_CB_FCUK, 0x403, 4, 0
+0x3743, 0x0035, 
+    ARXRLE_SPA_WALLSTRENGTH_CB_FCUK, 0x403, 4, 0
+0x3843, 0x0030, 
+    ARXRLE_SPA_WALLSTRENGTH_CB_FY, 0x403, 4, 0
+0x3132, 0x0030, 
+    ARXRLE_SPA_WALLSTRENGTH_CB_FY, 0x403, 4, 0
+0x3033, 0x0030, 
+    ARXRLE_SPA_WALLSTRENGTH_CB_FY, 0x403, 4, 0
+0x3433, 0x0030, 
+    ARXRLE_SPA_WALLSTRENGTH_CB_FY, 0x403, 4, 0
+0x3633, 0x0030, 
+    ARXRLE_SPA_WALLSTRENGTH_CB_FY, 0x403, 4, 0
+0x3933, 0x0030, 
+    ARXRLE_SPA_WALLSTRENGTH_CB_FY, 0x403, 4, 0
+0x3034, 0x0030, 
+    ARXRLE_SPA_WALLSTRENGTH_CB_FYV, 0x403, 4, 0
+0x3132, 0x0030, 
+    ARXRLE_SPA_WALLSTRENGTH_CB_FYV, 0x403, 4, 0
+0x3033, 0x0030, 
+    ARXRLE_SPA_WALLSTRENGTH_CB_FYV, 0x403, 4, 0
+0x3433, 0x0030, 
+    ARXRLE_SPA_WALLSTRENGTH_CB_FYV, 0x403, 4, 0
+0x3633, 0x0030, 
+    ARXRLE_SPA_WALLSTRENGTH_CB_FYV, 0x403, 4, 0
+0x3933, 0x0030, 
+    ARXRLE_SPA_WALLSTRENGTH_CB_FYV, 0x403, 4, 0
+0x3034, 0x0030, 
+    ARXRLE_SPA_WALLSTRENGTH_CB_KZDJ, 0x403, 7, 0
+0xc5be, 0xc8b6, 0xf8c7, "\000" 
+    ARXRLE_SPA_WALLSTRENGTH_CB_KZDJ, 0x403, 5, 0
+0x2031, 0xb6bc, "\000" 
+    ARXRLE_SPA_WALLSTRENGTH_CB_KZDJ, 0x403, 5, 0
+0x2032, 0xb6bc, "\000" 
+    ARXRLE_SPA_WALLSTRENGTH_CB_KZDJ, 0x403, 5, 0
+0x2033, 0xb6bc, "\000" 
+    ARXRLE_SPA_WALLSTRENGTH_CB_KZDJ, 0x403, 5, 0
+0x2034, 0xb6bc, "\000" 
+    ARXRLE_SPA_WALLSTRENGTH_CB_KZDJ, 0x403, 7, 0
+0xc7b7, 0xb9bf, 0xf0d5, "\000" 
+    ARXRLE_SPA_WALLSTRENGTH_CB_FYW, 0x403, 4, 0
+0x3132, 0x0030, 
+    ARXRLE_SPA_WALLSTRENGTH_CB_FYW, 0x403, 4, 0
+0x3033, 0x0030, 
+    ARXRLE_SPA_WALLSTRENGTH_CB_FYW, 0x403, 4, 0
+0x3433, 0x0030, 
+    ARXRLE_SPA_WALLSTRENGTH_CB_FYW, 0x403, 4, 0
+0x3633, 0x0030, 
+    ARXRLE_SPA_WALLSTRENGTH_CB_FYW, 0x403, 4, 0
+0x3933, 0x0030, 
+    ARXRLE_SPA_WALLSTRENGTH_CB_FYW, 0x403, 4, 0
+0x3034, 0x0030, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+ARXRLE_DLG_ABOUT AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+ARXRLE_TDC_CURVE_ELEMENT AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    ARXRLE_APP_DRAW         "Draw"
+    ARXRLE_APP_INFO         "Info"
+    ARXRLE_APP_WINDDLG      "WindDlg"
+    ARXRLE_APP_ABOUT        "About"
+END
+
+STRINGTABLE
+BEGIN
+    ARXRLE_PANE_EXPLORER    "Explorer"
+    ARXRLE_PANE_ICONS       "Icons"
+    ARXRLE_PANE_TOOLS       "Tools"
+    ARXRLE_PANE_COLORS      "Colors"
+END
+
+STRINGTABLE
+BEGIN
+    ARXRLE_PANE_PROPERTIES  "Properties"
+END
+
+STRINGTABLE
+BEGIN
+    ARXRLE_STR_REPORT_DATE_OLDER "Date: Older"
+    ARXRLE_STR_REPORT_DATE_THISYEAR "Date: This year"
+    ARXRLE_STR_REPORT_DATE_THISMONTH "Date: This month"
+    ARXRLE_STR_REPORT_DATE_TODAY "Date: Today"
+    ARXRLE_STR_REPORT_CHECKED_TRUE "Check State: Checked"
+    ARXRLE_STR_REPORT_CHECKED_FALSE "Check State: Unchecked"
+    ARXRLE_STR_REPORT_IMPOPRTANCE_HIGH "Importance: High"
+    ARXRLE_STR_REPORT_IMPOPRTANCE_NORMAL "Importance: Normal"
+    ARXRLE_STR_REPORT_IMPOPRTANCE_LOW "Importance: Low"
+    ARXRLE_STR_REPORT_ATTACHMENTS_TRUE "Attachments: With Attachments"
+    ARXRLE_STR_REPORT_ATTACHMENTS_FALSE "Attachments: No Attachments"
+END
+
+STRINGTABLE
+BEGIN
+    ARXRLE_MENU_LAYER       "图层管理"
+    ARXRLE_LAYER_SETCUR     "设置当前层"
+    ARXRLE_LAYER_SHOWALL    "全部显示"
+    ARXRLE_LAYER_HIDEALL    "全部隐藏"
+END
+
+STRINGTABLE
+BEGIN
+    ARXRLE_LAYER_HIDEPART   "部分隐藏"
+    ARXRLE_LAYER_SHOWBYLAYER "按层显示"
+    ARXRLE_LAYER_HIDEBYLAYER "按层隐藏"
+    ARXRLE_LAYER_SHOWBYCOLOR "按色显示"
+    ARXRLE_LAYER_HIDEBYCOLOR "按色隐藏"
+    ARXRLE_LAYER_LOCK       "按层锁住"
+    ARXRLE_LAYER_UNLOCK     "按层解锁"
+END
+
+STRINGTABLE
+BEGIN
+    ARXRLE_MENU_TEXT        "文字管理"
+    ARXRLE_TEXT_SETCUR      "设置当前样式"
+END
+
+STRINGTABLE
+BEGIN
+    ARXRLE_MENU_DIM         "标注管理"
+    ARXRLE_DIM_SETCUR       "设置当前标注"
+    ARXRLE_DIM_SHOWALL      "全部显示"
+    ARXRLE_DIM_HIDEALL      "全部隐藏"
+    ARXRLE_DIM_HIDEPART     "部分隐藏"
+    ARXRLE_DIM_SHOWBYSTYLE  "按样式显示"
+    ARXRLE_DIM_HIDEBYSTYLE  "按样式隐藏"
+    ARXRLE_DIM_ENTITY       "实体标注"
+    ARXRLE_DIM_LEAD         "引线标注"
+    ARXRLE_DIM_SECTION      "剖面标注"
+    ARXRLE_DIM_PAPER        "图纸标注"
+    ARXRLE_DIM_SETSTR       "修改标注"
+END
+
+STRINGTABLE
+BEGIN
+    ARXRLE_MENU_ENT         "图元管理"
+    ARXRLE_ENT_DEL          "图元删除"
+    ARXRLE_ENT_DELALL       "全部删除"
+    ARXRLE_ENT_DELBYLAYER   "按层删除"
+    ARXRLE_ENT_DELBYCOLOR   "按色删除"
+    ARXRLE_ENT_COPY         "图元复制"
+    ARXRLE_ENT_CPYBYDIST    "按距离复制"
+    ARXRLE_ENT_CPYBYANGLE   "按角度复制"
+    ARXRLE_ENT_CPYBYIF      "按条件复制"
+    ARXRLE_ENT_COLOR        "颜色修改"
+    ARXRLE_ENT_CLRSETBYLAYER "按层修改"
+    ARXRLE_ENT_CLRSETBYCOLOR "按色修改"
+    ARXRLE_ENT_CLRSETBYENTITY "按元修改"
+    ARXRLE_ENT_LINETYPE     "线形修改"
+END
+
+STRINGTABLE
+BEGIN
+    ARXRLE_MENU_MEASURE     "测量工具"
+    ARXRLE_MEASURE_CRDTRM   "大地坐标转换"
+    ARXRLE_MEASURE_CURVE    "曲线要素绘制"
+    ARXRLE_MEASURE_PTINDATA "导入测点数据"
+    ARXRLE_MEASURE_PTOUTDATA "导出测点数据"
+    ARXRLE_MEASURE_AREA     "测量多段线面积"
+    ARXRLE_MEASURE_LENGTH   "测量多段线长度"
+    ARXRLE_MEASURE_ALL_AREA "测量全部多段线面积"
+    ARXRLE_MEASURE_ALL_LENGTH "测量全部多段线长度"
+END
+
+STRINGTABLE
+BEGIN
+    ARXRLE_MENU_NETPLAN     "网路计划"
+    ARXRLE_NETPLAN_PARAM    "基本设置"
+    ARXRLE_NETPLAN_IMPORT_WORK "导入工序数据"
+    ARXRLE_NETPLAN_EXPORT_WORK "导出工序数据"
+    ARXRLE_NETPLAN_IMPORT_STYLE "导入工序样式"
+    ARXRLE_NETPLAN_EXPORT_STYLE "导出工序样式"
+    ARXRLE_NETPLAN_GRID     "表格绘制"
+    ARXRLE_NETPLAN_TABLE    "进度表格"
+    ARXRLE_NETPLAN_DATA     "批量绘制"
+    ARXRLE_NETPLAN_PROC     "批量进度"
+END
+
+STRINGTABLE
+BEGIN
+    ARXRLE_MENU_DRAW        "通用绘图"
+    ARXRLE_DRAW_CONDITION   "条件绘图"
+    ARXRLE_DRAW_HATCH       "图形填充"
+    ARXRLE_DRAW_NUMBER      "连续编号"
+    ARXRLE_DRAW_BROKEN      "折断线"
+    ARXRLE_DRAW_TOPLINE     "转多段线"
+    ARXRLE_DRAW_DIMLAND     "用地标注"
+END
+
+STRINGTABLE
+BEGIN
+    ARXRLE_MENU_BLOCK       "标准图块"
+    ARXRLE_BLOCK_TK         "图框"
+    ARXRLE_BLOCK_BTL        "标题栏"
+    ARXRLE_BLOCK_ZBZ        "指北针"
+END
+
+STRINGTABLE
+BEGIN
+    ARXRLE_MENU_STRUCT      "结构分析"
+    ARXRLE_STRUCT_CONCRETE  "砼结构计算"
+    ARXRLE_STRUCT_STEEL     "钢结构计算"
+    ARXRLE_STRUCT_SECTION   "型钢参数查询"
+END
+
+STRINGTABLE
+BEGIN
+    ARXRLE_MENU_NORM        "结构规范"
+END
+
+STRINGTABLE
+BEGIN
+    ARXRLE_MENU_XTPTHEME    "风格样式"
+    ARXRLE_XTPTHEME_ACEDSTYLE "AcedStyle"
+    ARXRLE_XTPTHEME_OFFICE2000 "Office2000"
+    ARXRLE_XTPTHEME_OFFICEXP "OfficeXP"
+    ARXRLE_XTPTHEME_OFFICE2003 "Office2003"
+    ARXRLE_XTPTHEME_WINXP   "NativeWinXP"
+    ARXRLE_XTPTHEME_WHIDBEY "Whidbey"
+    ARXRLE_XTPTHEME_VS2008  "VisualStudio2008"
+    ARXRLE_XTPTHEME_VS6     "VisualStudio6"
+    ARXRLE_XTPTHEME_VS2010  "VisualStudio2010"
+    ARXRLE_XTPTHEME_CUSTOM  "Custom"
+END
+
+STRINGTABLE
+BEGIN
+    ARXRLE_MENU_PROGRAM     "应用程序"
+    ARXRLE_PROGRAM_TABLE_IMPORT_1 "(&A)方法一 (表格样式)"
+    ARXRLE_PROGRAM_TABLE_IMPORT_2 "(&B)方法二 (线条文字)"
+    ARXRLE_PROGRAM_TABLE_IMPORT_3 "(&C)数据联动"
+END
+
+STRINGTABLE
+BEGIN
+    ARXRLE_TEXT_SHOWALL     "全部显示"
+    ARXRLE_TEXT_HIDEALL     "全部隐藏"
+    ARXRLE_TEXT_HIDEPART    "部分隐藏"
+    ARXRLE_TEXT_SHOWBYSTYLE "按样式显示"
+    ARXRLE_TEXT_HIDEBYSTYLE "按样式隐藏"
+    ARXRLE_TEXT_SHOWBYHEIGHT "按高度显示"
+    ARXRLE_TEXT_HIDEBYHEIGHT "按高度隐藏"
+    ARXRLE_TEXT_SHOWBYANGLE "按角度显示"
+    ARXRLE_TEXT_HIDEBYANGLE "按角度隐藏"
+    ARXRLE_TEXT_SHOWBYSTR   "按内容显示"
+    ARXRLE_TEXT_HIDEBYSTR   "按内容隐藏"
+    ARXRLE_TEXT_FLUSH       "刷新样式"
+    ARXRLE_TEXT_CALC        "数字计算"
+END
+
+STRINGTABLE
+BEGIN
+    ARXRLE_ENT_LTSETBYLAYER "按层修改"
+    ARXRLE_ENT_LTSETBYCOLOR "按色修改"
+    ARXRLE_ENT_LTSETBYENTITY "按元修改"
+    ARXRLE_ENT_INFO         "扩展信息"
+    ARXRLE_ENT_INFOTIP_SHOW "显示"
+    ARXRLE_ENT_INFOTIP_HIDE "隐藏"
+    ARXRLE_ENT_ATTRIBUTE    "属性修改"
+END
+
+STRINGTABLE
+BEGIN
+    ARXRLE_NETPLAN_RESET    "反置进度"
+    ARXRLE_NETPLAN_RENR     "重新编号"
+    ARXRLE_NETPLAN_WORK     "工序绘制"
+    ARXRLE_NETPLAN_STYLE    "格式工序"
+    ARXRLE_NETPLAN_BIND     "附加工作"
+END
+
+STRINGTABLE
+BEGIN
+    ARXRLE_NORM_01          "设计规范大全"
+    ARXRLE_NORM_02          "机械设计手册"
+    ARXRLE_NORM_03          "钢结构设计规范"
+    ARXRLE_NORM_04          "混凝土设计规范"
+    ARXRLE_NORM_05          "组合钢模板规范"
+    ARXRLE_NORM_06          "铁路钢结构设计"
+    ARXRLE_NORM_07          "公路桥涵设计手册"
+    ARXRLE_NORM_08          "简明施工计算手册"
+    ARXRLE_NORM_09          "路桥施工计算手册"
+    ARXRLE_NORM_10          "路桥施工工程手册"
+END
+
+STRINGTABLE
+BEGIN
+    ARXRLE_MENU_HELP        "帮助"
+    ARXRLE_HELP_HELP        "帮助"
+    ARXRLE_HELP_REG         "注册"
+    ARXRLE_HELP_NET         "主页"
+    ARXRLE_HELP_ABOUT       "关于"
+    ARXRLE_HELP_REGINFO     "注册信息"
+END
+
+STRINGTABLE
+BEGIN
+    ARXRLE_PROGRAM_TABLE_EXPORT_1 "(&A)方法一 (表格样式)"
+    ARXRLE_PROGRAM_TABLE_EXPORT_2 "(&B)方法二 (线条文字)"
+    ARXRLE_PROGRAM_ENTPROTITY "(&P)实体属性"
+    ARXRLE_PROGRAM_LOADLISP "(&L)调用Lisp脚本"
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 英语(美国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "Resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\ArxRle.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 英语(美国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "res\ArxRle.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

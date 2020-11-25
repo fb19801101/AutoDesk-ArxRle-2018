@@ -1,0 +1,700 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Unicode Debug|Win32">
+      <Configuration>Unicode Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Unicode Debug|x64">
+      <Configuration>Unicode Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Unicode Release|Win32">
+      <Configuration>Unicode Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Unicode Release|x64">
+      <Configuration>Unicode Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AcadUtils\AcadStr.cpp" />
+    <ClCompile Include="AcadUtils\ArxRleDocLockWrite.cpp" />
+    <ClCompile Include="AcadUtils\ArxRleRbList.cpp" />
+    <ClCompile Include="AcadUtils\ArxRleSdStrList.cpp" />
+    <ClCompile Include="AcadUtils\ArxRleSdStrObjId.cpp" />
+    <ClCompile Include="AcadUtils\ArxRleSdSysVar.cpp" />
+    <ClCompile Include="AcadUtils\ArxRleSelSet.cpp" />
+    <ClCompile Include="AcadUtils\ArxRleUtils.cpp" />
+    <ClCompile Include="AcadUtils\ArxRleUtilsAcadUi.cpp" />
+    <ClCompile Include="AcadUtils\ArxRleUtilsDb.cpp" />
+    <ClCompile Include="AcadUtils\ArxRleUtilsDict.cpp" />
+    <ClCompile Include="AcadUtils\ArxRleUtilsGe.cpp" />
+    <ClCompile Include="AcadUtils\ArxRleUtilsSymTbl.cpp" />
+    <ClCompile Include="AcadUtils\ArxRleXdata.cpp" />
+    <ClCompile Include="AdeskLogo\ArxRleCmdAdeskLogo.cpp" />
+    <ClCompile Include="AdeskLogo\ArxRleDbAdeskLogo.cpp" />
+    <ClCompile Include="AdeskLogo\ArxRleDbAdeskLogoStyle.cpp" />
+    <ClCompile Include="App\AcadCommandFunc.cpp" />
+    <ClCompile Include="App\ArxRleAttributeList.cpp" />
+    <ClCompile Include="App\ArxRleAttributeListItem.cpp" />
+    <ClCompile Include="App\ArxRleButton.cpp" />
+    <ClCompile Include="App\ArxRleCommon.cpp" />
+    <ClCompile Include="App\ArxRleCoolBar.cpp" />
+    <ClCompile Include="App\ArxRleDocData.cpp" />
+    <ClCompile Include="App\ArxRleEdUiContext.cpp" />
+    <ClCompile Include="App\ArxRleFont.cpp" />
+    <ClCompile Include="App\ArxRleListCtrl.cpp" />
+    <ClCompile Include="App\ArxRleMenuBar.cpp" />
+    <ClCompile Include="App\ArxRleMenuXP.cpp" />
+    <ClCompile Include="App\ArxRleMsgHandler.cpp" />
+    <ClCompile Include="App\ArxRleOptions.cpp" />
+    <ClCompile Include="App\ArxRlePaletteAttribute.cpp" />
+    <ClCompile Include="App\ArxRlePaletteSet.cpp" />
+    <ClCompile Include="App\ArxRlePlot.cpp" />
+    <ClCompile Include="App\ArxRleProfileSection.cpp" />
+    <ClCompile Include="App\ArxRleRichEditCtrl.cpp" />
+    <ClCompile Include="App\ArxRleSystemInfo.cpp" />
+    <ClCompile Include="App\ArxRleToolBar.cpp" />
+    <ClCompile Include="App\ArxRleToolBarGenWnd.cpp" />
+    <ClCompile Include="ArxRle.cpp" />
+    <ClCompile Include="Cmd\ArxRleCmdBlock.cpp" />
+    <ClCompile Include="Cmd\ArxRleCmdDim.cpp" />
+    <ClCompile Include="Cmd\ArxRleCmdDraw.cpp" />
+    <ClCompile Include="Cmd\ArxRleCmdEnt.cpp" />
+    <ClCompile Include="Cmd\ArxRleCmdLayer.cpp" />
+    <ClCompile Include="Cmd\ArxRleCmdMeasure.cpp" />
+    <ClCompile Include="Cmd\ArxRleCmdText.cpp" />
+    <ClCompile Include="CrdTrm\ArxRleCoord.cpp" />
+    <ClCompile Include="CrdTrm\ArxRleMatrix.cpp" />
+    <ClCompile Include="CrdTrm\ArxRleUiDlgCrdTrm.cpp" />
+    <ClCompile Include="CurveElement\ArxRleCurveElement.cpp" />
+    <ClCompile Include="CurveElement\ArxRleUiTdcCurveElement.cpp" />
+    <ClCompile Include="CurveElement\ArxRleUiTdcCurveXY.cpp" />
+    <ClCompile Include="CurveElement\ArxRleUiTdcOvalElement.cpp" />
+    <ClCompile Include="CurveElement\ArxRleUiTdcSqxElement.cpp" />
+    <ClCompile Include="CurveElement\ArxRleUiTdmCurveElement.cpp" />
+    <ClCompile Include="DbEntity\ArxRleDbDictRecord.cpp" />
+    <ClCompile Include="DbEntity\ArxRleDbEntity.cpp" />
+    <ClCompile Include="DbEntity\ArxRleEntityClass.cpp" />
+    <ClCompile Include="DbEntity\ArxRleFile.cpp" />
+    <ClCompile Include="DbEntity\ArxRleFileSys.cpp" />
+    <ClCompile Include="DbEntity\ArxRleString.cpp" />
+    <ClCompile Include="DbEntity\ArxRleStringSys.cpp" />
+    <ClCompile Include="DbEntity\ArxRleTime.cpp" />
+    <ClCompile Include="DbEntity\ArxRleWire.cpp" />
+    <ClCompile Include="DockingPane\ArxRleColorsView.cpp" />
+    <ClCompile Include="DockingPane\ArxRleDockingPaneManager.cpp" />
+    <ClCompile Include="DockingPane\ArxRleExplorerView.cpp" />
+    <ClCompile Include="DockingPane\ArxRleIconsView.cpp" />
+    <ClCompile Include="DockingPane\ArxRlePaneView.cpp" />
+    <ClCompile Include="DockingPane\ArxRlePropertyView.cpp" />
+    <ClCompile Include="DockingPane\ArxRleToolsView.cpp" />
+    <ClCompile Include="ExEntity\ArxRleBrokenLine.cpp" />
+    <ClCompile Include="ExEntity\ArxRleCmdExEntity.cpp" />
+    <ClCompile Include="ExEntity\ArxRleLeadDimension.cpp" />
+    <ClCompile Include="ExEntity\ArxRleTitleLabel.cpp" />
+    <ClCompile Include="Filer\ArxRleDwgFiler.cpp" />
+    <ClCompile Include="Filer\ArxRleReferenceFiler.cpp" />
+    <ClCompile Include="Filer\ArxRleUiDlgFilerTest.cpp" />
+    <ClCompile Include="NetPlan\ArxRleCmdNetPlanWork.cpp" />
+    <ClCompile Include="NetPlan\ArxRleNetPlanWork.cpp" />
+    <ClCompile Include="NetPlan\ArxRleNetPlanWorkStyle.cpp" />
+    <ClCompile Include="NetPlan\ArxRleReportRecord.cpp" />
+    <ClCompile Include="NetPlan\ArxRleTabCtrl.cpp" />
+    <ClCompile Include="NetPlan\ArxRleUiPage.cpp" />
+    <ClCompile Include="NetPlan\ArxRleUiTdcNetPlanParam.cpp" />
+    <ClCompile Include="NetPlan\ArxRleUiTdcNetPlanWorkData.cpp" />
+    <ClCompile Include="NetPlan\ArxRleUiTdcNetPlanWorkInput.cpp" />
+    <ClCompile Include="NetPlan\ArxRleUiTdcNetPlanWorkStyle.cpp" />
+    <ClCompile Include="NetPlan\ArxRleUiTdmNetPlan.cpp" />
+    <ClCompile Include="Prompt\ArxRleKeywordArray.cpp" />
+    <ClCompile Include="Prompt\ArxRleUiPrAngle.cpp" />
+    <ClCompile Include="Prompt\ArxRleUiPrAngleDef.cpp" />
+    <ClCompile Include="Prompt\ArxRleUiPrBase.cpp" />
+    <ClCompile Include="Prompt\ArxRleUiPrCorner.cpp" />
+    <ClCompile Include="Prompt\ArxRleUiPrDist.cpp" />
+    <ClCompile Include="Prompt\ArxRleUiPrDistDef.cpp" />
+    <ClCompile Include="Prompt\ArxRleUiPrDouble.cpp" />
+    <ClCompile Include="Prompt\ArxRleUiPrDoubleDef.cpp" />
+    <ClCompile Include="Prompt\ArxRleUiPrEntity.cpp" />
+    <ClCompile Include="Prompt\ArxRleUiPrInt.cpp" />
+    <ClCompile Include="Prompt\ArxRleUiPrIntDef.cpp" />
+    <ClCompile Include="Prompt\ArxRleUiPrKeyWord.cpp" />
+    <ClCompile Include="Prompt\ArxRleUiPrKeyWordDef.cpp" />
+    <ClCompile Include="Prompt\ArxRleUiPrPoint.cpp" />
+    <ClCompile Include="Prompt\ArxRleUiPrString.cpp" />
+    <ClCompile Include="Prompt\ArxRleUiPrStringDef.cpp" />
+    <ClCompile Include="Property\ArxRleInPlaceControl.cpp" />
+    <ClCompile Include="Property\ArxRleInPlaceEditString.cpp" />
+    <ClCompile Include="Property\ArxRlePropertyData.cpp" />
+    <ClCompile Include="Property\ArxRlePropertyItem.cpp" />
+    <ClCompile Include="Property\ArxRlePropertyListBox.cpp" />
+    <ClCompile Include="Property\ArxRleSmartString.cpp" />
+    <ClCompile Include="Property\ArxRleUiDlgProperty.cpp" />
+    <ClCompile Include="Reactor\ArxRleAppEditorReactor.cpp" />
+    <ClCompile Include="Reactor\ArxRleCmdReactors.cpp" />
+    <ClCompile Include="Reactor\ArxRleDatabaseReactor.cpp" />
+    <ClCompile Include="Reactor\ArxRleDbDoubleClickEdit.cpp" />
+    <ClCompile Include="Reactor\ArxRleDLinkerReactor.cpp" />
+    <ClCompile Include="Reactor\ArxRleDocumentReactor.cpp" />
+    <ClCompile Include="Reactor\ArxRleEdInputContextReactor.cpp" />
+    <ClCompile Include="Reactor\ArxRleEditorReactor.cpp" />
+    <ClCompile Include="Reactor\ArxRleEdMapReactor.cpp" />
+    <ClCompile Include="Reactor\ArxRleEventReactor.cpp" />
+    <ClCompile Include="Reactor\ArxRleGsReactor.cpp" />
+    <ClCompile Include="Reactor\ArxRleInputPointMonitor.cpp" />
+    <ClCompile Include="Reactor\ArxRleLayoutManagerReactor.cpp" />
+    <ClCompile Include="Reactor\ArxRleLongTransactionReactor.cpp" />
+    <ClCompile Include="Reactor\ArxRlePersistentEntReactor.cpp" />
+    <ClCompile Include="Reactor\ArxRlePersistentObjReactor.cpp" />
+    <ClCompile Include="Reactor\ArxRleTransactionReactor.cpp" />
+    <ClCompile Include="Reactor\ArxRleTransientEntReactor.cpp" />
+    <ClCompile Include="Reactor\ArxRleTransientObjReactor.cpp" />
+    <ClCompile Include="Reactor\ArxRleUiTdcObjReactorsBase.cpp" />
+    <ClCompile Include="Reactor\ArxRleUiTdcPersistentReactors.cpp" />
+    <ClCompile Include="Reactor\ArxRleUiTdcSysReactors.cpp" />
+    <ClCompile Include="Reactor\ArxRleUiTdcTransientReactors.cpp" />
+    <ClCompile Include="Reactor\ArxRleUiTdmReactors.cpp" />
+    <ClCompile Include="Snoop\ArxRleCloneSet.cpp" />
+    <ClCompile Include="Snoop\ArxRleCmdSnoop.cpp" />
+    <ClCompile Include="Snoop\ArxRleUiDlgClassDict.cpp" />
+    <ClCompile Include="Snoop\ArxRleUiDlgDxf.cpp" />
+    <ClCompile Include="Snoop\ArxRleUiDlgObjectId.cpp" />
+    <ClCompile Include="Snoop\ArxRleUiDlgObjState.cpp" />
+    <ClCompile Include="Snoop\ArxRleUiDlgReactors.cpp" />
+    <ClCompile Include="Snoop\ArxRleUiDlgServiceDict.cpp" />
+    <ClCompile Include="Snoop\ArxRleUiDlgSysRegistry.cpp" />
+    <ClCompile Include="Snoop\ArxRleUiDlgXdata.cpp" />
+    <ClCompile Include="Snoop\ArxRleUiTdcClasses.cpp" />
+    <ClCompile Include="Snoop\ArxRleUiTdcCmds.cpp" />
+    <ClCompile Include="Snoop\ArxRleUiTdcDatabase.cpp" />
+    <ClCompile Include="Snoop\ArxRleUiTdcDbObjectBase.cpp" />
+    <ClCompile Include="Snoop\ArxRleUiTdcDict.cpp" />
+    <ClCompile Include="Snoop\ArxRleUiTdcDocs.cpp" />
+    <ClCompile Include="Snoop\ArxRleUiTdcEntities.cpp" />
+    <ClCompile Include="Snoop\ArxRleUiTdcHostAppSrv.cpp" />
+    <ClCompile Include="Snoop\ArxRleUiTdcIdMap.cpp" />
+    <ClCompile Include="Snoop\ArxRleUiTdcLongTrans.cpp" />
+    <ClCompile Include="Snoop\ArxRleUiTdcObjects.cpp" />
+    <ClCompile Include="Snoop\ArxRleUiTdcReferences.cpp" />
+    <ClCompile Include="Snoop\ArxRleUiTdcRxObjectBase.cpp" />
+    <ClCompile Include="Snoop\ArxRleUiTdcSymTbl.cpp" />
+    <ClCompile Include="Snoop\ArxRleUiTdmDatabase.cpp" />
+    <ClCompile Include="Snoop\ArxRleUiTdmEditor.cpp" />
+    <ClCompile Include="Snoop\ArxRleUiTdmEntities.cpp" />
+    <ClCompile Include="Snoop\ArxRleUiTdmIdMap.cpp" />
+    <ClCompile Include="Snoop\ArxRleUiTdmLongTrans.cpp" />
+    <ClCompile Include="Snoop\ArxRleUiTdmObjects.cpp" />
+    <ClCompile Include="Snoop\ArxRleUiTdmReferences.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Unicode Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="StructAnalysis\ArxRleCmdStructAnalysis.cpp" />
+    <ClCompile Include="StructAnalysis\ArxRleSpaGloble.cpp" />
+    <ClCompile Include="StructAnalysis\ArxRleUiDlgSteelSection.cpp" />
+    <ClCompile Include="StructAnalysis\ArxRleUiTdcSpaBeamCracks.cpp" />
+    <ClCompile Include="StructAnalysis\ArxRleUiTdcSpaBeamSection.cpp" />
+    <ClCompile Include="StructAnalysis\ArxRleUiTdcSpaCircleStrength.cpp" />
+    <ClCompile Include="StructAnalysis\ArxRleUiTdcSpaColumnStrength.cpp" />
+    <ClCompile Include="StructAnalysis\ArxRleUiTdcSpaOutResult.cpp" />
+    <ClCompile Include="StructAnalysis\ArxRleUiTdcSpaWallStrength.cpp" />
+    <ClCompile Include="StructAnalysis\ArxRleUiTdmSpa.cpp" />
+    <ClCompile Include="TdClone\ArxRleUiTdcCloneSet.cpp" />
+    <ClCompile Include="TdClone\ArxRleUiTdcInsert.cpp" />
+    <ClCompile Include="TdClone\ArxRleUiTdcOptions.cpp" />
+    <ClCompile Include="TdClone\ArxRleUiTdcWblockClone.cpp" />
+    <ClCompile Include="TdClone\ArxRleUiTdmTransDbClones.cpp" />
+    <ClCompile Include="Test\ArxRleCmdTests.cpp" />
+    <ClCompile Include="Test\ArxRleEntMakeTest.cpp" />
+    <ClCompile Include="Test\ArxRleTblMakeTest.cpp" />
+    <ClCompile Include="Test\ArxRleUiDlgColor.cpp" />
+    <ClCompile Include="Test\ArxRleUiDlgSelSet.cpp" />
+    <ClCompile Include="Test\ArxRleUiDlgTestCurves.cpp" />
+    <ClCompile Include="Test\ArxRleUiDlgWorldDraw.cpp" />
+    <ClCompile Include="Test\ArxRleWorldDraw.cpp" />
+    <ClCompile Include="Test\ArxRleXformTest.cpp" />
+    <ClCompile Include="UiDlg\ArxRleTable.cpp" />
+    <ClCompile Include="UiDlg\ArxRleUiDlgAboutBox.cpp" />
+    <ClCompile Include="UiDlg\ArxRleUiDlgDimLand.cpp" />
+    <ClCompile Include="UiDlg\ArxRleUiDlgDrawCondition.cpp" />
+    <ClCompile Include="UiDlg\ArxRleUiDlgGenericDefId.cpp" />
+    <ClCompile Include="UiDlg\ArxRleUiDlgMeasure.cpp" />
+    <ClCompile Include="UiDlg\ArxRleUiDlgReg.cpp" />
+    <ClCompile Include="UiDlg\ArxRleUiDlgSplash.cpp" />
+    <ClCompile Include="UiDlg\ArxRleUiDlgWindoInfo.cpp" />
+    <ClCompile Include="UiDlg\ArxRleUiDlgWindoType.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AcadUtils\AcadStr.h" />
+    <ClInclude Include="AcadUtils\ArxRleApply.h" />
+    <ClInclude Include="AcadUtils\ArxRleDocLockWrite.h" />
+    <ClInclude Include="AcadUtils\ArxRleRbList.h" />
+    <ClInclude Include="AcadUtils\ArxRleSdStrList.h" />
+    <ClInclude Include="AcadUtils\ArxRleSdStrObjId.h" />
+    <ClInclude Include="AcadUtils\ArxRleSdSysVar.h" />
+    <ClInclude Include="AcadUtils\ArxRleSelSet.h" />
+    <ClInclude Include="AcadUtils\ArxRleSmartPtr.h" />
+    <ClInclude Include="AcadUtils\ArxRleUtils.h" />
+    <ClInclude Include="AcadUtils\ArxRleUtilsGe.h" />
+    <ClInclude Include="AcadUtils\ArxRleXdata.h" />
+    <ClInclude Include="AdeskLogo\ArxRleCmdAdeskLogo.h" />
+    <ClInclude Include="AdeskLogo\ArxRleDbAdeskLogo.h" />
+    <ClInclude Include="AdeskLogo\ArxRleDbAdeskLogoStyle.h" />
+    <ClInclude Include="App\ArxRleAttributeList.h" />
+    <ClInclude Include="App\ArxRleAttributeListItem.h" />
+    <ClInclude Include="App\ArxRleButton.h" />
+    <ClInclude Include="App\ArxRleCmd.h" />
+    <ClInclude Include="App\ArxRleCommon.h" />
+    <ClInclude Include="App\ArxRleCoolBar.h" />
+    <ClInclude Include="App\ArxRleDataManager.h" />
+    <ClInclude Include="App\ArxRleDocData.h" />
+    <ClInclude Include="App\ArxRleEdUiContext.h" />
+    <ClInclude Include="App\ArxRleFont.h" />
+    <ClInclude Include="App\ArxRleListCtrl.h" />
+    <ClInclude Include="App\ArxRleMemDC.h" />
+    <ClInclude Include="App\ArxRleMenuBar.h" />
+    <ClInclude Include="App\ArxRleMenuXP.h" />
+    <ClInclude Include="App\ArxRleMsgHandler.h" />
+    <ClInclude Include="App\ArxRleOptions.h" />
+    <ClInclude Include="App\ArxRlePaletteAttribute.h" />
+    <ClInclude Include="App\ArxRlePaletteSet.h" />
+    <ClInclude Include="App\ArxRlePlot.h" />
+    <ClInclude Include="App\ArxRleProfileSection.h" />
+    <ClInclude Include="App\ArxRleRichEditCtrl.h" />
+    <ClInclude Include="App\ArxRleSystemInfo.h" />
+    <ClInclude Include="App\ArxRleToolBar.h" />
+    <ClInclude Include="App\ArxRleToolBarGenWnd.h" />
+    <ClInclude Include="ArxRle.h" />
+    <ClInclude Include="Cmd\ArxRleCmdBlock.h" />
+    <ClInclude Include="Cmd\ArxRleCmdDim.h" />
+    <ClInclude Include="Cmd\ArxRleCmdDraw.h" />
+    <ClInclude Include="Cmd\ArxRleCmdEnt.h" />
+    <ClInclude Include="Cmd\ArxRleCmdLayer.h" />
+    <ClInclude Include="Cmd\ArxRleCmdMeasure.h" />
+    <ClInclude Include="Cmd\ArxRleCmdText.h" />
+    <ClInclude Include="CrdTrm\ArxRleCoord.h" />
+    <ClInclude Include="CrdTrm\ArxRleMatrix.h" />
+    <ClInclude Include="CrdTrm\ArxRleUiDlgCrdTrm.h" />
+    <ClInclude Include="CurveElement\ArxRleCurveElement.h" />
+    <ClInclude Include="CurveElement\ArxRleUiTdcCurveElement.h" />
+    <ClInclude Include="CurveElement\ArxRleUiTdcCurveXY.h" />
+    <ClInclude Include="CurveElement\ArxRleUiTdcOvalElement.h" />
+    <ClInclude Include="CurveElement\ArxRleUiTdcSqxElement.h" />
+    <ClInclude Include="CurveElement\ArxRleUiTdmCurveElement.h" />
+    <ClInclude Include="DbEntity\ArxRleDbDictRecord.h" />
+    <ClInclude Include="DbEntity\ArxRleDbEntity.h" />
+    <ClInclude Include="DbEntity\ArxRleDbGraphicsContainer.h" />
+    <ClInclude Include="DbEntity\ArxRleDbPlotSettingsValidator.h" />
+    <ClInclude Include="DbEntity\ArxRleEntityClass.h" />
+    <ClInclude Include="DbEntity\ArxRleFile.h" />
+    <ClInclude Include="DbEntity\ArxRleFileSys.h" />
+    <ClInclude Include="DbEntity\ArxRleStack.h" />
+    <ClInclude Include="DbEntity\ArxRleString.h" />
+    <ClInclude Include="DbEntity\ArxRleStringSys.h" />
+    <ClInclude Include="DbEntity\ArxRleTime.h" />
+    <ClInclude Include="DockingPane\ArxRleColorsView.h" />
+    <ClInclude Include="DockingPane\ArxRleDockingPaneManager.h" />
+    <ClInclude Include="DockingPane\ArxRleExplorerView.h" />
+    <ClInclude Include="DockingPane\ArxRleIconsView.h" />
+    <ClInclude Include="DockingPane\ArxRlePaneView.h" />
+    <ClInclude Include="DockingPane\ArxRlePropertyView.h" />
+    <ClInclude Include="DockingPane\ArxRleToolsView.h" />
+    <ClInclude Include="ExEntity\ArxRleBrokenLine.h" />
+    <ClInclude Include="ExEntity\ArxRleCmdExEntity.h" />
+    <ClInclude Include="ExEntity\ArxRleLeadDimension.h" />
+    <ClInclude Include="ExEntity\ArxRleTitleLabel.h" />
+    <ClInclude Include="Filer\ArxRleDwgFiler.h" />
+    <ClInclude Include="Filer\ArxRleReferenceFiler.h" />
+    <ClInclude Include="Filer\ArxRleUiDlgFilerTest.h" />
+    <ClInclude Include="NetPlan\ArxRleCmdNetPlanWork.h" />
+    <ClInclude Include="NetPlan\ArxRleNetPlanWork.h" />
+    <ClInclude Include="NetPlan\ArxRleNetPlanWorkStyle.h" />
+    <ClInclude Include="NetPlan\ArxRleReportRecord.h" />
+    <ClInclude Include="NetPlan\ArxRleTabCtrl.h" />
+    <ClInclude Include="NetPlan\ArxRleUiPage.h" />
+    <ClInclude Include="NetPlan\ArxRleUiTdcNetPlanParam.h" />
+    <ClInclude Include="NetPlan\ArxRleUiTdcNetPlanWorkData.h" />
+    <ClInclude Include="NetPlan\ArxRleUiTdcNetPlanWorkInput.h" />
+    <ClInclude Include="NetPlan\ArxRleUiTdcNetPlanWorkStyle.h" />
+    <ClInclude Include="NetPlan\ArxRleUiTdmNetPlan.h" />
+    <ClInclude Include="Prompt\ArxRleKeywordArray.h" />
+    <ClInclude Include="Prompt\ArxRleUiPrAngle.h" />
+    <ClInclude Include="Prompt\ArxRleUiPrAngleDef.h" />
+    <ClInclude Include="Prompt\ArxRleUiPrBase.h" />
+    <ClInclude Include="Prompt\ArxRleUiPrCorner.h" />
+    <ClInclude Include="Prompt\ArxRleUiPrDist.h" />
+    <ClInclude Include="Prompt\ArxRleUiPrDistDef.h" />
+    <ClInclude Include="Prompt\ArxRleUiPrDouble.h" />
+    <ClInclude Include="Prompt\ArxRleUiPrDoubleDef.h" />
+    <ClInclude Include="Prompt\ArxRleUiPrEntity.h" />
+    <ClInclude Include="Prompt\ArxRleUiPrEntitySet.h" />
+    <ClInclude Include="Prompt\ArxRleUiPrEntitySetSingle.h" />
+    <ClInclude Include="Prompt\ArxRleUiPrInt.h" />
+    <ClInclude Include="Prompt\ArxRleUiPrIntDef.h" />
+    <ClInclude Include="Prompt\ArxRleUiPrKeyWord.h" />
+    <ClInclude Include="Prompt\ArxRleUiPrKeyWordDef.h" />
+    <ClInclude Include="Prompt\ArxRleUiPrompts.h" />
+    <ClInclude Include="Prompt\ArxRleUiPrPoint.h" />
+    <ClInclude Include="Prompt\ArxRleUiPrString.h" />
+    <ClInclude Include="Prompt\ArxRleUiPrStringDef.h" />
+    <ClInclude Include="Prompt\ArxRleUiPrSubentity.h" />
+    <ClInclude Include="Property\ArxRleInPlaceControl.h" />
+    <ClInclude Include="Property\ArxRleInPlaceEditString.h" />
+    <ClInclude Include="Property\ArxRlePropertyData.h" />
+    <ClInclude Include="Property\ArxRlePropertyItem.h" />
+    <ClInclude Include="Property\ArxRlePropertyListBox.h" />
+    <ClInclude Include="Property\ArxRleSmartString.h" />
+    <ClInclude Include="Property\ArxRleTypedPtrList.h" />
+    <ClInclude Include="Property\ArxRleUiDlgProperty.h" />
+    <ClInclude Include="Property\ArxRleUserMessage.h" />
+    <ClInclude Include="Reactor\ArxRleAppEditorReactor.h" />
+    <ClInclude Include="Reactor\ArxRleCmdReactors.h" />
+    <ClInclude Include="Reactor\ArxRleDatabaseReactor.h" />
+    <ClInclude Include="Reactor\ArxRleDbDoubleClickEdit.h" />
+    <ClInclude Include="Reactor\ArxRleDLinkerReactor.h" />
+    <ClInclude Include="Reactor\ArxRleDocumentReactor.h" />
+    <ClInclude Include="Reactor\ArxRleEdInputContextReactor.h" />
+    <ClInclude Include="Reactor\ArxRleEditorReactor.h" />
+    <ClInclude Include="Reactor\ArxRleEdMapReactor.h" />
+    <ClInclude Include="Reactor\ArxRleEventReactor.h" />
+    <ClInclude Include="Reactor\ArxRleGsReactor.h" />
+    <ClInclude Include="Reactor\ArxRleInputPointMonitor.h" />
+    <ClInclude Include="Reactor\ArxRleLayoutManagerReactor.h" />
+    <ClInclude Include="Reactor\ArxRleLongTransactionReactor.h" />
+    <ClInclude Include="Reactor\ArxRlePersistentEntReactor.h" />
+    <ClInclude Include="Reactor\ArxRlePersistentObjReactor.h" />
+    <ClInclude Include="Reactor\ArxRleTransactionReactor.h" />
+    <ClInclude Include="Reactor\ArxRleTransientEntReactor.h" />
+    <ClInclude Include="Reactor\ArxRleTransientObjReactor.h" />
+    <ClInclude Include="Reactor\ArxRleUiTdcObjReactorsBase.h" />
+    <ClInclude Include="Reactor\ArxRleUiTdcPersistentReactors.h" />
+    <ClInclude Include="Reactor\ArxRleUiTdcSysReactors.h" />
+    <ClInclude Include="Reactor\ArxRleUiTdcTransientReactors.h" />
+    <ClInclude Include="Reactor\ArxRleUiTdmReactors.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Snoop\ArxRleCloneSet.h" />
+    <ClInclude Include="Snoop\ArxRleCmdSnoop.h" />
+    <ClInclude Include="Snoop\ArxRleUiDlgClassDict.h" />
+    <ClInclude Include="Snoop\ArxRleUiDlgDxf.h" />
+    <ClInclude Include="Snoop\ArxRleUiDlgObjectId.h" />
+    <ClInclude Include="Snoop\ArxRleUiDlgObjState.h" />
+    <ClInclude Include="Snoop\ArxRleUiDlgReactors.h" />
+    <ClInclude Include="Snoop\ArxRleUiDlgServiceDict.h" />
+    <ClInclude Include="Snoop\ArxRleUiDlgSysRegistry.h" />
+    <ClInclude Include="Snoop\ArxRleUiDlgXdata.h" />
+    <ClInclude Include="Snoop\ArxRleUiTdcClasses.h" />
+    <ClInclude Include="Snoop\ArxRleUiTdcCmds.h" />
+    <ClInclude Include="Snoop\ArxRleUiTdcDatabase.h" />
+    <ClInclude Include="Snoop\ArxRleUiTdcDbObjectBase.h" />
+    <ClInclude Include="Snoop\ArxRleUiTdcDict.h" />
+    <ClInclude Include="Snoop\ArxRleUiTdcDocs.h" />
+    <ClInclude Include="Snoop\ArxRleUiTdcEntities.h" />
+    <ClInclude Include="Snoop\ArxRleUiTdcHostAppSrv.h" />
+    <ClInclude Include="Snoop\ArxRleUiTdcIdMap.h" />
+    <ClInclude Include="Snoop\ArxRleUiTdcLongTrans.h" />
+    <ClInclude Include="Snoop\ArxRleUiTdcObjects.h" />
+    <ClInclude Include="Snoop\ArxRleUiTdcReferences.h" />
+    <ClInclude Include="Snoop\ArxRleUiTdcRxObjectBase.h" />
+    <ClInclude Include="Snoop\ArxRleUiTdcSymTbl.h" />
+    <ClInclude Include="Snoop\ArxRleUiTdmDatabase.h" />
+    <ClInclude Include="Snoop\ArxRleUiTdmEditor.h" />
+    <ClInclude Include="Snoop\ArxRleUiTdmEntities.h" />
+    <ClInclude Include="Snoop\ArxRleUiTdmIdMap.h" />
+    <ClInclude Include="Snoop\ArxRleUiTdmLongTrans.h" />
+    <ClInclude Include="Snoop\ArxRleUiTdmObjects.h" />
+    <ClInclude Include="Snoop\ArxRleUiTdmReferences.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="StructAnalysis\ArxRleCmdStructAnalysis.h" />
+    <ClInclude Include="StructAnalysis\ArxRleSteelSection.h" />
+    <ClInclude Include="StructAnalysis\ArxRleUiDlgSteelSection.h" />
+    <ClInclude Include="StructAnalysis\ArxRleUiTdcSpaBeamCracks.h" />
+    <ClInclude Include="StructAnalysis\ArxRleUiTdcSpaBeamSection.h" />
+    <ClInclude Include="StructAnalysis\ArxRleUiTdcSpaCircleStrength.h" />
+    <ClInclude Include="StructAnalysis\ArxRleUiTdcSpaColumnStrength.h" />
+    <ClInclude Include="StructAnalysis\ArxRleUiTdcSpaOutResult.h" />
+    <ClInclude Include="StructAnalysis\ArxRleUiTdcSpaWallStrength.h" />
+    <ClInclude Include="StructAnalysis\ArxRleUiTdmSpa.h" />
+    <ClInclude Include="TdClone\ArxRleUiTdcCloneSet.h" />
+    <ClInclude Include="TdClone\ArxRleUiTdcInsert.h" />
+    <ClInclude Include="TdClone\ArxRleUiTdcOptions.h" />
+    <ClInclude Include="TdClone\ArxRleUiTdcWblockClone.h" />
+    <ClInclude Include="TdClone\ArxRleUiTdmTransDbClones.h" />
+    <ClInclude Include="Test\ArxRleCmdTests.h" />
+    <ClInclude Include="Test\ArxRleDlgColor.h" />
+    <ClInclude Include="Test\ArxRleEntMakeTest.h" />
+    <ClInclude Include="Test\ArxRleTblMakeTest.h" />
+    <ClInclude Include="Test\ArxRleUiDlgColor.h" />
+    <ClInclude Include="Test\ArxRleUiDlgSelSet.h" />
+    <ClInclude Include="Test\ArxRleUiDlgTestCurves.h" />
+    <ClInclude Include="Test\ArxRleUiDlgWorldDraw.h" />
+    <ClInclude Include="Test\ArxRleWorldDraw.h" />
+    <ClInclude Include="Test\ArxRleXformTest.h" />
+    <ClInclude Include="UiDlg\ArxRleTable.h" />
+    <ClInclude Include="UiDlg\ArxRleUiDlgAboutBox.h" />
+    <ClInclude Include="UiDlg\ArxRleUiDlgDimLand.h" />
+    <ClInclude Include="UiDlg\ArxRleUiDlgDrawCondition.h" />
+    <ClInclude Include="UiDlg\ArxRleUiDlgGenericDefId.h" />
+    <ClInclude Include="UiDlg\ArxRleUiDlgMeasure.h" />
+    <ClInclude Include="UiDlg\ArxRleUiDlgReg.h" />
+    <ClInclude Include="UiDlg\ArxRleUiDlgSplash.h" />
+    <ClInclude Include="UiDlg\ArxRleUiDlgWindoInfo.h" />
+    <ClInclude Include="UiDlg\ArxRleUiDlgWindoType.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ArxRle.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\About.ico" />
+    <Image Include="res\appbar.bmp" />
+    <Image Include="res\ArxRle.ico" />
+    <Image Include="res\cancle.ico" />
+    <Image Include="res\ColorsBar.bmp" />
+    <Image Include="res\correct.ico" />
+    <Image Include="res\ExplorerBar.bmp" />
+    <Image Include="res\folder.ico" />
+    <Image Include="res\header.bmp" />
+    <Image Include="res\left.ico" />
+    <Image Include="res\menubar.bmp" />
+    <Image Include="res\netplan.bmp" />
+    <Image Include="res\ok.ico" />
+    <Image Include="res\poker.bmp" />
+    <Image Include="res\program.bmp" />
+    <Image Include="res\right.ico" />
+    <Image Include="res\Select.ico" />
+    <Image Include="res\set.ico" />
+    <Image Include="res\spabar.bmp" />
+    <Image Include="res\splash.bmp" />
+    <Image Include="res\Swatch.bmp" />
+    <Image Include="res\ToolsBar.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ArxRle.rc2" />
+    <None Include="res\hand.cur" />
+    <None Include="res\Star.cur" />
+    <None Include="res\VirusKiller1.exe" />
+    <None Include="res\VirusKiller2.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="res\stone.wav" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CDFFD82B-8B1F-4D96-94BB-F0D9ECA2BD76}</ProjectGuid>
+    <RootNamespace>ArxRle</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+    <ProjectName>ArxRle</ProjectName>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140_xp</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140_xp</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\inc\rxsdk_releasecfg.props" />
+    <Import Project="..\..\..\inc\arx.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\inc\rxsdk_releasecfg.props" />
+    <Import Project="..\..\..\inc\arx.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\inc\rxsdk_debugcfg.props" />
+    <Import Project="..\..\..\inc\arx.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\inc\rxsdk_debugcfg.props" />
+    <Import Project="..\..\..\inc\arx.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\inc\rxsdk_releasecfg.props" />
+    <Import Project="..\..\..\inc\arx.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\inc\rxsdk_releasecfg.props" />
+    <Import Project="..\..\..\inc\arx.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\inc\rxsdk_debugcfg.props" />
+    <Import Project="..\..\..\inc\arx.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\inc\rxsdk_debugcfg.props" />
+    <Import Project="..\..\..\inc\arx.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\;.\Inc;..\..\..\inc-acad;..\..\..\inc;..\..\..\inc-x64;..\..\..\..\Xtreme ToolkitPro v15.3.1/Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>AcDrawBridge.lib;ToolkitPro1531vc100x64D.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\lib-x64;..\..\..\..\Xtreme ToolkitPro v15.3.1\lib\vc100x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>..\..\..\inc\AcRxDefault.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\;.\Inc;..\..\..\inc-acad;..\..\..\inc;..\..\..\inc-x64;..\..\..\..\Xtreme ToolkitPro v15.3.1/Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>AcDrawBridge.lib;ToolkitPro1531vc100x64D.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\lib-x64;..\..\..\..\Xtreme ToolkitPro v15.3.1\lib\vc100x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>..\..\..\inc\AcRxDefault.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\;.\Inc;..\..\..\inc-acad;..\..\..\inc;..\..\..\inc-x64;..\..\..\..\Xtreme ToolkitPro v15.3.1/Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>AcDrawBridge.lib;ToolkitPro1531vc100x64D.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\lib-x64;..\..\..\..\Xtreme ToolkitPro v15.3.1\lib\vc110x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>..\..\..\inc\AcRxDefault.def</ModuleDefinitionFile>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\;..\..\..\inc-acad;..\..\..\inc;..\..\..\inc-x64;..\..\..\..\Xtreme ToolkitPro v15.3.1\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <AdditionalOptions>-Zm132 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>AcDrawBridge.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\lib-x64;..\..\..\..\Xtreme ToolkitPro v15.3.1\lib\vc140x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>..\..\..\inc\AcRxDefault.def</ModuleDefinitionFile>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(OutDir)$(TargetName)$(TargetExt)" "D:\Program Files\Autodesk\AutoCAD 2018\Support\*.*</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\;.\Inc;..\..\..\inc-acad;..\..\..\inc;..\..\..\inc-x64;..\..\..\..\Xtreme ToolkitPro v15.3.1/Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>AcDrawBridge.lib;ToolkitPro1531vc100x64D.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\lib-x64;..\..\..\..\Xtreme ToolkitPro v15.3.1\lib\vc100x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>..\..\..\inc\AcRxDefault.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\;.\Inc;..\..\..\inc-acad;..\..\..\inc;..\..\..\inc-x64;..\..\..\..\Xtreme ToolkitPro v15.3.1/Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>AcDrawBridge.lib;ToolkitPro1531vc100x64D.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\lib-x64;..\..\..\..\Xtreme ToolkitPro v15.3.1\lib\vc100x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>..\..\..\inc\AcRxDefault.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\;.\Inc;..\..\..\inc-acad;..\..\..\inc;..\..\..\inc-x64;..\..\..\..\Xtreme ToolkitPro v15.3.1/Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>AcDrawBridge.lib;ToolkitPro1531vc100x64D.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\lib-x64;..\..\..\..\Xtreme ToolkitPro v15.3.1\lib\vc110x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>..\..\..\inc\AcRxDefault.def</ModuleDefinitionFile>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\;..\..\..\inc-acad;..\..\..\inc;..\..\..\inc-x64;..\..\..\..\Xtreme ToolkitPro v15.3.1\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <AdditionalOptions>-Zm126 %(AdditionalOptions)</AdditionalOptions>
+      <DisableSpecificWarnings>4244;4267</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>AcDrawBridge.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\lib-x64;..\..\..\..\Xtreme ToolkitPro v15.3.1\lib\vc140x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>..\..\..\inc\AcRxDefault.def</ModuleDefinitionFile>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(OutDir)$(TargetName)$(TargetExt)" "D:\Program Files\Autodesk\AutoCAD 2018\Support\*.*</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="ArxRle.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

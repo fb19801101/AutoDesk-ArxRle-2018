@@ -1,0 +1,1484 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{00a1737e-f0bc-4a02-ba0d-2c62162b2711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{185079e6-362e-4f44-893c-8f2d7f43f190}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{8a217a1e-b4d8-4238-86e1-cdbdbff202d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\AcadUtils">
+      <UniqueIdentifier>{4c9019f9-ac92-4340-818a-1be402484023}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\AdeskLogo">
+      <UniqueIdentifier>{e5cb8d96-e9d3-4ab0-852c-8412c5199033}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\App">
+      <UniqueIdentifier>{f5b8f895-11f3-4a09-b831-53af1fdd9dc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Prompt">
+      <UniqueIdentifier>{89da781f-2ce8-4ecb-bd90-4d37cba725df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Snoop">
+      <UniqueIdentifier>{bf5ec9be-a1f5-418c-a468-1d08ec0b46a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\AcadUtils">
+      <UniqueIdentifier>{a30b09d4-d9c2-4c64-986a-18aeca695260}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\AdeskLogo">
+      <UniqueIdentifier>{3be9ebf5-2d9c-48a6-a17c-b096669f499e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\App">
+      <UniqueIdentifier>{6e443b38-c873-45df-9bc2-02494b5fa885}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Prompt">
+      <UniqueIdentifier>{386fcc98-686d-4be1-bfc0-ba5879cb2d70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\TdClone">
+      <UniqueIdentifier>{14ed26e3-ed4f-4a16-b6ca-86c553383149}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\UiDlg">
+      <UniqueIdentifier>{078104f1-e02a-4331-973a-72a8af6eab5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Test">
+      <UniqueIdentifier>{5991dbc6-c66b-4da1-acd8-c13f489e912d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Reactor">
+      <UniqueIdentifier>{97d92195-7e18-4a0b-a97c-cbce4be6d9c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Filer">
+      <UniqueIdentifier>{1ad3fd52-ba09-442f-a106-b4012c3371cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Filer">
+      <UniqueIdentifier>{0629512f-6ba2-482c-9116-f2c28054e1f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Reactor">
+      <UniqueIdentifier>{249ac688-777c-4650-9df7-dcabd4725038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Snoop">
+      <UniqueIdentifier>{d4167085-77f6-4e12-923d-8e21e3c0931c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Test">
+      <UniqueIdentifier>{2056f3d2-47f3-45a2-95f6-4d72d6a1bdb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\TdClone">
+      <UniqueIdentifier>{8c62b5f7-a9fb-4ada-b971-e43a8cc4609b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\UiDlg">
+      <UniqueIdentifier>{47e4131c-6bfc-4aec-93e1-4ad03223182b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\DbEntity">
+      <UniqueIdentifier>{79c5a806-ffcd-410a-8bb8-9b052afdb348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DbEntity">
+      <UniqueIdentifier>{1d88b883-6daf-47bc-8253-09b45058da45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\DockingPane">
+      <UniqueIdentifier>{c13702e0-043f-44f6-94fb-c278d8e05c67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DockingPane">
+      <UniqueIdentifier>{29730899-2a41-4398-a83a-9bce40641361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\NetPlan">
+      <UniqueIdentifier>{3429515f-bb08-4074-bc7c-0ac26cd843df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\NetPlan">
+      <UniqueIdentifier>{587e5381-849f-4e38-8b68-f5902723a602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ExEntity">
+      <UniqueIdentifier>{508e56ac-00c5-4ba6-90c4-2830d5006dc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ExEntity">
+      <UniqueIdentifier>{a75a3792-e3e6-41b3-8302-e54403ed1813}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\CrdTrm">
+      <UniqueIdentifier>{0a8ecbc8-9a09-4cc4-b1db-f18b6d359632}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\CrdTrm">
+      <UniqueIdentifier>{48dd94cb-1e35-4b94-bab9-a7a777ce7c61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\CurveElement">
+      <UniqueIdentifier>{7652a7a9-173b-453d-9628-b94d01de69e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\CurveElement">
+      <UniqueIdentifier>{f110fe81-b5d9-44e5-9727-c1e2305d86c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Property">
+      <UniqueIdentifier>{99215be4-5a98-4d13-bad6-248b882e54ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Property">
+      <UniqueIdentifier>{3bfc8493-f2ac-482a-8f7b-994348e1a6eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\StructAnalysis">
+      <UniqueIdentifier>{ddf41ccc-b548-43dd-bf31-087d190c324a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\StructAnalysis">
+      <UniqueIdentifier>{715769ec-7bef-49d6-9b58-3e82f8042324}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Cmd">
+      <UniqueIdentifier>{bb684d95-c15e-4828-98ec-efe2f70591a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Cmd">
+      <UniqueIdentifier>{ddf4849a-52b1-4491-8653-1fd1536a0d01}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AcadUtils\AcadStr.cpp">
+      <Filter>源文件\AcadUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="AcadUtils\ArxRleDocLockWrite.cpp">
+      <Filter>源文件\AcadUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="AcadUtils\ArxRleRbList.cpp">
+      <Filter>源文件\AcadUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="AcadUtils\ArxRleSdStrList.cpp">
+      <Filter>源文件\AcadUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="AcadUtils\ArxRleSdStrObjId.cpp">
+      <Filter>源文件\AcadUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="AcadUtils\ArxRleSdSysVar.cpp">
+      <Filter>源文件\AcadUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="AcadUtils\ArxRleSelSet.cpp">
+      <Filter>源文件\AcadUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="AcadUtils\ArxRleUtilsAcadUi.cpp">
+      <Filter>源文件\AcadUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="AcadUtils\ArxRleUtilsDb.cpp">
+      <Filter>源文件\AcadUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="AcadUtils\ArxRleUtilsDict.cpp">
+      <Filter>源文件\AcadUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="AcadUtils\ArxRleUtilsGe.cpp">
+      <Filter>源文件\AcadUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="AcadUtils\ArxRleUtilsSymTbl.cpp">
+      <Filter>源文件\AcadUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="AcadUtils\ArxRleXdata.cpp">
+      <Filter>源文件\AcadUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="AdeskLogo\ArxRleCmdAdeskLogo.cpp">
+      <Filter>源文件\AdeskLogo</Filter>
+    </ClCompile>
+    <ClCompile Include="AdeskLogo\ArxRleDbAdeskLogo.cpp">
+      <Filter>源文件\AdeskLogo</Filter>
+    </ClCompile>
+    <ClCompile Include="AdeskLogo\ArxRleDbAdeskLogoStyle.cpp">
+      <Filter>源文件\AdeskLogo</Filter>
+    </ClCompile>
+    <ClCompile Include="Filer\ArxRleDwgFiler.cpp">
+      <Filter>源文件\Filer</Filter>
+    </ClCompile>
+    <ClCompile Include="Filer\ArxRleReferenceFiler.cpp">
+      <Filter>源文件\Filer</Filter>
+    </ClCompile>
+    <ClCompile Include="Filer\ArxRleUiDlgFilerTest.cpp">
+      <Filter>源文件\Filer</Filter>
+    </ClCompile>
+    <ClCompile Include="Prompt\ArxRleKeywordArray.cpp">
+      <Filter>源文件\Prompt</Filter>
+    </ClCompile>
+    <ClCompile Include="Prompt\ArxRleUiPrAngle.cpp">
+      <Filter>源文件\Prompt</Filter>
+    </ClCompile>
+    <ClCompile Include="Prompt\ArxRleUiPrAngleDef.cpp">
+      <Filter>源文件\Prompt</Filter>
+    </ClCompile>
+    <ClCompile Include="Prompt\ArxRleUiPrBase.cpp">
+      <Filter>源文件\Prompt</Filter>
+    </ClCompile>
+    <ClCompile Include="Prompt\ArxRleUiPrCorner.cpp">
+      <Filter>源文件\Prompt</Filter>
+    </ClCompile>
+    <ClCompile Include="Prompt\ArxRleUiPrDist.cpp">
+      <Filter>源文件\Prompt</Filter>
+    </ClCompile>
+    <ClCompile Include="Prompt\ArxRleUiPrDistDef.cpp">
+      <Filter>源文件\Prompt</Filter>
+    </ClCompile>
+    <ClCompile Include="Prompt\ArxRleUiPrDouble.cpp">
+      <Filter>源文件\Prompt</Filter>
+    </ClCompile>
+    <ClCompile Include="Prompt\ArxRleUiPrDoubleDef.cpp">
+      <Filter>源文件\Prompt</Filter>
+    </ClCompile>
+    <ClCompile Include="Prompt\ArxRleUiPrEntity.cpp">
+      <Filter>源文件\Prompt</Filter>
+    </ClCompile>
+    <ClCompile Include="Prompt\ArxRleUiPrInt.cpp">
+      <Filter>源文件\Prompt</Filter>
+    </ClCompile>
+    <ClCompile Include="Prompt\ArxRleUiPrIntDef.cpp">
+      <Filter>源文件\Prompt</Filter>
+    </ClCompile>
+    <ClCompile Include="Prompt\ArxRleUiPrKeyWord.cpp">
+      <Filter>源文件\Prompt</Filter>
+    </ClCompile>
+    <ClCompile Include="Prompt\ArxRleUiPrKeyWordDef.cpp">
+      <Filter>源文件\Prompt</Filter>
+    </ClCompile>
+    <ClCompile Include="Prompt\ArxRleUiPrPoint.cpp">
+      <Filter>源文件\Prompt</Filter>
+    </ClCompile>
+    <ClCompile Include="Prompt\ArxRleUiPrString.cpp">
+      <Filter>源文件\Prompt</Filter>
+    </ClCompile>
+    <ClCompile Include="Prompt\ArxRleUiPrStringDef.cpp">
+      <Filter>源文件\Prompt</Filter>
+    </ClCompile>
+    <ClCompile Include="Reactor\ArxRleAppEditorReactor.cpp">
+      <Filter>源文件\Reactor</Filter>
+    </ClCompile>
+    <ClCompile Include="Reactor\ArxRleCmdReactors.cpp">
+      <Filter>源文件\Reactor</Filter>
+    </ClCompile>
+    <ClCompile Include="Reactor\ArxRleDatabaseReactor.cpp">
+      <Filter>源文件\Reactor</Filter>
+    </ClCompile>
+    <ClCompile Include="Reactor\ArxRleDLinkerReactor.cpp">
+      <Filter>源文件\Reactor</Filter>
+    </ClCompile>
+    <ClCompile Include="Reactor\ArxRleDocumentReactor.cpp">
+      <Filter>源文件\Reactor</Filter>
+    </ClCompile>
+    <ClCompile Include="Reactor\ArxRleEdInputContextReactor.cpp">
+      <Filter>源文件\Reactor</Filter>
+    </ClCompile>
+    <ClCompile Include="Reactor\ArxRleEditorReactor.cpp">
+      <Filter>源文件\Reactor</Filter>
+    </ClCompile>
+    <ClCompile Include="Reactor\ArxRleEventReactor.cpp">
+      <Filter>源文件\Reactor</Filter>
+    </ClCompile>
+    <ClCompile Include="Reactor\ArxRleGsReactor.cpp">
+      <Filter>源文件\Reactor</Filter>
+    </ClCompile>
+    <ClCompile Include="Reactor\ArxRleLayoutManagerReactor.cpp">
+      <Filter>源文件\Reactor</Filter>
+    </ClCompile>
+    <ClCompile Include="Reactor\ArxRleLongTransactionReactor.cpp">
+      <Filter>源文件\Reactor</Filter>
+    </ClCompile>
+    <ClCompile Include="Reactor\ArxRlePersistentEntReactor.cpp">
+      <Filter>源文件\Reactor</Filter>
+    </ClCompile>
+    <ClCompile Include="Reactor\ArxRlePersistentObjReactor.cpp">
+      <Filter>源文件\Reactor</Filter>
+    </ClCompile>
+    <ClCompile Include="Reactor\ArxRleTransactionReactor.cpp">
+      <Filter>源文件\Reactor</Filter>
+    </ClCompile>
+    <ClCompile Include="Reactor\ArxRleTransientEntReactor.cpp">
+      <Filter>源文件\Reactor</Filter>
+    </ClCompile>
+    <ClCompile Include="Reactor\ArxRleTransientObjReactor.cpp">
+      <Filter>源文件\Reactor</Filter>
+    </ClCompile>
+    <ClCompile Include="Reactor\ArxRleUiTdcObjReactorsBase.cpp">
+      <Filter>源文件\Reactor</Filter>
+    </ClCompile>
+    <ClCompile Include="Reactor\ArxRleUiTdcPersistentReactors.cpp">
+      <Filter>源文件\Reactor</Filter>
+    </ClCompile>
+    <ClCompile Include="Reactor\ArxRleUiTdcSysReactors.cpp">
+      <Filter>源文件\Reactor</Filter>
+    </ClCompile>
+    <ClCompile Include="Reactor\ArxRleUiTdcTransientReactors.cpp">
+      <Filter>源文件\Reactor</Filter>
+    </ClCompile>
+    <ClCompile Include="Reactor\ArxRleUiTdmReactors.cpp">
+      <Filter>源文件\Reactor</Filter>
+    </ClCompile>
+    <ClCompile Include="Snoop\ArxRleCloneSet.cpp">
+      <Filter>源文件\Snoop</Filter>
+    </ClCompile>
+    <ClCompile Include="Snoop\ArxRleCmdSnoop.cpp">
+      <Filter>源文件\Snoop</Filter>
+    </ClCompile>
+    <ClCompile Include="Snoop\ArxRleUiDlgClassDict.cpp">
+      <Filter>源文件\Snoop</Filter>
+    </ClCompile>
+    <ClCompile Include="Snoop\ArxRleUiDlgDxf.cpp">
+      <Filter>源文件\Snoop</Filter>
+    </ClCompile>
+    <ClCompile Include="Snoop\ArxRleUiDlgObjectId.cpp">
+      <Filter>源文件\Snoop</Filter>
+    </ClCompile>
+    <ClCompile Include="Snoop\ArxRleUiDlgObjState.cpp">
+      <Filter>源文件\Snoop</Filter>
+    </ClCompile>
+    <ClCompile Include="Snoop\ArxRleUiDlgReactors.cpp">
+      <Filter>源文件\Snoop</Filter>
+    </ClCompile>
+    <ClCompile Include="Snoop\ArxRleUiDlgServiceDict.cpp">
+      <Filter>源文件\Snoop</Filter>
+    </ClCompile>
+    <ClCompile Include="Snoop\ArxRleUiDlgSysRegistry.cpp">
+      <Filter>源文件\Snoop</Filter>
+    </ClCompile>
+    <ClCompile Include="Snoop\ArxRleUiDlgXdata.cpp">
+      <Filter>源文件\Snoop</Filter>
+    </ClCompile>
+    <ClCompile Include="Snoop\ArxRleUiTdcClasses.cpp">
+      <Filter>源文件\Snoop</Filter>
+    </ClCompile>
+    <ClCompile Include="Snoop\ArxRleUiTdcCmds.cpp">
+      <Filter>源文件\Snoop</Filter>
+    </ClCompile>
+    <ClCompile Include="Snoop\ArxRleUiTdcDatabase.cpp">
+      <Filter>源文件\Snoop</Filter>
+    </ClCompile>
+    <ClCompile Include="Snoop\ArxRleUiTdcDbObjectBase.cpp">
+      <Filter>源文件\Snoop</Filter>
+    </ClCompile>
+    <ClCompile Include="Snoop\ArxRleUiTdcDict.cpp">
+      <Filter>源文件\Snoop</Filter>
+    </ClCompile>
+    <ClCompile Include="Snoop\ArxRleUiTdcDocs.cpp">
+      <Filter>源文件\Snoop</Filter>
+    </ClCompile>
+    <ClCompile Include="Snoop\ArxRleUiTdcEntities.cpp">
+      <Filter>源文件\Snoop</Filter>
+    </ClCompile>
+    <ClCompile Include="Snoop\ArxRleUiTdcHostAppSrv.cpp">
+      <Filter>源文件\Snoop</Filter>
+    </ClCompile>
+    <ClCompile Include="Snoop\ArxRleUiTdcIdMap.cpp">
+      <Filter>源文件\Snoop</Filter>
+    </ClCompile>
+    <ClCompile Include="Snoop\ArxRleUiTdcLongTrans.cpp">
+      <Filter>源文件\Snoop</Filter>
+    </ClCompile>
+    <ClCompile Include="Snoop\ArxRleUiTdcObjects.cpp">
+      <Filter>源文件\Snoop</Filter>
+    </ClCompile>
+    <ClCompile Include="Snoop\ArxRleUiTdcReferences.cpp">
+      <Filter>源文件\Snoop</Filter>
+    </ClCompile>
+    <ClCompile Include="Snoop\ArxRleUiTdcRxObjectBase.cpp">
+      <Filter>源文件\Snoop</Filter>
+    </ClCompile>
+    <ClCompile Include="Snoop\ArxRleUiTdcSymTbl.cpp">
+      <Filter>源文件\Snoop</Filter>
+    </ClCompile>
+    <ClCompile Include="Snoop\ArxRleUiTdmDatabase.cpp">
+      <Filter>源文件\Snoop</Filter>
+    </ClCompile>
+    <ClCompile Include="Snoop\ArxRleUiTdmEditor.cpp">
+      <Filter>源文件\Snoop</Filter>
+    </ClCompile>
+    <ClCompile Include="Snoop\ArxRleUiTdmEntities.cpp">
+      <Filter>源文件\Snoop</Filter>
+    </ClCompile>
+    <ClCompile Include="Snoop\ArxRleUiTdmIdMap.cpp">
+      <Filter>源文件\Snoop</Filter>
+    </ClCompile>
+    <ClCompile Include="Snoop\ArxRleUiTdmLongTrans.cpp">
+      <Filter>源文件\Snoop</Filter>
+    </ClCompile>
+    <ClCompile Include="Snoop\ArxRleUiTdmObjects.cpp">
+      <Filter>源文件\Snoop</Filter>
+    </ClCompile>
+    <ClCompile Include="Snoop\ArxRleUiTdmReferences.cpp">
+      <Filter>源文件\Snoop</Filter>
+    </ClCompile>
+    <ClCompile Include="TdClone\ArxRleUiTdcCloneSet.cpp">
+      <Filter>源文件\TdClone</Filter>
+    </ClCompile>
+    <ClCompile Include="TdClone\ArxRleUiTdcInsert.cpp">
+      <Filter>源文件\TdClone</Filter>
+    </ClCompile>
+    <ClCompile Include="TdClone\ArxRleUiTdcOptions.cpp">
+      <Filter>源文件\TdClone</Filter>
+    </ClCompile>
+    <ClCompile Include="TdClone\ArxRleUiTdcWblockClone.cpp">
+      <Filter>源文件\TdClone</Filter>
+    </ClCompile>
+    <ClCompile Include="TdClone\ArxRleUiTdmTransDbClones.cpp">
+      <Filter>源文件\TdClone</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\ArxRleCmdTests.cpp">
+      <Filter>源文件\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\ArxRleEntMakeTest.cpp">
+      <Filter>源文件\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\ArxRleTblMakeTest.cpp">
+      <Filter>源文件\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\ArxRleUiDlgColor.cpp">
+      <Filter>源文件\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\ArxRleUiDlgSelSet.cpp">
+      <Filter>源文件\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\ArxRleUiDlgTestCurves.cpp">
+      <Filter>源文件\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\ArxRleUiDlgWorldDraw.cpp">
+      <Filter>源文件\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\ArxRleWorldDraw.cpp">
+      <Filter>源文件\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\ArxRleXformTest.cpp">
+      <Filter>源文件\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="UiDlg\ArxRleUiDlgAboutBox.cpp">
+      <Filter>源文件\UiDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="UiDlg\ArxRleUiDlgGenericDefId.cpp">
+      <Filter>源文件\UiDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="UiDlg\ArxRleUiDlgSplash.cpp">
+      <Filter>源文件\UiDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="ArxRle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AcadUtils\ArxRleUtils.cpp">
+      <Filter>源文件\AcadUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="App\AcadCommandFunc.cpp">
+      <Filter>源文件\App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\ArxRleAttributeList.cpp">
+      <Filter>源文件\App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\ArxRleAttributeListItem.cpp">
+      <Filter>源文件\App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\ArxRleButton.cpp">
+      <Filter>源文件\App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\ArxRleCommon.cpp">
+      <Filter>源文件\App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\ArxRleCoolBar.cpp">
+      <Filter>源文件\App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\ArxRleDocData.cpp">
+      <Filter>源文件\App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\ArxRleEdUiContext.cpp">
+      <Filter>源文件\App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\ArxRleFont.cpp">
+      <Filter>源文件\App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\ArxRleListCtrl.cpp">
+      <Filter>源文件\App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\ArxRleMenuBar.cpp">
+      <Filter>源文件\App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\ArxRleMenuXP.cpp">
+      <Filter>源文件\App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\ArxRleMsgHandler.cpp">
+      <Filter>源文件\App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\ArxRleOptions.cpp">
+      <Filter>源文件\App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\ArxRlePaletteAttribute.cpp">
+      <Filter>源文件\App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\ArxRlePaletteSet.cpp">
+      <Filter>源文件\App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\ArxRlePlot.cpp">
+      <Filter>源文件\App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\ArxRleProfileSection.cpp">
+      <Filter>源文件\App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\ArxRleRichEditCtrl.cpp">
+      <Filter>源文件\App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\ArxRleSystemInfo.cpp">
+      <Filter>源文件\App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\ArxRleToolBar.cpp">
+      <Filter>源文件\App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\ArxRleToolBarGenWnd.cpp">
+      <Filter>源文件\App</Filter>
+    </ClCompile>
+    <ClCompile Include="UiDlg\ArxRleUiDlgReg.cpp">
+      <Filter>源文件\UiDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="DbEntity\ArxRleDbDictRecord.cpp">
+      <Filter>源文件\DbEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="DbEntity\ArxRleDbEntity.cpp">
+      <Filter>源文件\DbEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="DbEntity\ArxRleFile.cpp">
+      <Filter>源文件\DbEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="DbEntity\ArxRleFileSys.cpp">
+      <Filter>源文件\DbEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="DbEntity\ArxRleString.cpp">
+      <Filter>源文件\DbEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="DbEntity\ArxRleStringSys.cpp">
+      <Filter>源文件\DbEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="DbEntity\ArxRleTime.cpp">
+      <Filter>源文件\DbEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="DbEntity\ArxRleWire.cpp">
+      <Filter>源文件\DbEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="DockingPane\ArxRleToolsView.cpp">
+      <Filter>源文件\DockingPane</Filter>
+    </ClCompile>
+    <ClCompile Include="DockingPane\ArxRlePropertyView.cpp">
+      <Filter>源文件\DockingPane</Filter>
+    </ClCompile>
+    <ClCompile Include="DockingPane\ArxRlePaneView.cpp">
+      <Filter>源文件\DockingPane</Filter>
+    </ClCompile>
+    <ClCompile Include="DockingPane\ArxRleIconsView.cpp">
+      <Filter>源文件\DockingPane</Filter>
+    </ClCompile>
+    <ClCompile Include="DockingPane\ArxRleExplorerView.cpp">
+      <Filter>源文件\DockingPane</Filter>
+    </ClCompile>
+    <ClCompile Include="DockingPane\ArxRleDockingPaneManager.cpp">
+      <Filter>源文件\DockingPane</Filter>
+    </ClCompile>
+    <ClCompile Include="DockingPane\ArxRleColorsView.cpp">
+      <Filter>源文件\DockingPane</Filter>
+    </ClCompile>
+    <ClCompile Include="NetPlan\ArxRleCmdNetPlanWork.cpp">
+      <Filter>源文件\NetPlan</Filter>
+    </ClCompile>
+    <ClCompile Include="NetPlan\ArxRleNetPlanWork.cpp">
+      <Filter>源文件\NetPlan</Filter>
+    </ClCompile>
+    <ClCompile Include="NetPlan\ArxRleNetPlanWorkStyle.cpp">
+      <Filter>源文件\NetPlan</Filter>
+    </ClCompile>
+    <ClCompile Include="NetPlan\ArxRleReportRecord.cpp">
+      <Filter>源文件\NetPlan</Filter>
+    </ClCompile>
+    <ClCompile Include="NetPlan\ArxRleTabCtrl.cpp">
+      <Filter>源文件\NetPlan</Filter>
+    </ClCompile>
+    <ClCompile Include="NetPlan\ArxRleUiPage.cpp">
+      <Filter>源文件\NetPlan</Filter>
+    </ClCompile>
+    <ClCompile Include="NetPlan\ArxRleUiTdcNetPlanParam.cpp">
+      <Filter>源文件\NetPlan</Filter>
+    </ClCompile>
+    <ClCompile Include="NetPlan\ArxRleUiTdcNetPlanWorkData.cpp">
+      <Filter>源文件\NetPlan</Filter>
+    </ClCompile>
+    <ClCompile Include="NetPlan\ArxRleUiTdcNetPlanWorkInput.cpp">
+      <Filter>源文件\NetPlan</Filter>
+    </ClCompile>
+    <ClCompile Include="NetPlan\ArxRleUiTdcNetPlanWorkStyle.cpp">
+      <Filter>源文件\NetPlan</Filter>
+    </ClCompile>
+    <ClCompile Include="NetPlan\ArxRleUiTdmNetPlan.cpp">
+      <Filter>源文件\NetPlan</Filter>
+    </ClCompile>
+    <ClCompile Include="ExEntity\ArxRleBrokenLine.cpp">
+      <Filter>源文件\ExEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="ExEntity\ArxRleCmdExEntity.cpp">
+      <Filter>源文件\ExEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="ExEntity\ArxRleLeadDimension.cpp">
+      <Filter>源文件\ExEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="ExEntity\ArxRleTitleLabel.cpp">
+      <Filter>源文件\ExEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="UiDlg\ArxRleTable.cpp">
+      <Filter>源文件\UiDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="UiDlg\ArxRleUiDlgDimLand.cpp">
+      <Filter>源文件\UiDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="UiDlg\ArxRleUiDlgDrawCondition.cpp">
+      <Filter>源文件\UiDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="UiDlg\ArxRleUiDlgMeasure.cpp">
+      <Filter>源文件\UiDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="UiDlg\ArxRleUiDlgWindoInfo.cpp">
+      <Filter>源文件\UiDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="UiDlg\ArxRleUiDlgWindoType.cpp">
+      <Filter>源文件\UiDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Reactor\ArxRleDbDoubleClickEdit.cpp">
+      <Filter>源文件\Reactor</Filter>
+    </ClCompile>
+    <ClCompile Include="Reactor\ArxRleEdMapReactor.cpp">
+      <Filter>源文件\Reactor</Filter>
+    </ClCompile>
+    <ClCompile Include="Reactor\ArxRleInputPointMonitor.cpp">
+      <Filter>源文件\Reactor</Filter>
+    </ClCompile>
+    <ClCompile Include="CrdTrm\ArxRleCoord.cpp">
+      <Filter>源文件\CrdTrm</Filter>
+    </ClCompile>
+    <ClCompile Include="CrdTrm\ArxRleMatrix.cpp">
+      <Filter>源文件\CrdTrm</Filter>
+    </ClCompile>
+    <ClCompile Include="CrdTrm\ArxRleUiDlgCrdTrm.cpp">
+      <Filter>源文件\CrdTrm</Filter>
+    </ClCompile>
+    <ClCompile Include="CurveElement\ArxRleUiTdmCurveElement.cpp">
+      <Filter>源文件\CurveElement</Filter>
+    </ClCompile>
+    <ClCompile Include="CurveElement\ArxRleUiTdcSqxElement.cpp">
+      <Filter>源文件\CurveElement</Filter>
+    </ClCompile>
+    <ClCompile Include="CurveElement\ArxRleUiTdcOvalElement.cpp">
+      <Filter>源文件\CurveElement</Filter>
+    </ClCompile>
+    <ClCompile Include="CurveElement\ArxRleUiTdcCurveXY.cpp">
+      <Filter>源文件\CurveElement</Filter>
+    </ClCompile>
+    <ClCompile Include="CurveElement\ArxRleUiTdcCurveElement.cpp">
+      <Filter>源文件\CurveElement</Filter>
+    </ClCompile>
+    <ClCompile Include="CurveElement\ArxRleCurveElement.cpp">
+      <Filter>源文件\CurveElement</Filter>
+    </ClCompile>
+    <ClCompile Include="Property\ArxRleInPlaceControl.cpp">
+      <Filter>源文件\Property</Filter>
+    </ClCompile>
+    <ClCompile Include="Property\ArxRleInPlaceEditString.cpp">
+      <Filter>源文件\Property</Filter>
+    </ClCompile>
+    <ClCompile Include="Property\ArxRlePropertyData.cpp">
+      <Filter>源文件\Property</Filter>
+    </ClCompile>
+    <ClCompile Include="Property\ArxRlePropertyItem.cpp">
+      <Filter>源文件\Property</Filter>
+    </ClCompile>
+    <ClCompile Include="Property\ArxRlePropertyListBox.cpp">
+      <Filter>源文件\Property</Filter>
+    </ClCompile>
+    <ClCompile Include="Property\ArxRleSmartString.cpp">
+      <Filter>源文件\Property</Filter>
+    </ClCompile>
+    <ClCompile Include="Property\ArxRleUiDlgProperty.cpp">
+      <Filter>源文件\Property</Filter>
+    </ClCompile>
+    <ClCompile Include="StructAnalysis\ArxRleCmdStructAnalysis.cpp">
+      <Filter>源文件\StructAnalysis</Filter>
+    </ClCompile>
+    <ClCompile Include="StructAnalysis\ArxRleSpaGloble.cpp">
+      <Filter>源文件\StructAnalysis</Filter>
+    </ClCompile>
+    <ClCompile Include="StructAnalysis\ArxRleUiDlgSteelSection.cpp">
+      <Filter>源文件\StructAnalysis</Filter>
+    </ClCompile>
+    <ClCompile Include="StructAnalysis\ArxRleUiTdcSpaBeamCracks.cpp">
+      <Filter>源文件\StructAnalysis</Filter>
+    </ClCompile>
+    <ClCompile Include="StructAnalysis\ArxRleUiTdcSpaBeamSection.cpp">
+      <Filter>源文件\StructAnalysis</Filter>
+    </ClCompile>
+    <ClCompile Include="StructAnalysis\ArxRleUiTdcSpaCircleStrength.cpp">
+      <Filter>源文件\StructAnalysis</Filter>
+    </ClCompile>
+    <ClCompile Include="StructAnalysis\ArxRleUiTdcSpaColumnStrength.cpp">
+      <Filter>源文件\StructAnalysis</Filter>
+    </ClCompile>
+    <ClCompile Include="StructAnalysis\ArxRleUiTdcSpaOutResult.cpp">
+      <Filter>源文件\StructAnalysis</Filter>
+    </ClCompile>
+    <ClCompile Include="StructAnalysis\ArxRleUiTdcSpaWallStrength.cpp">
+      <Filter>源文件\StructAnalysis</Filter>
+    </ClCompile>
+    <ClCompile Include="StructAnalysis\ArxRleUiTdmSpa.cpp">
+      <Filter>源文件\StructAnalysis</Filter>
+    </ClCompile>
+    <ClCompile Include="DbEntity\ArxRleEntityClass.cpp">
+      <Filter>源文件\DbEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmd\ArxRleCmdDim.cpp">
+      <Filter>源文件\Cmd</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmd\ArxRleCmdEnt.cpp">
+      <Filter>源文件\Cmd</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmd\ArxRleCmdLayer.cpp">
+      <Filter>源文件\Cmd</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmd\ArxRleCmdText.cpp">
+      <Filter>源文件\Cmd</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmd\ArxRleCmdBlock.cpp">
+      <Filter>源文件\Cmd</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmd\ArxRleCmdDraw.cpp">
+      <Filter>源文件\Cmd</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmd\ArxRleCmdMeasure.cpp">
+      <Filter>源文件\Cmd</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AcadUtils\AcadStr.h">
+      <Filter>头文件\AcadUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="AcadUtils\ArxRleDocLockWrite.h">
+      <Filter>头文件\AcadUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="AcadUtils\ArxRleRbList.h">
+      <Filter>头文件\AcadUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="AcadUtils\ArxRleSdStrList.h">
+      <Filter>头文件\AcadUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="AcadUtils\ArxRleSdStrObjId.h">
+      <Filter>头文件\AcadUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="AcadUtils\ArxRleSdSysVar.h">
+      <Filter>头文件\AcadUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="AcadUtils\ArxRleSelSet.h">
+      <Filter>头文件\AcadUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="AcadUtils\ArxRleUtils.h">
+      <Filter>头文件\AcadUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="AcadUtils\ArxRleUtilsGe.h">
+      <Filter>头文件\AcadUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="AcadUtils\ArxRleXdata.h">
+      <Filter>头文件\AcadUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="AdeskLogo\ArxRleCmdAdeskLogo.h">
+      <Filter>头文件\AdeskLogo</Filter>
+    </ClInclude>
+    <ClInclude Include="AdeskLogo\ArxRleDbAdeskLogo.h">
+      <Filter>头文件\AdeskLogo</Filter>
+    </ClInclude>
+    <ClInclude Include="AdeskLogo\ArxRleDbAdeskLogoStyle.h">
+      <Filter>头文件\AdeskLogo</Filter>
+    </ClInclude>
+    <ClInclude Include="Filer\ArxRleDwgFiler.h">
+      <Filter>头文件\Filer</Filter>
+    </ClInclude>
+    <ClInclude Include="Filer\ArxRleReferenceFiler.h">
+      <Filter>头文件\Filer</Filter>
+    </ClInclude>
+    <ClInclude Include="Filer\ArxRleUiDlgFilerTest.h">
+      <Filter>头文件\Filer</Filter>
+    </ClInclude>
+    <ClInclude Include="Prompt\ArxRleKeywordArray.h">
+      <Filter>头文件\Prompt</Filter>
+    </ClInclude>
+    <ClInclude Include="Prompt\ArxRleUiPrAngle.h">
+      <Filter>头文件\Prompt</Filter>
+    </ClInclude>
+    <ClInclude Include="Prompt\ArxRleUiPrAngleDef.h">
+      <Filter>头文件\Prompt</Filter>
+    </ClInclude>
+    <ClInclude Include="Prompt\ArxRleUiPrBase.h">
+      <Filter>头文件\Prompt</Filter>
+    </ClInclude>
+    <ClInclude Include="Prompt\ArxRleUiPrCorner.h">
+      <Filter>头文件\Prompt</Filter>
+    </ClInclude>
+    <ClInclude Include="Prompt\ArxRleUiPrDist.h">
+      <Filter>头文件\Prompt</Filter>
+    </ClInclude>
+    <ClInclude Include="Prompt\ArxRleUiPrDistDef.h">
+      <Filter>头文件\Prompt</Filter>
+    </ClInclude>
+    <ClInclude Include="Prompt\ArxRleUiPrDouble.h">
+      <Filter>头文件\Prompt</Filter>
+    </ClInclude>
+    <ClInclude Include="Prompt\ArxRleUiPrDoubleDef.h">
+      <Filter>头文件\Prompt</Filter>
+    </ClInclude>
+    <ClInclude Include="Prompt\ArxRleUiPrEntity.h">
+      <Filter>头文件\Prompt</Filter>
+    </ClInclude>
+    <ClInclude Include="Prompt\ArxRleUiPrEntitySet.h">
+      <Filter>头文件\Prompt</Filter>
+    </ClInclude>
+    <ClInclude Include="Prompt\ArxRleUiPrEntitySetSingle.h">
+      <Filter>头文件\Prompt</Filter>
+    </ClInclude>
+    <ClInclude Include="Prompt\ArxRleUiPrInt.h">
+      <Filter>头文件\Prompt</Filter>
+    </ClInclude>
+    <ClInclude Include="Prompt\ArxRleUiPrIntDef.h">
+      <Filter>头文件\Prompt</Filter>
+    </ClInclude>
+    <ClInclude Include="Prompt\ArxRleUiPrKeyWord.h">
+      <Filter>头文件\Prompt</Filter>
+    </ClInclude>
+    <ClInclude Include="Prompt\ArxRleUiPrKeyWordDef.h">
+      <Filter>头文件\Prompt</Filter>
+    </ClInclude>
+    <ClInclude Include="Prompt\ArxRleUiPrPoint.h">
+      <Filter>头文件\Prompt</Filter>
+    </ClInclude>
+    <ClInclude Include="Prompt\ArxRleUiPrString.h">
+      <Filter>头文件\Prompt</Filter>
+    </ClInclude>
+    <ClInclude Include="Prompt\ArxRleUiPrStringDef.h">
+      <Filter>头文件\Prompt</Filter>
+    </ClInclude>
+    <ClInclude Include="Prompt\ArxRleUiPrSubentity.h">
+      <Filter>头文件\Prompt</Filter>
+    </ClInclude>
+    <ClInclude Include="Reactor\ArxRleCmdReactors.h">
+      <Filter>头文件\Reactor</Filter>
+    </ClInclude>
+    <ClInclude Include="Reactor\ArxRleDatabaseReactor.h">
+      <Filter>头文件\Reactor</Filter>
+    </ClInclude>
+    <ClInclude Include="Reactor\ArxRleDLinkerReactor.h">
+      <Filter>头文件\Reactor</Filter>
+    </ClInclude>
+    <ClInclude Include="Reactor\ArxRleDocumentReactor.h">
+      <Filter>头文件\Reactor</Filter>
+    </ClInclude>
+    <ClInclude Include="Reactor\ArxRleEdInputContextReactor.h">
+      <Filter>头文件\Reactor</Filter>
+    </ClInclude>
+    <ClInclude Include="Reactor\ArxRleEditorReactor.h">
+      <Filter>头文件\Reactor</Filter>
+    </ClInclude>
+    <ClInclude Include="Reactor\ArxRleEventReactor.h">
+      <Filter>头文件\Reactor</Filter>
+    </ClInclude>
+    <ClInclude Include="Reactor\ArxRleGsReactor.h">
+      <Filter>头文件\Reactor</Filter>
+    </ClInclude>
+    <ClInclude Include="Reactor\ArxRleLayoutManagerReactor.h">
+      <Filter>头文件\Reactor</Filter>
+    </ClInclude>
+    <ClInclude Include="Reactor\ArxRleLongTransactionReactor.h">
+      <Filter>头文件\Reactor</Filter>
+    </ClInclude>
+    <ClInclude Include="Reactor\ArxRlePersistentEntReactor.h">
+      <Filter>头文件\Reactor</Filter>
+    </ClInclude>
+    <ClInclude Include="Reactor\ArxRlePersistentObjReactor.h">
+      <Filter>头文件\Reactor</Filter>
+    </ClInclude>
+    <ClInclude Include="Reactor\ArxRleTransactionReactor.h">
+      <Filter>头文件\Reactor</Filter>
+    </ClInclude>
+    <ClInclude Include="Reactor\ArxRleTransientEntReactor.h">
+      <Filter>头文件\Reactor</Filter>
+    </ClInclude>
+    <ClInclude Include="Reactor\ArxRleTransientObjReactor.h">
+      <Filter>头文件\Reactor</Filter>
+    </ClInclude>
+    <ClInclude Include="Reactor\ArxRleUiTdcObjReactorsBase.h">
+      <Filter>头文件\Reactor</Filter>
+    </ClInclude>
+    <ClInclude Include="Reactor\ArxRleUiTdcPersistentReactors.h">
+      <Filter>头文件\Reactor</Filter>
+    </ClInclude>
+    <ClInclude Include="Reactor\ArxRleUiTdcSysReactors.h">
+      <Filter>头文件\Reactor</Filter>
+    </ClInclude>
+    <ClInclude Include="Reactor\ArxRleUiTdcTransientReactors.h">
+      <Filter>头文件\Reactor</Filter>
+    </ClInclude>
+    <ClInclude Include="Reactor\ArxRleUiTdmReactors.h">
+      <Filter>头文件\Reactor</Filter>
+    </ClInclude>
+    <ClInclude Include="Snoop\ArxRleCloneSet.h">
+      <Filter>头文件\Snoop</Filter>
+    </ClInclude>
+    <ClInclude Include="Snoop\ArxRleCmdSnoop.h">
+      <Filter>头文件\Snoop</Filter>
+    </ClInclude>
+    <ClInclude Include="Snoop\ArxRleUiDlgClassDict.h">
+      <Filter>头文件\Snoop</Filter>
+    </ClInclude>
+    <ClInclude Include="Snoop\ArxRleUiDlgDxf.h">
+      <Filter>头文件\Snoop</Filter>
+    </ClInclude>
+    <ClInclude Include="Snoop\ArxRleUiDlgObjectId.h">
+      <Filter>头文件\Snoop</Filter>
+    </ClInclude>
+    <ClInclude Include="Snoop\ArxRleUiDlgObjState.h">
+      <Filter>头文件\Snoop</Filter>
+    </ClInclude>
+    <ClInclude Include="Snoop\ArxRleUiDlgReactors.h">
+      <Filter>头文件\Snoop</Filter>
+    </ClInclude>
+    <ClInclude Include="Snoop\ArxRleUiDlgServiceDict.h">
+      <Filter>头文件\Snoop</Filter>
+    </ClInclude>
+    <ClInclude Include="Snoop\ArxRleUiDlgSysRegistry.h">
+      <Filter>头文件\Snoop</Filter>
+    </ClInclude>
+    <ClInclude Include="Snoop\ArxRleUiDlgXdata.h">
+      <Filter>头文件\Snoop</Filter>
+    </ClInclude>
+    <ClInclude Include="Snoop\ArxRleUiTdcClasses.h">
+      <Filter>头文件\Snoop</Filter>
+    </ClInclude>
+    <ClInclude Include="Snoop\ArxRleUiTdcCmds.h">
+      <Filter>头文件\Snoop</Filter>
+    </ClInclude>
+    <ClInclude Include="Snoop\ArxRleUiTdcDatabase.h">
+      <Filter>头文件\Snoop</Filter>
+    </ClInclude>
+    <ClInclude Include="Snoop\ArxRleUiTdcDbObjectBase.h">
+      <Filter>头文件\Snoop</Filter>
+    </ClInclude>
+    <ClInclude Include="Snoop\ArxRleUiTdcDict.h">
+      <Filter>头文件\Snoop</Filter>
+    </ClInclude>
+    <ClInclude Include="Snoop\ArxRleUiTdcDocs.h">
+      <Filter>头文件\Snoop</Filter>
+    </ClInclude>
+    <ClInclude Include="Snoop\ArxRleUiTdcEntities.h">
+      <Filter>头文件\Snoop</Filter>
+    </ClInclude>
+    <ClInclude Include="Snoop\ArxRleUiTdcHostAppSrv.h">
+      <Filter>头文件\Snoop</Filter>
+    </ClInclude>
+    <ClInclude Include="Snoop\ArxRleUiTdcIdMap.h">
+      <Filter>头文件\Snoop</Filter>
+    </ClInclude>
+    <ClInclude Include="Snoop\ArxRleUiTdcLongTrans.h">
+      <Filter>头文件\Snoop</Filter>
+    </ClInclude>
+    <ClInclude Include="Snoop\ArxRleUiTdcObjects.h">
+      <Filter>头文件\Snoop</Filter>
+    </ClInclude>
+    <ClInclude Include="Snoop\ArxRleUiTdcReferences.h">
+      <Filter>头文件\Snoop</Filter>
+    </ClInclude>
+    <ClInclude Include="Snoop\ArxRleUiTdcRxObjectBase.h">
+      <Filter>头文件\Snoop</Filter>
+    </ClInclude>
+    <ClInclude Include="Snoop\ArxRleUiTdcSymTbl.h">
+      <Filter>头文件\Snoop</Filter>
+    </ClInclude>
+    <ClInclude Include="Snoop\ArxRleUiTdmDatabase.h">
+      <Filter>头文件\Snoop</Filter>
+    </ClInclude>
+    <ClInclude Include="Snoop\ArxRleUiTdmEditor.h">
+      <Filter>头文件\Snoop</Filter>
+    </ClInclude>
+    <ClInclude Include="Snoop\ArxRleUiTdmEntities.h">
+      <Filter>头文件\Snoop</Filter>
+    </ClInclude>
+    <ClInclude Include="Snoop\ArxRleUiTdmIdMap.h">
+      <Filter>头文件\Snoop</Filter>
+    </ClInclude>
+    <ClInclude Include="Snoop\ArxRleUiTdmLongTrans.h">
+      <Filter>头文件\Snoop</Filter>
+    </ClInclude>
+    <ClInclude Include="Snoop\ArxRleUiTdmObjects.h">
+      <Filter>头文件\Snoop</Filter>
+    </ClInclude>
+    <ClInclude Include="Snoop\ArxRleUiTdmReferences.h">
+      <Filter>头文件\Snoop</Filter>
+    </ClInclude>
+    <ClInclude Include="TdClone\ArxRleUiTdcCloneSet.h">
+      <Filter>头文件\TdClone</Filter>
+    </ClInclude>
+    <ClInclude Include="TdClone\ArxRleUiTdcInsert.h">
+      <Filter>头文件\TdClone</Filter>
+    </ClInclude>
+    <ClInclude Include="TdClone\ArxRleUiTdcOptions.h">
+      <Filter>头文件\TdClone</Filter>
+    </ClInclude>
+    <ClInclude Include="TdClone\ArxRleUiTdcWblockClone.h">
+      <Filter>头文件\TdClone</Filter>
+    </ClInclude>
+    <ClInclude Include="TdClone\ArxRleUiTdmTransDbClones.h">
+      <Filter>头文件\TdClone</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\ArxRleCmdTests.h">
+      <Filter>头文件\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\ArxRleDlgColor.h">
+      <Filter>头文件\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\ArxRleEntMakeTest.h">
+      <Filter>头文件\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\ArxRleTblMakeTest.h">
+      <Filter>头文件\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\ArxRleUiDlgColor.h">
+      <Filter>头文件\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\ArxRleUiDlgSelSet.h">
+      <Filter>头文件\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\ArxRleUiDlgTestCurves.h">
+      <Filter>头文件\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\ArxRleUiDlgWorldDraw.h">
+      <Filter>头文件\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\ArxRleWorldDraw.h">
+      <Filter>头文件\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\ArxRleXformTest.h">
+      <Filter>头文件\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="UiDlg\ArxRleUiDlgAboutBox.h">
+      <Filter>头文件\UiDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="UiDlg\ArxRleUiDlgGenericDefId.h">
+      <Filter>头文件\UiDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="UiDlg\ArxRleUiDlgSplash.h">
+      <Filter>头文件\UiDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Reactor\ArxRleAppEditorReactor.h">
+      <Filter>头文件\Reactor</Filter>
+    </ClInclude>
+    <ClInclude Include="ArxRle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AcadUtils\ArxRleApply.h">
+      <Filter>头文件\AcadUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="AcadUtils\ArxRleSmartPtr.h">
+      <Filter>头文件\AcadUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="App\ArxRleAttributeList.h">
+      <Filter>头文件\App</Filter>
+    </ClInclude>
+    <ClInclude Include="App\ArxRleAttributeListItem.h">
+      <Filter>头文件\App</Filter>
+    </ClInclude>
+    <ClInclude Include="App\ArxRleButton.h">
+      <Filter>头文件\App</Filter>
+    </ClInclude>
+    <ClInclude Include="App\ArxRleCmd.h">
+      <Filter>头文件\App</Filter>
+    </ClInclude>
+    <ClInclude Include="App\ArxRleCommon.h">
+      <Filter>头文件\App</Filter>
+    </ClInclude>
+    <ClInclude Include="App\ArxRleCoolBar.h">
+      <Filter>头文件\App</Filter>
+    </ClInclude>
+    <ClInclude Include="App\ArxRleDataManager.h">
+      <Filter>头文件\App</Filter>
+    </ClInclude>
+    <ClInclude Include="App\ArxRleDocData.h">
+      <Filter>头文件\App</Filter>
+    </ClInclude>
+    <ClInclude Include="App\ArxRleEdUiContext.h">
+      <Filter>头文件\App</Filter>
+    </ClInclude>
+    <ClInclude Include="App\ArxRleFont.h">
+      <Filter>头文件\App</Filter>
+    </ClInclude>
+    <ClInclude Include="App\ArxRleListCtrl.h">
+      <Filter>头文件\App</Filter>
+    </ClInclude>
+    <ClInclude Include="App\ArxRleMemDC.h">
+      <Filter>头文件\App</Filter>
+    </ClInclude>
+    <ClInclude Include="App\ArxRleMenuBar.h">
+      <Filter>头文件\App</Filter>
+    </ClInclude>
+    <ClInclude Include="App\ArxRleMenuXP.h">
+      <Filter>头文件\App</Filter>
+    </ClInclude>
+    <ClInclude Include="App\ArxRleMsgHandler.h">
+      <Filter>头文件\App</Filter>
+    </ClInclude>
+    <ClInclude Include="App\ArxRleOptions.h">
+      <Filter>头文件\App</Filter>
+    </ClInclude>
+    <ClInclude Include="App\ArxRlePaletteAttribute.h">
+      <Filter>头文件\App</Filter>
+    </ClInclude>
+    <ClInclude Include="App\ArxRlePaletteSet.h">
+      <Filter>头文件\App</Filter>
+    </ClInclude>
+    <ClInclude Include="App\ArxRlePlot.h">
+      <Filter>头文件\App</Filter>
+    </ClInclude>
+    <ClInclude Include="App\ArxRleProfileSection.h">
+      <Filter>头文件\App</Filter>
+    </ClInclude>
+    <ClInclude Include="App\ArxRleRichEditCtrl.h">
+      <Filter>头文件\App</Filter>
+    </ClInclude>
+    <ClInclude Include="App\ArxRleSystemInfo.h">
+      <Filter>头文件\App</Filter>
+    </ClInclude>
+    <ClInclude Include="App\ArxRleToolBar.h">
+      <Filter>头文件\App</Filter>
+    </ClInclude>
+    <ClInclude Include="App\ArxRleToolBarGenWnd.h">
+      <Filter>头文件\App</Filter>
+    </ClInclude>
+    <ClInclude Include="UiDlg\ArxRleUiDlgReg.h">
+      <Filter>头文件\UiDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="DbEntity\ArxRleDbDictRecord.h">
+      <Filter>头文件\DbEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="DbEntity\ArxRleDbEntity.h">
+      <Filter>头文件\DbEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="DbEntity\ArxRleDbGraphicsContainer.h">
+      <Filter>头文件\DbEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="DbEntity\ArxRleDbPlotSettingsValidator.h">
+      <Filter>头文件\DbEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="DbEntity\ArxRleFile.h">
+      <Filter>头文件\DbEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="DbEntity\ArxRleFileSys.h">
+      <Filter>头文件\DbEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="DbEntity\ArxRleStack.h">
+      <Filter>头文件\DbEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="DbEntity\ArxRleString.h">
+      <Filter>头文件\DbEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="DbEntity\ArxRleStringSys.h">
+      <Filter>头文件\DbEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="DbEntity\ArxRleTime.h">
+      <Filter>头文件\DbEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="DockingPane\ArxRleToolsView.h">
+      <Filter>头文件\DockingPane</Filter>
+    </ClInclude>
+    <ClInclude Include="DockingPane\ArxRlePropertyView.h">
+      <Filter>头文件\DockingPane</Filter>
+    </ClInclude>
+    <ClInclude Include="DockingPane\ArxRlePaneView.h">
+      <Filter>头文件\DockingPane</Filter>
+    </ClInclude>
+    <ClInclude Include="DockingPane\ArxRleIconsView.h">
+      <Filter>头文件\DockingPane</Filter>
+    </ClInclude>
+    <ClInclude Include="DockingPane\ArxRleExplorerView.h">
+      <Filter>头文件\DockingPane</Filter>
+    </ClInclude>
+    <ClInclude Include="DockingPane\ArxRleDockingPaneManager.h">
+      <Filter>头文件\DockingPane</Filter>
+    </ClInclude>
+    <ClInclude Include="DockingPane\ArxRleColorsView.h">
+      <Filter>头文件\DockingPane</Filter>
+    </ClInclude>
+    <ClInclude Include="NetPlan\ArxRleCmdNetPlanWork.h">
+      <Filter>头文件\NetPlan</Filter>
+    </ClInclude>
+    <ClInclude Include="NetPlan\ArxRleNetPlanWork.h">
+      <Filter>头文件\NetPlan</Filter>
+    </ClInclude>
+    <ClInclude Include="NetPlan\ArxRleNetPlanWorkStyle.h">
+      <Filter>头文件\NetPlan</Filter>
+    </ClInclude>
+    <ClInclude Include="NetPlan\ArxRleReportRecord.h">
+      <Filter>头文件\NetPlan</Filter>
+    </ClInclude>
+    <ClInclude Include="NetPlan\ArxRleTabCtrl.h">
+      <Filter>头文件\NetPlan</Filter>
+    </ClInclude>
+    <ClInclude Include="NetPlan\ArxRleUiPage.h">
+      <Filter>头文件\NetPlan</Filter>
+    </ClInclude>
+    <ClInclude Include="NetPlan\ArxRleUiTdcNetPlanParam.h">
+      <Filter>头文件\NetPlan</Filter>
+    </ClInclude>
+    <ClInclude Include="NetPlan\ArxRleUiTdcNetPlanWorkData.h">
+      <Filter>头文件\NetPlan</Filter>
+    </ClInclude>
+    <ClInclude Include="NetPlan\ArxRleUiTdcNetPlanWorkInput.h">
+      <Filter>头文件\NetPlan</Filter>
+    </ClInclude>
+    <ClInclude Include="NetPlan\ArxRleUiTdcNetPlanWorkStyle.h">
+      <Filter>头文件\NetPlan</Filter>
+    </ClInclude>
+    <ClInclude Include="NetPlan\ArxRleUiTdmNetPlan.h">
+      <Filter>头文件\NetPlan</Filter>
+    </ClInclude>
+    <ClInclude Include="ExEntity\ArxRleBrokenLine.h">
+      <Filter>头文件\ExEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="ExEntity\ArxRleCmdExEntity.h">
+      <Filter>头文件\ExEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="ExEntity\ArxRleLeadDimension.h">
+      <Filter>头文件\ExEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="ExEntity\ArxRleTitleLabel.h">
+      <Filter>头文件\ExEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="UiDlg\ArxRleTable.h">
+      <Filter>头文件\UiDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="UiDlg\ArxRleUiDlgDimLand.h">
+      <Filter>头文件\UiDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="UiDlg\ArxRleUiDlgDrawCondition.h">
+      <Filter>头文件\UiDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="UiDlg\ArxRleUiDlgMeasure.h">
+      <Filter>头文件\UiDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="UiDlg\ArxRleUiDlgWindoInfo.h">
+      <Filter>头文件\UiDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="UiDlg\ArxRleUiDlgWindoType.h">
+      <Filter>头文件\UiDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Reactor\ArxRleDbDoubleClickEdit.h">
+      <Filter>头文件\Reactor</Filter>
+    </ClInclude>
+    <ClInclude Include="Reactor\ArxRleEdMapReactor.h">
+      <Filter>头文件\Reactor</Filter>
+    </ClInclude>
+    <ClInclude Include="Reactor\ArxRleInputPointMonitor.h">
+      <Filter>头文件\Reactor</Filter>
+    </ClInclude>
+    <ClInclude Include="CrdTrm\ArxRleCoord.h">
+      <Filter>头文件\CrdTrm</Filter>
+    </ClInclude>
+    <ClInclude Include="CrdTrm\ArxRleMatrix.h">
+      <Filter>头文件\CrdTrm</Filter>
+    </ClInclude>
+    <ClInclude Include="CrdTrm\ArxRleUiDlgCrdTrm.h">
+      <Filter>头文件\CrdTrm</Filter>
+    </ClInclude>
+    <ClInclude Include="CurveElement\ArxRleUiTdmCurveElement.h">
+      <Filter>头文件\CurveElement</Filter>
+    </ClInclude>
+    <ClInclude Include="CurveElement\ArxRleUiTdcSqxElement.h">
+      <Filter>头文件\CurveElement</Filter>
+    </ClInclude>
+    <ClInclude Include="CurveElement\ArxRleUiTdcOvalElement.h">
+      <Filter>头文件\CurveElement</Filter>
+    </ClInclude>
+    <ClInclude Include="CurveElement\ArxRleUiTdcCurveXY.h">
+      <Filter>头文件\CurveElement</Filter>
+    </ClInclude>
+    <ClInclude Include="CurveElement\ArxRleUiTdcCurveElement.h">
+      <Filter>头文件\CurveElement</Filter>
+    </ClInclude>
+    <ClInclude Include="CurveElement\ArxRleCurveElement.h">
+      <Filter>头文件\CurveElement</Filter>
+    </ClInclude>
+    <ClInclude Include="Property\ArxRleInPlaceControl.h">
+      <Filter>头文件\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="Property\ArxRleInPlaceEditString.h">
+      <Filter>头文件\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="Property\ArxRlePropertyData.h">
+      <Filter>头文件\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="Property\ArxRlePropertyItem.h">
+      <Filter>头文件\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="Property\ArxRlePropertyListBox.h">
+      <Filter>头文件\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="Property\ArxRleSmartString.h">
+      <Filter>头文件\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="Property\ArxRleTypedPtrList.h">
+      <Filter>头文件\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="Property\ArxRleUiDlgProperty.h">
+      <Filter>头文件\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="Property\ArxRleUserMessage.h">
+      <Filter>头文件\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAnalysis\ArxRleCmdStructAnalysis.h">
+      <Filter>头文件\StructAnalysis</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAnalysis\ArxRleSteelSection.h">
+      <Filter>头文件\StructAnalysis</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAnalysis\ArxRleUiDlgSteelSection.h">
+      <Filter>头文件\StructAnalysis</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAnalysis\ArxRleUiTdcSpaBeamCracks.h">
+      <Filter>头文件\StructAnalysis</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAnalysis\ArxRleUiTdcSpaBeamSection.h">
+      <Filter>头文件\StructAnalysis</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAnalysis\ArxRleUiTdcSpaCircleStrength.h">
+      <Filter>头文件\StructAnalysis</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAnalysis\ArxRleUiTdcSpaColumnStrength.h">
+      <Filter>头文件\StructAnalysis</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAnalysis\ArxRleUiTdcSpaOutResult.h">
+      <Filter>头文件\StructAnalysis</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAnalysis\ArxRleUiTdcSpaWallStrength.h">
+      <Filter>头文件\StructAnalysis</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAnalysis\ArxRleUiTdmSpa.h">
+      <Filter>头文件\StructAnalysis</Filter>
+    </ClInclude>
+    <ClInclude Include="DbEntity\ArxRleEntityClass.h">
+      <Filter>头文件\DbEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmd\ArxRleCmdDim.h">
+      <Filter>头文件\Cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmd\ArxRleCmdEnt.h">
+      <Filter>头文件\Cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmd\ArxRleCmdLayer.h">
+      <Filter>头文件\Cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmd\ArxRleCmdText.h">
+      <Filter>头文件\Cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="Prompt\ArxRleUiPrompts.h">
+      <Filter>头文件\Prompt</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmd\ArxRleCmdBlock.h">
+      <Filter>头文件\Cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmd\ArxRleCmdDraw.h">
+      <Filter>头文件\Cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmd\ArxRleCmdMeasure.h">
+      <Filter>头文件\Cmd</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ArxRle.rc">
+      <Filter>源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\About.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\appbar.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ArxRle.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\cancle.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ColorsBar.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\correct.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ExplorerBar.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\folder.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\header.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\left.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\menubar.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ok.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\poker.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\right.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Select.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\set.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\spabar.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\splash.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Swatch.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ToolsBar.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\program.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\netplan.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ArxRle.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\hand.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Star.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\VirusKiller1.exe">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\VirusKiller2.exe">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="res\stone.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
